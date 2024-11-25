@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_064700) do
   enable_extension "plpgsql"
 
   create_table "contributions", force: :cascade do |t|
-    t.float "amount"
+    t.integer "amount"
     t.date "date"
     t.boolean "paid"
     t.bigint "investment_id", null: false
@@ -30,7 +30,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_064700) do
     t.string "category"
     t.string "description"
     t.string "historical_data"
-    t.float "current_price"
+    t.integer "current_price"
+    t.float "average_return"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -49,6 +50,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_11_25_064700) do
     t.string "description"
     t.bigint "user_id", null: false
     t.bigint "etf_id", null: false
+    t.string "risk_level"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["etf_id"], name: "index_investments_on_etf_id"

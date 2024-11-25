@@ -6,7 +6,8 @@ class CreateEtfs < ActiveRecord::Migration[7.1]
       t.string :category
       t.string :description
       t.string :historical_data
-      t.float :current_price
+      t.integer :current_price
+      t.float :average_return
 
       t.timestamps
     end

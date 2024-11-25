@@ -5,6 +5,7 @@ class CreateInvestments < ActiveRecord::Migration[7.1]
       t.string :description
       t.references :user, null: false, foreign_key: true
       t.references :etf, null: false, foreign_key: true
+      t.string :risk_level
 
       t.timestamps
     end
