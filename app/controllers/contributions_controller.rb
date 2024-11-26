@@ -2,6 +2,10 @@ class ContributionsController < ApplicationController
 
   def show
     @contribution = Contribution.find(params[:id])
+    @investment = Investment.new
+    @contribution.investment_id = @contribution
+    @contribution.user_id = current_user
+    @contributions = Contribution.all.where(contribution_id: @contribution.id)
   end
 
   def new
