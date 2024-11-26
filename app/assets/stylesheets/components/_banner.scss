@@ -1,0 +1,23 @@
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url("https://res.cloudinary.com/dxkjh8nhh/image/upload/v1732593107/4-Examples-of-Great-Finance-Content-Marketing-featred-image-scaled_ek6ahx.jpg");
+  background-size: cover;
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  p {
+    color: white;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+  .btn {
+    padding: 15px 50px;
+  }
+}
