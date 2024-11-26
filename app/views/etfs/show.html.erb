@@ -1,6 +1,8 @@
 <div>
-  <div class="title">
-    <%= link_to 'Back to ETFs', etfs_path, class: 'btn btn-secondary' %>
+  <div class="simulate-button-container">
+    <%= link_to "Simulate Now", new_etf_investment_path(@etf), class: "btn btn-primary", style: "absolute; top: 20px; right: 20px;"  %>
+  </div>
+  <div class="name">
     <h1 class="text-center my-4"><%= @etf.name %></h1>
   </div>
 
@@ -56,6 +58,6 @@
   </div>
 
   <div style="text-align: center">
-    <%= link_to "Simulate #{@etf.name} Now", new_etf_investment_path(@etf), class: "btn btn-primary" %>
+    <%= link_to "Simulate Now", new_etf_investment_path(@etf), class: "btn btn-primary" %>
   </div>
 </div>
