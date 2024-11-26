@@ -1,0 +1,130 @@
+:root {
+  /* Colors */
+  --primary-bg: #3795BD;
+  --text-light: #e4e4e4;
+  --text-muted: #bdbdbd;
+  --accent: #00cccc;
+
+  /* Fonts */
+  --font-heading: 'Bodoni Moda', serif;
+  --font-body: 'Raleway', sans-serif;
+
+  /* Font sizes */
+  --text-xl: 1.5rem;
+  --text-base: 1rem;
+  --text-sm: 0.875rem;
+
+  /* Spacing */
+  --spacing-xl: 80px;
+  --spacing-lg: 40px;
+  --spacing-md: 20px;
+  --spacing-sm: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-body), sans-serif;
+}
+.footer-title-wrapper {
+  margin-top: var(--spacing-lg);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-title-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+.line {
+  height: 1px;
+  background-color: var(--primary-bg);
+  flex: 1;
+}
+.title {
+  font-family: var(--font-heading), serif;
+  color: var(--primary-bg);
+  white-space: nowrap;
+  font-size: var(--text-xl);
+}
+.footer {
+  width: 100vw;
+  background-color: var(--primary-bg);
+  padding: var(--spacing-lg) 0;
+  margin-top: var(--spacing-xl);
+}
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+.footer-icon {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background-image: url("https://res.cloudinary.com/dxkjh8nhh/image/upload/v1732588228/inverly_logo_cewlsh.webp");
+  background-size: contain;
+  background-color: var(--text-light);
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+.brand-text {
+  color: var(--text-light);
+  font-family: var(--font-body), sans-serif;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl); /* Increased padding */
+  gap: var(--spacing-xl);
+}
+.footer nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+.footer-heading {
+  color: var(--text-light);
+  font-family: var(--font-heading), serif;
+  font-size: var(--text-base);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: var(--spacing-sm);
+}
+.footer-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-family: var(--font-body), sans-serif;
+}
+.footer-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+      gap: var(--spacing-lg);
+      padding: var(--spacing-md);
+  }
+  .footer-brand {
+      align-items: center;
+      text-align: center;
+  }
+}
