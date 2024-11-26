@@ -1,5 +1,5 @@
 class Investment < ApplicationRecord
-  belongs_to :user, dependent: :destroy
-  belongs_to :etf, dependent: :destroy
-  has_many :contributions
+  belongs_to :user
+  belongs_to :etf
+  has_many :contributions, dependent: :destroy
 end

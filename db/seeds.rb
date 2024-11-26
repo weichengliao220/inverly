@@ -11,8 +11,8 @@
 require "faker"
 
 Favorite.destroy_all
-Investment.destroy_all
 Contribution.destroy_all
+Investment.destroy_all
 Etf.destroy_all
 User.destroy_all
 
