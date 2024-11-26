@@ -7,3 +7,65 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+require "faker"
+
+Etf.destroy_all
+User.destroy_all
+Investment.destroy_all
+Contribution.destroy_all
+
+puts "Creating 10 users"
+
+10.times do
+  User.create(
+    name: Faker::Name.first_name,
+    email: Faker::Internet.email,
+    password: "password",
+    password_confirmation: "password"
+  )
+end
+
+puts "10 users created"
+
+puts "Creating 10 etfs"
+
+10.times do
+  Etf.create(
+    name: Faker::Company.name,
+    ticker_symbol: "MMS",
+    description: Faker::Company.catch_phrase,
+    current_price: rand(1..100),
+  )
+end
+
+puts "10 etfs created"
+
+puts "Creating 10 investments"
+
+10.times do
+  Investment.create(
+    user_id: User.all.sample.id,
+    etf_id: Etf.all.sample.id,
+    name: Faker::Company.name,
+    description: Faker::Company.catch_phrase,
+    risk_level: ["low", "medium", "high"].sample
+  )
+end
+
+puts "10 investments created"
+
+puts "Creating 10 contributions"
+
+10.times do
+  Contribution.create(
+    amount: rand(1..100),
+    date: Date.today,
+    paid: [true, false].sample,
+    investment_id: Investment.all.sample.id
+  )
+end
+
+puts "10 contributions created"
+
+puts "seeded successfully"
