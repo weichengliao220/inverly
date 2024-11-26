@@ -10,4 +10,11 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
 
+  resources :etfs, only: [:index, :show] do
+    resources :favorites, only: [:create, :destroy]
+  end
+
+  resources :investments, only: [:index, :show, :update, :create, :destroy]
+
+  resources :favorites, only: [:index]
 end
