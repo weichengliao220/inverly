@@ -1,4 +1,4 @@
 class Favorite < ApplicationRecord
-  belongs_to :user
-  belongs_to :etf
+  belongs_to :user, dependent: :destroy
+  belongs_to :etf, dependent: :destroy
 end

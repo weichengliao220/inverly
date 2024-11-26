@@ -10,11 +10,11 @@
 
 require "faker"
 
-Etf.destroy_all
-User.destroy_all
+Favorite.destroy_all
 Investment.destroy_all
 Contribution.destroy_all
-Favorites.destroy_all
+Etf.destroy_all
+User.destroy_all
 
 puts "Creating 10 users"
 
