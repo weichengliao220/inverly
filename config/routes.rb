@@ -11,10 +11,11 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   resources :etfs, only: [:index, :show] do
-    resources :favorites, only: [:create, :destroy]
+    resources :favorites, only: [:create, :destroy, :new]
+    resources :investments, only: [:new, :create]
   end
 
-  resources :investments, only: [:index, :show, :update, :create, :destroy]
+  resources :investments, only: [:index, :show, :update, :new, :create, :destroy]
 
-  resources :favorites, only: [:index]
+  resources :favorites, only: [:index, :create, :new]
 end
