@@ -1,0 +1,18 @@
+<h1><%= @etf.name %></h1>
+
+<div>
+  <strong>Symbol:</strong>
+  <%= @etf.ticker_symbol %>
+</div>
+
+<div>
+  <strong>Category:</strong>
+  <%= @etf.category %>
+</div>
+
+<div>
+  <strong>Description:</strong>
+  <p><%= @etf.description %></p>
+</div>
+
+<%= link_to 'Back', etfs_path, class: 'btn btn-secondary' %>

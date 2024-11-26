@@ -14,6 +14,7 @@ Etf.destroy_all
 User.destroy_all
 Investment.destroy_all
 Contribution.destroy_all
+Favorites.destroy_all
 
 puts "Creating 10 users"
 
@@ -36,6 +37,8 @@ puts "Creating 10 etfs"
     ticker_symbol: "MMS",
     description: Faker::Company.catch_phrase,
     current_price: rand(1..100),
+    category: ["stocks", "bonds", "commodities"].sample,
+    average_return: rand(1..100)
   )
 end
 
@@ -67,5 +70,16 @@ puts "Creating 10 contributions"
 end
 
 puts "10 contributions created"
+
+puts "creating 10 favorites"
+
+10.times do
+  Favorite.create(
+    user_id: User.all.sample.id,
+    etf_id: Etf.all.sample.id
+  )
+end
+
+puts "10 favorites created"
 
 puts "seeded successfully"

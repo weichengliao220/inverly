@@ -1,0 +1,6 @@
+<h1>ETFs List</h1>
+<ul>
+  <% @etfs.each do |etf| %>
+    <li><%= link_to etf.name, etf_path(etf) %> - <%= etf.ticker_symbol %></li>
+  <% end %>
+</ul>
