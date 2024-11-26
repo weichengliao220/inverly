@@ -1,28 +1,61 @@
-<h1 class="text-center my-4"><%= @etf.name %></h1>
-<div class="container">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Details</h5>
-      <div class="mb-3">
-        <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+<div>
+  <div class="title">
+    <%= link_to 'Back to ETFs', etfs_path, class: 'btn btn-secondary' %>
+    <h1 class="text-center my-4"><%= @etf.name %></h1>
+  </div>
+
+  <div class="container d-flex justify-content-between px-5">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Basic Information:</h4>
+        <div class="mb-3">
+          <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+        </div>
+        <div class="mb-3">
+          <strong>Category:</strong> <%= @etf.category %>
+        </div>
+        <div class="mb-3">
+          <strong>Description:</strong>
+          <p><%= @etf.description %></p>
+        </div>
+        <div class="mb-3">
+          <strong>Current Price:</strong> $<%= @etf.current_price %>
+        </div>
+        <div class="mb-3">
+          <strong>Average Return:</strong> <%= @etf.average_return %>%
+        </div>
       </div>
-      <div class="mb-3">
-        <strong>Category:</strong> <%= @etf.category %>
-      </div>
-      <div class="mb-3">
-        <strong>Description:</strong>
-        <p><%= @etf.description %></p>
-      </div>
-      <div class="mb-3">
-        <strong>Current Price:</strong> $<%= @etf.current_price %>
-      </div>
-      <div class="mb-3">
-        <strong>Average Return:</strong> <%= @etf.average_return %>%
-      </div>
-      <%= link_to 'Back to ETFs', etfs_path, class: 'btn btn-secondary' %>
+    </div>
+
+    <div class="etf-graph-example">
+      <%= image_tag "etf_graph_example.jpg", alt: "etf graph example", style: "max-width: 100%; height: auto;" %>
     </div>
   </div>
 
-  <h2 class="mt-4">Make an investment on this ETF</h2>
-  <%= render 'form_create_investment' %>
+  <div class="container" style="width: 50%;">
+    <h3 class="mt-4">Composition</h3>
+    <p>Top 10 Holdings:</p>
+    <table class="table table-success table-striped">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Name</th>
+          <th>% Assets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% 10.times do |row| %>
+          <tr>
+            <td><%= @etf.ticker_symbol %></td>
+            <td><%= @etf.name %></td>
+            <td><%= @etf.average_return %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="text-align: center">
+    <%= link_to "Simulate #{@etf.name} Now", new_etf_investment_path(@etf), class: "btn btn-primary" %>
+  </div>
 </div>
