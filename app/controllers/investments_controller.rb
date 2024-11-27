@@ -11,6 +11,10 @@ class InvestmentsController < ApplicationController
     @investments = Investment.all.where(user: current_user)
   end
 
+  def show
+    @investment = Investment.find(params[:id])
+  end
+
   private
 
   def investment_params
