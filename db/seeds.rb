@@ -27,6 +27,12 @@ puts "Creating 10 users"
   )
 end
 
+brian = User.create(
+    name: "brian",
+    email: "brian@me.com",
+    password: "password",
+    password_confirmation: "password"
+  )
 puts "10 users created"
 
 puts "Creating 10 etfs"
@@ -53,6 +59,24 @@ puts "Creating 10 investments"
     name: Faker::Company.name,
     description: Faker::Company.catch_phrase,
     risk_level: ["low", "medium", "high"].sample
+  )
+end
+
+invest = Investment.create(
+  user: brian,
+  etf_id: Etf.all.sample.id,
+  name: "apple",
+  description: Faker::Company.catch_phrase,
+  risk_level: ["low", "medium", "high"].sample
+)
+
+number_of_months = 12 * 10 # 10 years simulation, 120 months.
+number_of_months.times do |month_index|
+  date = (Date.today + month_index.months).beginning_of_month # 2024-11-01, 2024-12-01, 2025-01-01, etc.
+  Contribution.create(
+    amount: 30000, # JPY
+    date: date,
+    investment: invest,
   )
 end
 
