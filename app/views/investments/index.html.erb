@@ -1,8 +1,10 @@
 <div style="text-align: center; padding: 20px;">
-  <span class="title">Inverly Investments</span>
+  <span class="title">Your Investments</span>
 </div>
 <ul class="list-group mx-5">
   <% @investments.each do |investment| %>
-    <li class="list-group-item"><%= investment.name %></li>
+    <li class="list-group-item">
+      <%= link_to investment.name, investment_path(investment), class: "text-decoration-none" %>
+    </li>
   <% end %>
 </ul>
