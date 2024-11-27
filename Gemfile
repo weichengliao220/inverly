@@ -77,3 +77,4 @@ end
 gem "faker"
 gem "chartkick"
 gem "groupdate"
+gem "ostruct"
