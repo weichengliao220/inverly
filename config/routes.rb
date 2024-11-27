@@ -18,4 +18,6 @@ Rails.application.routes.draw do
   resources :investments, only: [:index, :show, :update, :new, :create, :destroy]
 
   resources :favorites, only: [:index, :create, :new]
+
+  resources :brokerages, only: [:index, :show]
 end
