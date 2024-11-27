@@ -26,6 +26,11 @@
         <%= link_to 'Back to Investments', investments_path, class: 'btn btn-secondary' %>
       </div>
     </div>
-    <div class="card col-7 justify-content-center"><%= image_tag 'etf_graph_example.jpg', alt: 'some text' %> </div>
+    <div class="card col-7 justify-content-center"><%= line_chart @cumul_count%> </div>
+  </div>
+  <div class="container d-flex justify-content-center">
+  <table class="table table-striped">
+  ...
+  </table>
   </div>
 </body>
