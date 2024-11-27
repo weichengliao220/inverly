@@ -15,7 +15,9 @@ Rails.application.routes.draw do
     resources :investments, only: [:new, :create]
   end
 
-  resources :investments, only: [:index, :show, :update, :destroy]
+  resources :investments, only: [:index, :show, :update, :destroy] do
+    resources :contributions, only: [:new, :create]
+  end
 
   resources :favorites, only: [:index, :create, :new]
 end
