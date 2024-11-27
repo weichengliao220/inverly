@@ -2,9 +2,16 @@ class InvestmentsController < ApplicationController
   def new
     @investment = Investment.new
   end
+
   def create
     @investment = Investment.new(investment_params)
-    @investment.user = current_user
+    @investment.user_id = current_user.id
+    @investment.etf_id = params[:etf_id]
+    if @investment.save
+      redirect_to investment_path(@investment)
+    else
+      render :new
+    end
   end
 
   def index
