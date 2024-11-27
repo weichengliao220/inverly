@@ -1,0 +1,8 @@
+<div style="text-align: center; padding: 20px;">
+  <span class="title">Inverly Investments</span>
+</div>
+<ul class="list-group mx-5">
+  <% @investments.each do |investment| %>
+    <li class="list-group-item"><%= investment.name %></li>
+  <% end %>
+</ul>
