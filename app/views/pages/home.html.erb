@@ -1,2 +1,40 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% content_for(:navbar_class, "navbar-home") %>
+<div class="banner">
+  <div class="banner-content text-center">
+    <h1>INVERLY: Invest Early</h1>
+    <p>"INVERLY: Empowering Your Tomorrow, Starting Today."
+      <div>
+        <%= link_to "Sign Up!!!", new_user_session_path, class: "btn btn-lg btn-primary" %>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="column-text">What is Inverly?</h1>
+        <p>Investing is a powerful tool for building wealth and securing a financial future. By allocating money into various assets—such as stocks, bonds, real estate, or mutual funds—investors can potentially grow their capital over time</p>
+      </div>
+      <div class="col-sm">
+        <h1 class="column-text">How can Inverly help you?</h1>
+        <p>The key to successful investing lies in diversification, which helps manage risk while aiming for steady returns. Whether you're a seasoned investor or just starting, it's important to understand your risk tolerance and financial goals.</p>
+      </div>
+      <div class="col-sm">
+        <h1 class="column-text">What is an ETF?</h1>
+        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="column-text">Why should you invest early?</h1>
+        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
+      </div>
+      <div class="col-sm">
+        <h1 class="column-text">Invest now before it`s too late!</h1>
+        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
+      </div>
+      <div class="col-sm">
+        <h1 class="column-text">Why are you still reading this! Use Inverly now!</h1>
+        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
+      </div>
+    </div>
+  </div>
