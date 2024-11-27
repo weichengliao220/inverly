@@ -19,5 +19,5 @@ Rails.application.routes.draw do
     resources :contributions, only: [:new, :create]
   end
 
-  resources :favorites, only: [:index, :create, :new]
+  resources :favorites, only: [:index, :destroy]
 end
