@@ -1,4 +1,4 @@
-<h1 class="text-center my-4">ETFs List</h1>
+<h1 class="text-center my-4">ETFS LIST</h1>
 <div class="container">
   <div class="row">
     <% @etfs.each do |etf| %>
@@ -6,6 +6,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title"><%= link_to etf.name, etf_path(etf) %></h5>
+            <div class="icon">▲</div>
             <h6 class="card-subtitle mb-2 text-muted"><%= etf.ticker_symbol %></h6>
             <p class="card-text"><%= etf.description %></p>
           </div>
