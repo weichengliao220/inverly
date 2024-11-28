@@ -27,12 +27,10 @@
   </div>
   <div class="container d-flex justify-content-center">
   <table class="table table-striped">
-  ...
+  <% @contributions.each do |c| %>
+  <%= c.amount %>
+  <% end %>
   </table>
   </div>
 
 <%= render 'form_create_contribution' %>
-
-<%= @contributions.each do |c| %>
-<%= c.amount %>
-<% end %>
