@@ -27,7 +27,7 @@ class InvestmentsController < ApplicationController
     @etf = @investment.etf
     beginning_value = @etf.earliest_monthly_time_price
     ending_value = @etf.latest_monthly_time_price
-    inception_year = @etf.inception_date.year
+    inception_year = @etf.inception_date&.year
     @average_rate_of_return = average_rate_of_return()
     @conservative_rate_of_return = conservative_rate_of_return
     @optimistic_rate_of_return = optimistic_rate_of_return
