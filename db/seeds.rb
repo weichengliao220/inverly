@@ -14,7 +14,7 @@ Favorite.destroy_all
 Contribution.destroy_all
 Investment.destroy_all
 # Dont want to destroy ETFs to save API calls
-# Etf.destroy_all
+Etf.destroy_all
 User.destroy_all
 
 puts "Creating 10 users"
@@ -37,17 +37,6 @@ brian = User.create(
 puts "10 users created"
 
 puts "Creating 15 etfs"
-
-# 10.times do
-#   Etf.create(
-#     name: Faker::Company.name,
-#     ticker_symbol: "MMS",
-#     description: Faker::Company.catch_phrase,
-#     current_price: rand(1..100),
-#     category: ["stocks", "bonds", "commodities"].sample,
-#     average_return: rand(1..100)
-#   )
-# end
 
 file_path = Rails.root.join("db", "etf_data.json")
 etf_data = JSON.parse(File.read(file_path))
@@ -163,7 +152,6 @@ create_monthly_times(etf)
 etf = Etf.where(name: "ProShares UltraPro QQQ", ticker_symbol: "TQQQ", description: "A leveraged ETF that seeks to provide 3x the daily performance of the Nasdaq-100 Index.", category: "Leveraged/Technology Growth").first_or_create!
 create_holdings(etf)
 create_monthly_times(etf)
-
 
 etf = Etf.where(name: "Shares ESG Aware MSCI USA ETF", ticker_symbol: "ESGU", description: "Tracks U.S. companies with strong environmental, social, and governance (ESG) practices.", category: "ESG").first_or_create!
 create_holdings(etf)
