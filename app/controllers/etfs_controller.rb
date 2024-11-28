@@ -16,6 +16,15 @@ class EtfsController < ApplicationController
     @investment.etf_id = @etf
     @investment.user_id = current_user
     @etfs = Etf.all.where(etf_id: @etf.id)
+
+    response = FetchEtfData.new(@etf.ticker_symbol).call
+    monthly_series = response['Monthly Time Series']
+    dates = monthly_series.keys
+    parsed_monthly_series = {}
+    dates.each do |date|
+      parsed_monthly_series[date] = monthly_series[date]['4. close']
+    end
+    raise
   end
 
   private

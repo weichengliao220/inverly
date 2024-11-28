@@ -23,10 +23,11 @@ class InvestmentsController < ApplicationController
   end
 
   def show
+
     # api call
-    # beginning_value = response.start_value
-    # ending_value = response.end_value
-    # inception_year = response.inception_year
+    beginning_value = response.start_value
+    ending_value = response.end_value
+    inception_year = response.inception_year
     @average_rate_of_return = average_rate_of_return()
     @conservative_rate_of_return = conservative_rate_of_return
     @optimistic_rate_of_return = optimistic_rate_of_return
@@ -56,13 +57,14 @@ class InvestmentsController < ApplicationController
     end
     future_values
 
-    # @investment = Investment.find(params[:id])
-    # counts = current_user.contributions.pluck(:date, :amount)
-    # sum = 0
-    # @cumul_count = counts.map do | date, count|
-    #  sum = sum + count
-    #  [date, sum]
-    # end
+    # Adam's method for the graph display
+    @investment = Investment.find(params[:id])
+    counts = current_user.contributions.pluck(:date, :amount)
+    sum = 0
+    @cumul_count = counts.map do | date, count|
+     sum = sum + count
+     [date, sum]
+    end
   end
 
   private
