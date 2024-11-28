@@ -2,6 +2,10 @@ class ContributionsController < ApplicationController
 
   def show
     @contribution = Contribution.find(params[:id])
+    @investment = Investment.find(params[:investment_id])
+    @contribution.investment_id = @investment
+    @contribution.user_id = current_user
+    @contributions = Contribution.all.where(investment_id: @investment.id)
   end
 
   def new
@@ -10,8 +14,9 @@ class ContributionsController < ApplicationController
 
   def create
     @contribution = Contribution.new(contribution_params)
+    @contribution.user_id = current_user
     if @contribution.save
-      redirect_to @contribution
+      redirect_to investment_path(@contribution.investment_id)
     else
       render 'new'
     end

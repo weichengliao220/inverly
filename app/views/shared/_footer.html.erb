@@ -8,7 +8,8 @@
 <footer class="footer">
   <div class="footer-content">
     <aside class="footer-brand">
-      <div class="footer-icon"></div>
+      <div class="footer-icon">
+      </div>
       <p class="brand-text">
         Inverly Investments Ltd.
         <br />
@@ -17,9 +18,9 @@
     </aside>
     <nav>
       <h6 class="footer-heading">Services</h6>
-      <a class="footer-link">ETF Listings</a>
-      <a class="footer-link">Investments</a>
-      <a class="footer-link">Marketing</a>
+      <a class="footer-link"> <%= link_to "ETF Listings", etfs_path, class: "footer-link" %> </a>
+      <a class="footer-link"> <%= link_to "Investments", investments_path, class: "footer-link"%> </a>
+      <a class="footer-link"> <%= link_to "Favorites/Marketing", favorites_path, class: "footer-link"  %></a>
       <a class="footer-link">Advertisement</a>
     </nav>
     <nav>

@@ -5,5 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :investments, dependent: :destroy
   has_many :favorites, dependent: :destroy
+  has_many :favorite_etfs, through: :favorites, source: :etf
   has_many :contributions, through: :investments
 end

@@ -55,6 +55,14 @@ class InvestmentsController < ApplicationController
        future_values[number_of_month/12] = (default_contribution * (1 + (rate_of_return / 12)) ** number_of_month - 1) / (rate_of_return / 12)
     end
     future_values
+
+    # @investment = Investment.find(params[:id])
+    # counts = current_user.contributions.pluck(:date, :amount)
+    # sum = 0
+    # @cumul_count = counts.map do | date, count|
+    #  sum = sum + count
+    #  [date, sum]
+    # end
   end
 
   private
