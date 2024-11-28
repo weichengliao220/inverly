@@ -1,0 +1,28 @@
+<h1 class="text-center my-4">ETFs List</h1>
+<div class="container">
+  <div class="row">
+    <% @favorites.each do |etf| %>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><%= link_to etf.name, etf_path(etf) %></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><%= etf.ticker_symbol %></h6>
+            <p class="card-text"><%= etf.description %></p>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <%= link_to 'View Details', etf_path(etf), class: 'btn btn-primary' %>
+            <% if current_user.favorite_etfs.include?(etf) %>
+              <%= button_to etf_favorite_path(etf), method: :delete, class: 'btn btn-danger' do %>
+                <i class="fas fa-heart"></i>
+              <% end %>
+            <% else %>
+              <%= button_to etf_favorite_path(etf), method: :post, class: 'btn btn-primary' do %>
+                <i class="far fa-heart"></i>
+              <% end %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
