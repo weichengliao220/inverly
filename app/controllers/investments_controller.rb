@@ -20,12 +20,15 @@ class InvestmentsController < ApplicationController
 
   def show
     @investment = Investment.find(params[:id])
+    @contribution = Contribution.new
+    @contribution.investment_id = @investment
     counts = current_user.contributions.pluck(:date, :amount)
     sum = 0
     @cumul_count = counts.map do | date, count|
      sum = sum + count
      [date, sum]
     end
+    @contributions = Contribution.all.where(investment: @investment)
   end
 
   private
