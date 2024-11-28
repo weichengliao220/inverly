@@ -4,7 +4,6 @@ class ContributionsController < ApplicationController
     @contribution = Contribution.find(params[:id])
     @investment = Investment.find(params[:investment_id])
     @contribution.investment_id = @investment
-    @contribution.user_id = current_user
     @contributions = Contribution.all.where(investment_id: @investment.id)
   end
 
@@ -13,12 +12,18 @@ class ContributionsController < ApplicationController
   end
 
   def create
-    @contribution = Contribution.new(contribution_params)
-    @contribution.user_id = current_user
+    @investment = Investment.find_by(id: params[:investment_id])
+    unless @investment
+      redirect_to investments_path, alert: 'Investment not found.'
+      return
+    end
+
+    @contribution = @investment.contributions.build(contribution_params)
+
     if @contribution.save
-      redirect_to investment_path(@contribution.investment_id)
+      redirect_to investment_path(@investment), notice: 'Contribution created successfully.'
     else
-      render 'new'
+      redirect_to investment_path(@investment), notice: 'Contribution not created.'
     end
   end
 
@@ -29,6 +34,6 @@ class ContributionsController < ApplicationController
   private
 
   def contribution_params
-    params.require(:contribution).permit(:amount, :investment_id)
+    params.require(:contribution).permit(:amount, :date, :paid)
   end
 end

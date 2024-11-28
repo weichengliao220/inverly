@@ -1,16 +1,23 @@
 class InvestmentsController < ApplicationController
   def new
-    @investment = Investment.new
+    @etf = Etf.find(params[:etf_id])
+    @investment = @etf.investments.build
   end
 
+
   def create
-    @investment = Investment.new(investment_params)
-    @investment.user_id = current_user.id
-    @investment.etf_id = params[:etf_id]
+    counter = current_user.investments.count
+    @etf = Etf.find(params[:etf_id])
+    @investment = @etf.investments.build(investment_params)
+    @investment.user = current_user
+    if @investment.name.blank?
+      @investment.name = "investment n°#{counter + 1}"
+    end
+
     if @investment.save
-      redirect_to investment_path(@investment)
+      redirect_to investment_path(@investment), notice: 'Investment created successfully.'
     else
-      render :new
+      redirect_to etf_path(@etf), alert: 'Investment not created. Please try again.'
     end
   end
 
@@ -20,12 +27,15 @@ class InvestmentsController < ApplicationController
 
   def show
     @investment = Investment.find(params[:id])
+    @contribution = Contribution.new
+    @contribution.investment_id = @investment
     counts = current_user.contributions.pluck(:date, :amount)
     sum = 0
     @cumul_count = counts.map do | date, count|
      sum = sum + count
      [date, sum]
     end
+    @contributions = Contribution.all.where(investment: @investment)
   end
 
   private
