@@ -6,7 +6,7 @@ class FavoritesController < ApplicationController
   def create
     etf = Etf.find(params[:etf_id])
     current_user.favorites.create(etf: etf)
-    redirect_to etf_path(etf), notice: "#{etf.name} added to favorites!"
+    redirect_back(fallback_location: etfs_path, notice: "#{etf.name} added to favorites!")
   end
 
   def destroy
