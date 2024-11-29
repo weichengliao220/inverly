@@ -29,7 +29,7 @@ class InvestmentsController < ApplicationController
     @investment = Investment.find(params[:id])
     @contribution = Contribution.new
     @contribution.investment_id = @investment
-    counts = current_user.contributions.pluck(:date, :amount)
+    counts = @investment.contributions.pluck(:date, :amount)
     sum = 0
     @cumul_count = counts.map do | date, count|
      sum = sum + count

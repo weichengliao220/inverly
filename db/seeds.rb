@@ -42,9 +42,9 @@ puts "Creating 10 etfs"
     name: Faker::Company.name,
     ticker_symbol: "MMS",
     description: Faker::Company.catch_phrase,
-    current_price: rand(1..100),
-    category: ["stocks", "bonds", "commodities"].sample,
-    average_return: rand(1..100)
+    current_price: 10,
+    category: "international",
+    average_return: 5.5
   )
 end
 
@@ -81,19 +81,6 @@ number_of_months.times do |month_index|
 end
 
 puts "10 investments created"
-
-puts "Creating 10 contributions"
-
-10.times do
-  Contribution.create(
-    amount: rand(1..100),
-    date: Date.today,
-    paid: [true, false].sample,
-    investment_id: Investment.all.sample.id
-  )
-end
-
-puts "10 contributions created"
 
 puts "creating 10 favorites"
 
