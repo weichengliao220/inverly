@@ -27,9 +27,8 @@
   </div>
   <div class="container d-flex justify-content-center">
   <table class="table table-striped">
-  <% @contributions.each do |c| %>
-  <%= c.amount %>
-  <% end %>
+  <%= @contributions.first.amount %> <br>
+  <%= @investment.description %>
   </table>
   </div>
 
