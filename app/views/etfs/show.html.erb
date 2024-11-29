@@ -1,12 +1,12 @@
 <div>
-  <div class="simulate-button-container">
+  <div class="simulate-button-container text-center">
     <%= render 'button_create_investment' %>
-      <% if current_user.favorite_etfs.include?(@etf) %>
-        <%= button_to etf_favorite_path(@etf), method: :delete, class: 'btn btn-danger' do %>
-        <i class="fas fa-heart"></i>
+    <% if current_user.favorite_etfs.include?(@etf) %>
+      <%= button_to etf_favorite_path(@etf), method: :delete, class: 'btn btn-danger' do %>
+        <i class="fa-solid fa-heart"></i>
       <% end %>
-      <% else %>
-        <%= button_to etf_favorite_path(@etf), method: :post, class: 'btn btn-primary' do %>
+    <% else %>
+      <%= button_to etf_favorite_path(@etf), method: :post, class: 'btn btn-primary' do %>
         <i class="far fa-heart"></i>
       <% end %>
     <% end %>
@@ -14,58 +14,56 @@
   <div class="name">
     <h1 class="text-center my-4"><%= @etf.name %></h1>
   </div>
-
-  <div class="container d-flex justify-content-between px-5">
-    <div class="card">
-      <div class="card-body">
-        <h4 class="card-title">Basic Information:</h4>
-        <div class="mb-3">
-          <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
-        </div>
-        <div class="mb-3">
-          <strong>Category:</strong> <%= @etf.category %>
-        </div>
-        <div class="mb-3">
-          <strong>Description:</strong>
-          <p><%= @etf.description %></p>
-        </div>
-        <div class="mb-3">
-          <strong>Current Price:</strong> $<%= @etf.current_price %>
-        </div>
-        <div class="mb-3">
-          <strong>Average Return:</strong> <%= @etf.average_return %>%
+  <div class="container px-5">
+    <div class="row">
+      <div class="card col-4">
+        <div class="card-body">
+          <h4 class="card-title">Basic Information:</h4>
+          <div class="mb-3">
+            <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+          </div>
+          <div class="mb-3">
+            <strong>Category:</strong> <%= @etf.category %>
+          </div>
+          <div class="mb-3">
+            <strong>Description:</strong>
+            <p><%= @etf.description %></p>
+          </div>
+          <div class="mb-3">
+            <strong>Current Price:</strong> $<%= @etf.current_price %>
+          </div>
+          <div class="mb-3">
+            <strong>Average Return:</strong> <%= @etf.average_return %>%
+          </div>
         </div>
       </div>
+      <div class="etf-graph-example col-8">
+        <%= image_tag "etf_graph_example.jpg", alt: "etf graph example", style: "max-width: 100%; height: auto;" %>
+      </div>
     </div>
-
-    <div class="etf-graph-example">
-      <%= image_tag "etf_graph_example.jpg", alt: "etf graph example", style: "max-width: 100%; height: auto;" %>
-    </div>
-  </div>
-
-  <div class="container" style="width: 50%;">
-    <h3 class="">Composition</h3>
-    <p>Top 10 Holdings:</p>
-    <table class="table table-success table-striped">
-      <thead>
-        <tr>
-          <th>Symbol</th>
-          <th>Name</th>
-          <th>% Assets</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% 10.times do |row| %>
+    <div class="container-fluid mt-4">
+      <h3 class="">Composition</h3>
+      <p>Top 10 Holdings:</p>
+      <table class="table table-success table-striped">
+        <thead>
           <tr>
-            <td><%= @etf.ticker_symbol %></td>
-            <td><%= @etf.name %></td>
-            <td><%= @etf.average_return %></td>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>% Assets</th>
           </tr>
-        <% end %>
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          <% 10.times do |row| %>
+            <tr>
+              <td><%= @etf.ticker_symbol %></td>
+              <td><%= @etf.name %></td>
+              <td><%= @etf.average_return %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
   </div>
-
   <div style="text-align: center">
     <%= render 'button_create_investment' %>
   </div>
