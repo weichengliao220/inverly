@@ -32,7 +32,7 @@
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Total Contributions</h5>
-            <p class="card-text"><%= @contributions.last.amount * @contributions.count %></p>
+            <p class="card-text"><%= @contributions.last&.amount * @contributions.count %></p>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Total Interest</h5>
-            <p class="card-text"><%= @contributions.last.total - (@contributions.last.amount *  @contributions.count) %></p>
+            <p class="card-text"><%= @contributions.last&.total - (@contributions.last&.amount *  @contributions.count) %></p>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Total Result</h5>
-            <p class="card-text"><%= @contributions.last.total %></p>
+            <p class="card-text"><%= @contributions.last&.total %></p>
           </div>
         </div>
       </div>
