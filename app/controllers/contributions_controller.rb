@@ -45,7 +45,7 @@ class ContributionsController < ApplicationController
     end
 
     if @total > 0
-      redirect_to investment_path(@investment), notice: 'Contribution created successfully.'
+      redirect_to investment_path(@investment), notice: "Total $#{@total.round(2)}"
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"
     end
