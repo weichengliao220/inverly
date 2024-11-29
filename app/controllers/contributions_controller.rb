@@ -29,26 +29,21 @@ class ContributionsController < ApplicationController
 
     monthly_rate = @investment.etf.average_return / 12
 
-    # Iterate for 9 years (108 months)
     (1..(12 * 9)).each do |month|
-      # Create a contribution for each month
       contribution = Contribution.new(contribution_params)
       contribution.investment_id = @investment.id
       contribution.date = start_date + month.months
-      contribution.amount = @contribution.amount # Monthly contribution amount
+      contribution.amount = @contribution.amount
       contribution.save
 
-      # Add the contribution to the total
       @total += contribution.amount
 
-      # Apply the monthly growth (average_return assumed annual)
       @total *= (1 + monthly_rate)
 
       contribution.total = @total.round(2)
       contribution.save
     end
 
-    # Update investment description with the total
     @investment.description = "Total = $#{@total.round(2)}"
     @investment.save
 
