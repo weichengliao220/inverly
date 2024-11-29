@@ -1,10 +1,9 @@
-<h1>Create New Investment</h1>
-
-<%= simple_form_for [@etf, @investment], html: { class: 'form-horizontal' } do |f| %>
+<h1 class="mx-5 mt-4">Create New Investment</h1>
+<%= simple_form_for [@etf, @investment], html: { class: 'form-horizontal mx-5' } do |f| %>
   <div class="form-group">
     <%= f.input :name, placeholder: "Enter a custom investment name", input_html: { class: 'form-control' } %>
   </div>
-    <div class="form-group">
+  <div class="form-group">
     <%= f.input :description, placeholder: "Enter a description for this investment", input_html: { class: 'form-control' } %>
   </div>
   <div class="form-actions">
