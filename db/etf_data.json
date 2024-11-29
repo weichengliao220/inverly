@@ -8,9 +8,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2000-05-20",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-28 10:28:34 UTC",
     "monthly_times": [
       {
         "id": 771,
@@ -2761,9 +2761,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2001-05-24",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-28 10:28:34 UTC",
     "monthly_times": [
       {
         "id": 1065,
@@ -5406,9 +5406,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2003-04-07",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:13 UTC",
     "monthly_times": [
       {
         "id": 1347,
@@ -7844,9 +7844,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2007-07-20",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:13 UTC",
     "monthly_times": [
       {
         "id": 1606,
@@ -9823,1090 +9823,10 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2003-09-22",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:13 UTC",
     "monthly_times": [
-      {
-        "id": 1814,
-        "date_close_price": {
-          "2024-11-27": "98.8100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1815,
-        "date_close_price": {
-          "2024-10-31": "98.4200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1816,
-        "date_close_price": {
-          "2024-09-30": "101.2700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1817,
-        "date_close_price": {
-          "2024-08-30": "100.2500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1818,
-        "date_close_price": {
-          "2024-07-31": "99.1100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1819,
-        "date_close_price": {
-          "2024-06-28": "97.0700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1820,
-        "date_close_price": {
-          "2024-05-31": "96.5200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1821,
-        "date_close_price": {
-          "2024-04-30": "95.2300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1822,
-        "date_close_price": {
-          "2024-03-28": "97.9400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1823,
-        "date_close_price": {
-          "2024-02-29": "97.3500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1824,
-        "date_close_price": {
-          "2024-01-31": "99.1000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1825,
-        "date_close_price": {
-          "2023-12-29": "99.2500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1826,
-        "date_close_price": {
-          "2023-11-30": "96.2600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1827,
-        "date_close_price": {
-          "2023-10-31": "92.3100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1828,
-        "date_close_price": {
-          "2023-09-29": "94.0400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1829,
-        "date_close_price": {
-          "2023-08-31": "96.8000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1830,
-        "date_close_price": {
-          "2023-07-31": "97.6800"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1831,
-        "date_close_price": {
-          "2023-06-30": "97.9500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1832,
-        "date_close_price": {
-          "2023-05-31": "98.5700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1833,
-        "date_close_price": {
-          "2023-04-28": "99.9600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1834,
-        "date_close_price": {
-          "2023-03-31": "99.6400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1835,
-        "date_close_price": {
-          "2023-02-28": "97.3100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1836,
-        "date_close_price": {
-          "2023-01-31": "100.2200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1837,
-        "date_close_price": {
-          "2022-12-30": "96.9900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1838,
-        "date_close_price": {
-          "2022-11-30": "98.2900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1839,
-        "date_close_price": {
-          "2022-10-31": "94.9000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1840,
-        "date_close_price": {
-          "2022-09-30": "96.3400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1841,
-        "date_close_price": {
-          "2022-08-31": "100.7100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1842,
-        "date_close_price": {
-          "2022-07-29": "104.0700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1843,
-        "date_close_price": {
-          "2022-06-30": "101.6800"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1844,
-        "date_close_price": {
-          "2022-05-31": "103.4700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1845,
-        "date_close_price": {
-          "2022-04-29": "102.8700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1846,
-        "date_close_price": {
-          "2022-03-31": "107.1000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1847,
-        "date_close_price": {
-          "2022-02-28": "110.3600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1848,
-        "date_close_price": {
-          "2022-01-31": "111.8000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1849,
-        "date_close_price": {
-          "2021-12-31": "114.0800"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1850,
-        "date_close_price": {
-          "2021-11-30": "114.7700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1851,
-        "date_close_price": {
-          "2021-10-29": "114.6400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1852,
-        "date_close_price": {
-          "2021-09-30": "114.8300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1853,
-        "date_close_price": {
-          "2021-08-31": "116.0600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1854,
-        "date_close_price": {
-          "2021-07-30": "116.4600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1855,
-        "date_close_price": {
-          "2021-06-30": "115.3300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1856,
-        "date_close_price": {
-          "2021-05-28": "114.5500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1857,
-        "date_close_price": {
-          "2021-04-30": "114.4900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1858,
-        "date_close_price": {
-          "2021-03-31": "113.8300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1859,
-        "date_close_price": {
-          "2021-02-26": "115.3400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1860,
-        "date_close_price": {
-          "2021-01-29": "117.3100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1861,
-        "date_close_price": {
-          "2020-12-31": "118.1900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1862,
-        "date_close_price": {
-          "2020-11-30": "118.4200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1863,
-        "date_close_price": {
-          "2020-10-30": "117.2000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1864,
-        "date_close_price": {
-          "2020-09-30": "118.0600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1865,
-        "date_close_price": {
-          "2020-08-31": "118.3700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1866,
-        "date_close_price": {
-          "2020-07-31": "119.5600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1867,
-        "date_close_price": {
-          "2020-06-30": "118.2100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1868,
-        "date_close_price": {
-          "2020-05-29": "117.6500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1869,
-        "date_close_price": {
-          "2020-04-30": "117.1000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1870,
-        "date_close_price": {
-          "2020-03-31": "115.3700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1871,
-        "date_close_price": {
-          "2020-02-28": "116.2200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1872,
-        "date_close_price": {
-          "2020-01-31": "114.6500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1873,
-        "date_close_price": {
-          "2019-12-31": "112.3700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1874,
-        "date_close_price": {
-          "2019-11-29": "112.8600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1875,
-        "date_close_price": {
-          "2019-10-31": "113.1500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1876,
-        "date_close_price": {
-          "2019-09-30": "113.1700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1877,
-        "date_close_price": {
-          "2019-08-30": "114.1300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1878,
-        "date_close_price": {
-          "2019-07-31": "111.3000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1879,
-        "date_close_price": {
-          "2019-06-28": "111.3500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1880,
-        "date_close_price": {
-          "2019-05-31": "110.4000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1881,
-        "date_close_price": {
-          "2019-04-30": "108.5900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1882,
-        "date_close_price": {
-          "2019-03-29": "109.0700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1883,
-        "date_close_price": {
-          "2019-02-28": "107.0700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1884,
-        "date_close_price": {
-          "2019-01-31": "107.4600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1885,
-        "date_close_price": {
-          "2018-12-31": "106.4900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1886,
-        "date_close_price": {
-          "2018-11-30": "104.8800"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1887,
-        "date_close_price": {
-          "2018-10-31": "104.5900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1888,
-        "date_close_price": {
-          "2018-09-28": "105.5200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1889,
-        "date_close_price": {
-          "2018-08-31": "106.4100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1890,
-        "date_close_price": {
-          "2018-07-31": "106.0600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1891,
-        "date_close_price": {
-          "2018-06-29": "106.3200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1892,
-        "date_close_price": {
-          "2018-05-31": "106.4600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1893,
-        "date_close_price": {
-          "2018-04-30": "106.0000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1894,
-        "date_close_price": {
-          "2018-03-29": "107.2500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1895,
-        "date_close_price": {
-          "2018-02-28": "106.7700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1896,
-        "date_close_price": {
-          "2018-01-31": "108.1000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1897,
-        "date_close_price": {
-          "2017-12-29": "109.3300"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1898,
-        "date_close_price": {
-          "2017-11-30": "109.0800"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1899,
-        "date_close_price": {
-          "2017-10-31": "109.4700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1900,
-        "date_close_price": {
-          "2017-09-29": "109.5900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1901,
-        "date_close_price": {
-          "2017-08-31": "110.4500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1902,
-        "date_close_price": {
-          "2017-07-31": "109.6500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1903,
-        "date_close_price": {
-          "2017-06-30": "109.5100"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1904,
-        "date_close_price": {
-          "2017-05-31": "109.7600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1905,
-        "date_close_price": {
-          "2017-04-28": "109.2500"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1906,
-        "date_close_price": {
-          "2017-03-31": "108.4900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1907,
-        "date_close_price": {
-          "2017-02-28": "108.7700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1908,
-        "date_close_price": {
-          "2017-01-31": "108.2900"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1909,
-        "date_close_price": {
-          "2016-12-30": "108.0600"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1910,
-        "date_close_price": {
-          "2016-11-30": "108.2400"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1911,
-        "date_close_price": {
-          "2016-10-31": "111.3000"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1912,
-        "date_close_price": {
-          "2016-09-30": "112.4200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1913,
-        "date_close_price": {
-          "2016-08-31": "112.5700"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1914,
-        "date_close_price": {
-          "2016-07-29": "113.0200"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1915,
-        "date_close_price": {
-          "2016-06-30": "112.6150"
-        },
-        "created_at": "2024-11-28 06:48:51 UTC",
-        "updated_at": "2024-11-28 06:48:51 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1916,
-        "date_close_price": {
-          "2016-05-31": "110.7000"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1917,
-        "date_close_price": {
-          "2016-04-29": "110.8900"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1918,
-        "date_close_price": {
-          "2016-03-31": "110.8250"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1919,
-        "date_close_price": {
-          "2016-02-29": "110.0900"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1920,
-        "date_close_price": {
-          "2016-01-29": "109.3500"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1921,
-        "date_close_price": {
-          "2015-12-31": "108.0100"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1922,
-        "date_close_price": {
-          "2015-11-30": "108.8100"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1923,
-        "date_close_price": {
-          "2015-10-30": "109.4500"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1924,
-        "date_close_price": {
-          "2015-09-30": "109.5800"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1925,
-        "date_close_price": {
-          "2015-08-31": "108.9200"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1926,
-        "date_close_price": {
-          "2015-07-31": "109.5000"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1927,
-        "date_close_price": {
-          "2015-06-30": "108.7800"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1928,
-        "date_close_price": {
-          "2015-05-29": "110.1700"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1929,
-        "date_close_price": {
-          "2015-04-30": "110.8600"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1930,
-        "date_close_price": {
-          "2015-03-31": "111.4300"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1931,
-        "date_close_price": {
-          "2015-02-27": "111.2000"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1932,
-        "date_close_price": {
-          "2015-01-30": "112.3800"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
-      {
-        "id": 1933,
-        "date_close_price": {
-          "2014-12-31": "110.1200"
-        },
-        "created_at": "2024-11-28 06:48:52 UTC",
-        "updated_at": "2024-11-28 06:48:52 UTC",
-        "etf_id": 75
-      },
       {
         "id": 1934,
         "date_close_price": {
@@ -12112,6 +11032,1086 @@
         "created_at": "2024-11-28 06:48:53 UTC",
         "updated_at": "2024-11-28 06:48:53 UTC",
         "etf_id": 75
+      },
+      {
+        "id": 1814,
+        "date_close_price": {
+          "2024-11-27": "98.8100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1815,
+        "date_close_price": {
+          "2024-10-31": "98.4200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1816,
+        "date_close_price": {
+          "2024-09-30": "101.2700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1817,
+        "date_close_price": {
+          "2024-08-30": "100.2500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1818,
+        "date_close_price": {
+          "2024-07-31": "99.1100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1819,
+        "date_close_price": {
+          "2024-06-28": "97.0700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1820,
+        "date_close_price": {
+          "2024-05-31": "96.5200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1821,
+        "date_close_price": {
+          "2024-04-30": "95.2300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1822,
+        "date_close_price": {
+          "2024-03-28": "97.9400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1823,
+        "date_close_price": {
+          "2024-02-29": "97.3500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1824,
+        "date_close_price": {
+          "2024-01-31": "99.1000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1825,
+        "date_close_price": {
+          "2023-12-29": "99.2500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1826,
+        "date_close_price": {
+          "2023-11-30": "96.2600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1827,
+        "date_close_price": {
+          "2023-10-31": "92.3100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1828,
+        "date_close_price": {
+          "2023-09-29": "94.0400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1829,
+        "date_close_price": {
+          "2023-08-31": "96.8000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1830,
+        "date_close_price": {
+          "2023-07-31": "97.6800"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1831,
+        "date_close_price": {
+          "2023-06-30": "97.9500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1832,
+        "date_close_price": {
+          "2023-05-31": "98.5700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1833,
+        "date_close_price": {
+          "2023-04-28": "99.9600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1834,
+        "date_close_price": {
+          "2023-03-31": "99.6400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1835,
+        "date_close_price": {
+          "2023-02-28": "97.3100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1836,
+        "date_close_price": {
+          "2023-01-31": "100.2200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1837,
+        "date_close_price": {
+          "2022-12-30": "96.9900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1838,
+        "date_close_price": {
+          "2022-11-30": "98.2900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1839,
+        "date_close_price": {
+          "2022-10-31": "94.9000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1840,
+        "date_close_price": {
+          "2022-09-30": "96.3400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1841,
+        "date_close_price": {
+          "2022-08-31": "100.7100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1842,
+        "date_close_price": {
+          "2022-07-29": "104.0700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1843,
+        "date_close_price": {
+          "2022-06-30": "101.6800"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1844,
+        "date_close_price": {
+          "2022-05-31": "103.4700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1845,
+        "date_close_price": {
+          "2022-04-29": "102.8700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1846,
+        "date_close_price": {
+          "2022-03-31": "107.1000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1847,
+        "date_close_price": {
+          "2022-02-28": "110.3600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1848,
+        "date_close_price": {
+          "2022-01-31": "111.8000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1849,
+        "date_close_price": {
+          "2021-12-31": "114.0800"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1850,
+        "date_close_price": {
+          "2021-11-30": "114.7700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1851,
+        "date_close_price": {
+          "2021-10-29": "114.6400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1852,
+        "date_close_price": {
+          "2021-09-30": "114.8300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1853,
+        "date_close_price": {
+          "2021-08-31": "116.0600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1854,
+        "date_close_price": {
+          "2021-07-30": "116.4600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1855,
+        "date_close_price": {
+          "2021-06-30": "115.3300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1856,
+        "date_close_price": {
+          "2021-05-28": "114.5500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1857,
+        "date_close_price": {
+          "2021-04-30": "114.4900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1858,
+        "date_close_price": {
+          "2021-03-31": "113.8300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1859,
+        "date_close_price": {
+          "2021-02-26": "115.3400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1860,
+        "date_close_price": {
+          "2021-01-29": "117.3100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1861,
+        "date_close_price": {
+          "2020-12-31": "118.1900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1862,
+        "date_close_price": {
+          "2020-11-30": "118.4200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1863,
+        "date_close_price": {
+          "2020-10-30": "117.2000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1864,
+        "date_close_price": {
+          "2020-09-30": "118.0600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1865,
+        "date_close_price": {
+          "2020-08-31": "118.3700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1866,
+        "date_close_price": {
+          "2020-07-31": "119.5600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1867,
+        "date_close_price": {
+          "2020-06-30": "118.2100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1868,
+        "date_close_price": {
+          "2020-05-29": "117.6500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1869,
+        "date_close_price": {
+          "2020-04-30": "117.1000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1870,
+        "date_close_price": {
+          "2020-03-31": "115.3700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1871,
+        "date_close_price": {
+          "2020-02-28": "116.2200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1872,
+        "date_close_price": {
+          "2020-01-31": "114.6500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1873,
+        "date_close_price": {
+          "2019-12-31": "112.3700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1874,
+        "date_close_price": {
+          "2019-11-29": "112.8600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1875,
+        "date_close_price": {
+          "2019-10-31": "113.1500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1876,
+        "date_close_price": {
+          "2019-09-30": "113.1700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1877,
+        "date_close_price": {
+          "2019-08-30": "114.1300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1878,
+        "date_close_price": {
+          "2019-07-31": "111.3000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1879,
+        "date_close_price": {
+          "2019-06-28": "111.3500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1880,
+        "date_close_price": {
+          "2019-05-31": "110.4000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1881,
+        "date_close_price": {
+          "2019-04-30": "108.5900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1882,
+        "date_close_price": {
+          "2019-03-29": "109.0700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1883,
+        "date_close_price": {
+          "2019-02-28": "107.0700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1884,
+        "date_close_price": {
+          "2019-01-31": "107.4600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1885,
+        "date_close_price": {
+          "2018-12-31": "106.4900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1886,
+        "date_close_price": {
+          "2018-11-30": "104.8800"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1887,
+        "date_close_price": {
+          "2018-10-31": "104.5900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1888,
+        "date_close_price": {
+          "2018-09-28": "105.5200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1889,
+        "date_close_price": {
+          "2018-08-31": "106.4100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1890,
+        "date_close_price": {
+          "2018-07-31": "106.0600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1891,
+        "date_close_price": {
+          "2018-06-29": "106.3200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1892,
+        "date_close_price": {
+          "2018-05-31": "106.4600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1893,
+        "date_close_price": {
+          "2018-04-30": "106.0000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1894,
+        "date_close_price": {
+          "2018-03-29": "107.2500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1895,
+        "date_close_price": {
+          "2018-02-28": "106.7700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1896,
+        "date_close_price": {
+          "2018-01-31": "108.1000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1897,
+        "date_close_price": {
+          "2017-12-29": "109.3300"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1898,
+        "date_close_price": {
+          "2017-11-30": "109.0800"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1899,
+        "date_close_price": {
+          "2017-10-31": "109.4700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1900,
+        "date_close_price": {
+          "2017-09-29": "109.5900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1901,
+        "date_close_price": {
+          "2017-08-31": "110.4500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1902,
+        "date_close_price": {
+          "2017-07-31": "109.6500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1903,
+        "date_close_price": {
+          "2017-06-30": "109.5100"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1904,
+        "date_close_price": {
+          "2017-05-31": "109.7600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1905,
+        "date_close_price": {
+          "2017-04-28": "109.2500"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1906,
+        "date_close_price": {
+          "2017-03-31": "108.4900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1907,
+        "date_close_price": {
+          "2017-02-28": "108.7700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1908,
+        "date_close_price": {
+          "2017-01-31": "108.2900"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1909,
+        "date_close_price": {
+          "2016-12-30": "108.0600"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1910,
+        "date_close_price": {
+          "2016-11-30": "108.2400"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1911,
+        "date_close_price": {
+          "2016-10-31": "111.3000"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1912,
+        "date_close_price": {
+          "2016-09-30": "112.4200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1913,
+        "date_close_price": {
+          "2016-08-31": "112.5700"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1914,
+        "date_close_price": {
+          "2016-07-29": "113.0200"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1915,
+        "date_close_price": {
+          "2016-06-30": "112.6150"
+        },
+        "created_at": "2024-11-28 06:48:51 UTC",
+        "updated_at": "2024-11-28 06:48:51 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1916,
+        "date_close_price": {
+          "2016-05-31": "110.7000"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1917,
+        "date_close_price": {
+          "2016-04-29": "110.8900"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1918,
+        "date_close_price": {
+          "2016-03-31": "110.8250"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1919,
+        "date_close_price": {
+          "2016-02-29": "110.0900"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1920,
+        "date_close_price": {
+          "2016-01-29": "109.3500"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1921,
+        "date_close_price": {
+          "2015-12-31": "108.0100"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1922,
+        "date_close_price": {
+          "2015-11-30": "108.8100"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1923,
+        "date_close_price": {
+          "2015-10-30": "109.4500"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1924,
+        "date_close_price": {
+          "2015-09-30": "109.5800"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1925,
+        "date_close_price": {
+          "2015-08-31": "108.9200"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1926,
+        "date_close_price": {
+          "2015-07-31": "109.5000"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1927,
+        "date_close_price": {
+          "2015-06-30": "108.7800"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1928,
+        "date_close_price": {
+          "2015-05-29": "110.1700"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1929,
+        "date_close_price": {
+          "2015-04-30": "110.8600"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1930,
+        "date_close_price": {
+          "2015-03-31": "111.4300"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1931,
+        "date_close_price": {
+          "2015-02-27": "111.2000"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1932,
+        "date_close_price": {
+          "2015-01-30": "112.3800"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
+      },
+      {
+        "id": 1933,
+        "date_close_price": {
+          "2014-12-31": "110.1200"
+        },
+        "created_at": "2024-11-28 06:48:52 UTC",
+        "updated_at": "2024-11-28 06:48:52 UTC",
+        "etf_id": 75
       }
     ],
     "holdings": [
@@ -12127,9 +12127,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2004-11-18",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:14 UTC",
     "monthly_times": [
       {
         "id": 2068,
@@ -14305,9 +14305,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2006-04-12",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:14 UTC",
     "monthly_times": [
       {
         "id": 2308,
@@ -16419,9 +16419,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2010-02-09",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:14 UTC",
     "monthly_times": [
       {
         "id": 2531,
@@ -18119,9 +18119,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2016-12-01",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:14 UTC",
     "monthly_times": [
       {
         "id": 2708,
@@ -19081,9 +19081,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2002-07-22",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:14 UTC",
     "monthly_times": [
       {
         "id": 2803,
@@ -21511,9 +21511,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2014-10-31",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:15 UTC",
     "monthly_times": [
 
     ],
@@ -21530,14 +21530,1651 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "2004-01-26",
     "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-29 02:47:16 UTC",
     "monthly_times": [
 
     ],
     "holdings": [
 
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Vanguard S&P 500 ETF",
+    "ticker_symbol": "VOO",
+    "category": "Large-Cap Blend",
+    "description": "Tracks the S&P 500 Index with low expense ratios and broad U.S. market exposure.",
+    "historical_data": null,
+    "current_price": null,
+    "average_return": null,
+    "inception_date": "2010-09-07",
+    "created_at": "2024-11-28 06:37:07 UTC",
+    "updated_at": "2024-11-28 07:25:24 UTC",
+    "monthly_times": [
+      {
+        "id": 601,
+        "date_close_price": {
+          "2024-11-27": "550.5500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 602,
+        "date_close_price": {
+          "2024-10-31": "522.6700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 603,
+        "date_close_price": {
+          "2024-09-30": "527.6700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 604,
+        "date_close_price": {
+          "2024-08-30": "518.0400"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 605,
+        "date_close_price": {
+          "2024-07-31": "505.9300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 606,
+        "date_close_price": {
+          "2024-06-28": "500.1300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 607,
+        "date_close_price": {
+          "2024-05-31": "484.6200"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 608,
+        "date_close_price": {
+          "2024-04-30": "461.4300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 609,
+        "date_close_price": {
+          "2024-03-28": "480.7000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 610,
+        "date_close_price": {
+          "2024-02-29": "466.9300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 611,
+        "date_close_price": {
+          "2024-01-31": "443.8200"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 612,
+        "date_close_price": {
+          "2023-12-29": "436.8000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 613,
+        "date_close_price": {
+          "2023-11-30": "419.4000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 614,
+        "date_close_price": {
+          "2023-10-31": "384.1700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 615,
+        "date_close_price": {
+          "2023-09-29": "392.7000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 616,
+        "date_close_price": {
+          "2023-08-31": "413.8300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 617,
+        "date_close_price": {
+          "2023-07-31": "420.6800"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 618,
+        "date_close_price": {
+          "2023-06-30": "407.2800"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 619,
+        "date_close_price": {
+          "2023-05-31": "383.8900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 620,
+        "date_close_price": {
+          "2023-04-28": "382.0500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 621,
+        "date_close_price": {
+          "2023-03-31": "376.0700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 622,
+        "date_close_price": {
+          "2023-02-28": "364.1100"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 623,
+        "date_close_price": {
+          "2023-01-31": "373.4400"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 624,
+        "date_close_price": {
+          "2022-12-30": "351.3400"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 625,
+        "date_close_price": {
+          "2022-11-30": "374.4900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 626,
+        "date_close_price": {
+          "2022-10-31": "354.9500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 627,
+        "date_close_price": {
+          "2022-09-30": "328.3000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 628,
+        "date_close_price": {
+          "2022-08-31": "363.1500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 629,
+        "date_close_price": {
+          "2022-07-29": "378.7900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 630,
+        "date_close_price": {
+          "2022-06-30": "346.8800"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 631,
+        "date_close_price": {
+          "2022-05-31": "379.6800"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 632,
+        "date_close_price": {
+          "2022-04-29": "378.7000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 633,
+        "date_close_price": {
+          "2022-03-31": "415.1700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 634,
+        "date_close_price": {
+          "2022-02-28": "401.3600"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 635,
+        "date_close_price": {
+          "2022-01-31": "413.6900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 636,
+        "date_close_price": {
+          "2021-12-31": "436.5700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 637,
+        "date_close_price": {
+          "2021-11-30": "419.0600"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 638,
+        "date_close_price": {
+          "2021-10-29": "422.1600"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 639,
+        "date_close_price": {
+          "2021-09-30": "394.4000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 640,
+        "date_close_price": {
+          "2021-08-31": "415.0500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 641,
+        "date_close_price": {
+          "2021-07-30": "403.1500"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 642,
+        "date_close_price": {
+          "2021-06-30": "393.5200"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 643,
+        "date_close_price": {
+          "2021-05-28": "386.1300"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 644,
+        "date_close_price": {
+          "2021-04-30": "383.5700"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 645,
+        "date_close_price": {
+          "2021-03-31": "364.3000"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 646,
+        "date_close_price": {
+          "2021-02-26": "349.5900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 647,
+        "date_close_price": {
+          "2021-01-29": "340.1800"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 648,
+        "date_close_price": {
+          "2020-12-31": "343.6900"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 649,
+        "date_close_price": {
+          "2020-11-30": "332.6400"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 650,
+        "date_close_price": {
+          "2020-10-30": "299.8200"
+        },
+        "created_at": "2024-11-28 06:48:30 UTC",
+        "updated_at": "2024-11-28 06:48:30 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 651,
+        "date_close_price": {
+          "2020-09-30": "307.6500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 652,
+        "date_close_price": {
+          "2020-08-31": "321.0200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 653,
+        "date_close_price": {
+          "2020-07-31": "300.1000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 654,
+        "date_close_price": {
+          "2020-06-30": "283.4300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 655,
+        "date_close_price": {
+          "2020-05-29": "279.7500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 656,
+        "date_close_price": {
+          "2020-04-30": "267.1000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 657,
+        "date_close_price": {
+          "2020-03-31": "236.8200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 658,
+        "date_close_price": {
+          "2020-02-28": "271.7400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 659,
+        "date_close_price": {
+          "2020-01-31": "295.6900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 660,
+        "date_close_price": {
+          "2019-12-31": "295.8000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 661,
+        "date_close_price": {
+          "2019-11-29": "288.6500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 662,
+        "date_close_price": {
+          "2019-10-31": "278.5500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 663,
+        "date_close_price": {
+          "2019-09-30": "272.6000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 664,
+        "date_close_price": {
+          "2019-08-30": "268.6000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 665,
+        "date_close_price": {
+          "2019-07-31": "273.0800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 666,
+        "date_close_price": {
+          "2019-06-28": "269.1500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 667,
+        "date_close_price": {
+          "2019-05-31": "252.8700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 668,
+        "date_close_price": {
+          "2019-04-30": "270.0100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 669,
+        "date_close_price": {
+          "2019-03-29": "259.5400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 670,
+        "date_close_price": {
+          "2019-02-28": "256.0700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 671,
+        "date_close_price": {
+          "2019-01-31": "248.0100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 672,
+        "date_close_price": {
+          "2018-12-31": "229.8100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 673,
+        "date_close_price": {
+          "2018-11-30": "253.4800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 674,
+        "date_close_price": {
+          "2018-10-31": "248.7900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 675,
+        "date_close_price": {
+          "2018-09-28": "267.0500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 676,
+        "date_close_price": {
+          "2018-08-31": "266.7200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 677,
+        "date_close_price": {
+          "2018-07-31": "258.4000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 678,
+        "date_close_price": {
+          "2018-06-29": "249.5100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 679,
+        "date_close_price": {
+          "2018-05-31": "248.7900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 680,
+        "date_close_price": {
+          "2018-04-30": "242.9200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 681,
+        "date_close_price": {
+          "2018-03-29": "242.0800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 682,
+        "date_close_price": {
+          "2018-02-28": "249.3400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 683,
+        "date_close_price": {
+          "2018-01-31": "258.9900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 684,
+        "date_close_price": {
+          "2017-12-29": "245.2900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 685,
+        "date_close_price": {
+          "2017-11-30": "243.3500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 686,
+        "date_close_price": {
+          "2017-10-31": "236.1300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 687,
+        "date_close_price": {
+          "2017-09-29": "230.7600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 688,
+        "date_close_price": {
+          "2017-08-31": "227.3000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 689,
+        "date_close_price": {
+          "2017-07-31": "226.6400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 690,
+        "date_close_price": {
+          "2017-06-30": "222.0600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 691,
+        "date_close_price": {
+          "2017-05-31": "221.6700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 692,
+        "date_close_price": {
+          "2017-04-28": "218.6000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 693,
+        "date_close_price": {
+          "2017-03-31": "216.3500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 694,
+        "date_close_price": {
+          "2017-02-28": "217.0700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 695,
+        "date_close_price": {
+          "2017-01-31": "208.9700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 696,
+        "date_close_price": {
+          "2016-12-30": "205.3100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 697,
+        "date_close_price": {
+          "2016-11-30": "202.4000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 698,
+        "date_close_price": {
+          "2016-10-31": "195.1300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 699,
+        "date_close_price": {
+          "2016-09-30": "198.6900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 700,
+        "date_close_price": {
+          "2016-08-31": "199.5200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 701,
+        "date_close_price": {
+          "2016-07-29": "199.2800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 702,
+        "date_close_price": {
+          "2016-06-30": "192.2000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 703,
+        "date_close_price": {
+          "2016-05-31": "192.5400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 704,
+        "date_close_price": {
+          "2016-04-29": "189.2200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 705,
+        "date_close_price": {
+          "2016-03-31": "188.5600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 706,
+        "date_close_price": {
+          "2016-02-29": "177.3800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 707,
+        "date_close_price": {
+          "2016-01-29": "177.7500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 708,
+        "date_close_price": {
+          "2015-12-31": "186.9300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 709,
+        "date_close_price": {
+          "2015-11-30": "191.3700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 710,
+        "date_close_price": {
+          "2015-10-30": "190.5600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 711,
+        "date_close_price": {
+          "2015-09-30": "175.7100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 712,
+        "date_close_price": {
+          "2015-08-31": "181.1100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 713,
+        "date_close_price": {
+          "2015-07-31": "192.9500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 714,
+        "date_close_price": {
+          "2015-06-30": "188.8400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 715,
+        "date_close_price": {
+          "2015-05-29": "193.4900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 716,
+        "date_close_price": {
+          "2015-04-30": "191.1000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 717,
+        "date_close_price": {
+          "2015-03-31": "189.2000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 718,
+        "date_close_price": {
+          "2015-02-27": "193.2000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 719,
+        "date_close_price": {
+          "2015-01-30": "182.9900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 720,
+        "date_close_price": {
+          "2014-12-31": "188.4000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 721,
+        "date_close_price": {
+          "2014-11-28": "190.0300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 722,
+        "date_close_price": {
+          "2014-10-31": "184.9300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 723,
+        "date_close_price": {
+          "2014-09-30": "180.5900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 724,
+        "date_close_price": {
+          "2014-08-29": "183.9900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 725,
+        "date_close_price": {
+          "2014-07-31": "176.9600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 726,
+        "date_close_price": {
+          "2014-06-30": "179.4300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 727,
+        "date_close_price": {
+          "2014-05-30": "176.5500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 728,
+        "date_close_price": {
+          "2014-04-30": "172.5900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 729,
+        "date_close_price": {
+          "2014-03-31": "171.3500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 730,
+        "date_close_price": {
+          "2014-02-28": "170.6300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 731,
+        "date_close_price": {
+          "2014-01-31": "163.1800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 732,
+        "date_close_price": {
+          "2013-12-31": "169.1500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 733,
+        "date_close_price": {
+          "2013-11-29": "165.7000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 734,
+        "date_close_price": {
+          "2013-10-31": "160.8800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 735,
+        "date_close_price": {
+          "2013-09-30": "77.0000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 736,
+        "date_close_price": {
+          "2013-08-30": "74.8500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 737,
+        "date_close_price": {
+          "2013-07-31": "77.2300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 738,
+        "date_close_price": {
+          "2013-06-28": "73.3400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 739,
+        "date_close_price": {
+          "2013-05-31": "74.8400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 740,
+        "date_close_price": {
+          "2013-04-30": "73.1400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 741,
+        "date_close_price": {
+          "2013-03-28": "71.6400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 742,
+        "date_close_price": {
+          "2013-02-28": "69.4700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 743,
+        "date_close_price": {
+          "2013-01-31": "68.5600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 744,
+        "date_close_price": {
+          "2012-12-31": "65.1900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 745,
+        "date_close_price": {
+          "2012-11-30": "65.0000"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 746,
+        "date_close_price": {
+          "2012-10-31": "64.6300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 747,
+        "date_close_price": {
+          "2012-09-28": "65.9200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 748,
+        "date_close_price": {
+          "2012-08-31": "64.6100"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 749,
+        "date_close_price": {
+          "2012-07-31": "63.0300"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 750,
+        "date_close_price": {
+          "2012-06-29": "62.2800"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 751,
+        "date_close_price": {
+          "2012-05-31": "60.1200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 752,
+        "date_close_price": {
+          "2012-04-30": "63.9600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 753,
+        "date_close_price": {
+          "2012-03-30": "64.3700"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 754,
+        "date_close_price": {
+          "2012-02-29": "62.5900"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 755,
+        "date_close_price": {
+          "2012-01-31": "60.0200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 756,
+        "date_close_price": {
+          "2011-12-30": "57.4500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 757,
+        "date_close_price": {
+          "2011-11-30": "57.1500"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 758,
+        "date_close_price": {
+          "2011-10-31": "57.3200"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 759,
+        "date_close_price": {
+          "2011-09-30": "51.7600"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 760,
+        "date_close_price": {
+          "2011-08-31": "55.8400"
+        },
+        "created_at": "2024-11-28 06:48:31 UTC",
+        "updated_at": "2024-11-28 06:48:31 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 761,
+        "date_close_price": {
+          "2011-07-29": "59.1000"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 762,
+        "date_close_price": {
+          "2011-06-30": "60.3400"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 763,
+        "date_close_price": {
+          "2011-05-31": "61.6700"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 764,
+        "date_close_price": {
+          "2011-04-29": "62.4000"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 765,
+        "date_close_price": {
+          "2011-03-31": "60.6200"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 766,
+        "date_close_price": {
+          "2011-02-28": "60.8900"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 767,
+        "date_close_price": {
+          "2011-01-31": "58.8500"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 768,
+        "date_close_price": {
+          "2010-12-31": "57.5700"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 769,
+        "date_close_price": {
+          "2010-11-30": "54.0900"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 770,
+        "date_close_price": {
+          "2010-10-29": "54.1500"
+        },
+        "created_at": "2024-11-28 06:48:32 UTC",
+        "updated_at": "2024-11-28 06:48:32 UTC",
+        "etf_id": 70
+      }
+    ],
+    "holdings": [
+      {
+        "id": 21,
+        "symbol": "AAPL",
+        "description": "APPLE INC",
+        "weight": 0.0712,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 22,
+        "symbol": "NVDA",
+        "description": "NVIDIA CORP",
+        "weight": 0.0677,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 23,
+        "symbol": "MSFT",
+        "description": "MICROSOFT CORP",
+        "weight": 0.0626,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 24,
+        "symbol": "AMZN",
+        "description": "AMAZON.COM INC",
+        "weight": 0.0361,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 25,
+        "symbol": "META",
+        "description": "META PLATFORMS INC CLASS A",
+        "weight": 0.0257,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 26,
+        "symbol": "GOOGL",
+        "description": "ALPHABET INC CLASS A",
+        "weight": 0.0208,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 27,
+        "symbol": "GOOG",
+        "description": "ALPHABET INC CLASS C",
+        "weight": 0.0172,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 28,
+        "symbol": "BRK-B",
+        "description": "BERKSHIRE HATHAWAY INC CLASS B",
+        "weight": 0.0171,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 29,
+        "symbol": "AVGO",
+        "description": "BROADCOM INC",
+        "weight": 0.0164,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      },
+      {
+        "id": 30,
+        "symbol": "TSLA",
+        "description": "TESLA INC",
+        "weight": 0.0144,
+        "created_at": "2024-11-28 06:48:29 UTC",
+        "updated_at": "2024-11-28 06:48:29 UTC",
+        "etf_id": 70
+      }
     ]
   },
   {
@@ -21549,9 +23186,9 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "1993-01-22",
     "created_at": "2024-11-28 05:53:56 UTC",
-    "updated_at": "2024-11-28 05:53:56 UTC",
+    "updated_at": "2024-11-28 10:28:33 UTC",
     "monthly_times": [
       {
         "id": 1,
@@ -24256,42 +25893,6 @@
     ],
     "holdings": [
       {
-        "id": 1,
-        "symbol": "AAPL",
-        "description": "APPLE INC",
-        "weight": 0.0695,
-        "created_at": "2024-11-28 06:36:56 UTC",
-        "updated_at": "2024-11-28 06:36:56 UTC",
-        "etf_id": 68
-      },
-      {
-        "id": 2,
-        "symbol": "NVDA",
-        "description": "NVIDIA CORP",
-        "weight": 0.0691,
-        "created_at": "2024-11-28 06:36:56 UTC",
-        "updated_at": "2024-11-28 06:36:56 UTC",
-        "etf_id": 68
-      },
-      {
-        "id": 3,
-        "symbol": "MSFT",
-        "description": "MICROSOFT CORP",
-        "weight": 0.0619,
-        "created_at": "2024-11-28 06:36:56 UTC",
-        "updated_at": "2024-11-28 06:36:56 UTC",
-        "etf_id": 68
-      },
-      {
-        "id": 4,
-        "symbol": "AMZN",
-        "description": "AMAZON.COM INC",
-        "weight": 0.0378,
-        "created_at": "2024-11-28 06:36:56 UTC",
-        "updated_at": "2024-11-28 06:36:56 UTC",
-        "etf_id": 68
-      },
-      {
         "id": 5,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
@@ -24344,6 +25945,42 @@
         "created_at": "2024-11-28 06:36:56 UTC",
         "updated_at": "2024-11-28 06:36:56 UTC",
         "etf_id": 68
+      },
+      {
+        "id": 1,
+        "symbol": "AAPL",
+        "description": "APPLE INC",
+        "weight": 0.0695,
+        "created_at": "2024-11-28 06:36:56 UTC",
+        "updated_at": "2024-11-28 06:36:56 UTC",
+        "etf_id": 68
+      },
+      {
+        "id": 2,
+        "symbol": "NVDA",
+        "description": "NVIDIA CORP",
+        "weight": 0.0691,
+        "created_at": "2024-11-28 06:36:56 UTC",
+        "updated_at": "2024-11-28 06:36:56 UTC",
+        "etf_id": 68
+      },
+      {
+        "id": 3,
+        "symbol": "MSFT",
+        "description": "MICROSOFT CORP",
+        "weight": 0.0619,
+        "created_at": "2024-11-28 06:36:56 UTC",
+        "updated_at": "2024-11-28 06:36:56 UTC",
+        "etf_id": 68
+      },
+      {
+        "id": 4,
+        "symbol": "AMZN",
+        "description": "AMAZON.COM INC",
+        "weight": 0.0378,
+        "created_at": "2024-11-28 06:36:56 UTC",
+        "updated_at": "2024-11-28 06:36:56 UTC",
+        "etf_id": 68
       }
     ]
   },
@@ -24356,10 +25993,28 @@
     "historical_data": null,
     "current_price": null,
     "average_return": null,
-    "inception_date": null,
+    "inception_date": "1999-03-10",
     "created_at": "2024-11-28 05:53:56 UTC",
-    "updated_at": "2024-11-28 05:53:56 UTC",
+    "updated_at": "2024-11-28 10:28:34 UTC",
     "monthly_times": [
+      {
+        "id": 599,
+        "date_close_price": {
+          "2000-01-31": "179.4000"
+        },
+        "created_at": "2024-11-28 06:37:07 UTC",
+        "updated_at": "2024-11-28 06:37:07 UTC",
+        "etf_id": 69
+      },
+      {
+        "id": 600,
+        "date_close_price": {
+          "1999-12-31": "182.8000"
+        },
+        "created_at": "2024-11-28 06:37:07 UTC",
+        "updated_at": "2024-11-28 06:37:07 UTC",
+        "etf_id": 69
+      },
       {
         "id": 301,
         "date_close_price": {
@@ -27041,24 +28696,6 @@
         "created_at": "2024-11-28 06:37:07 UTC",
         "updated_at": "2024-11-28 06:37:07 UTC",
         "etf_id": 69
-      },
-      {
-        "id": 599,
-        "date_close_price": {
-          "2000-01-31": "179.4000"
-        },
-        "created_at": "2024-11-28 06:37:07 UTC",
-        "updated_at": "2024-11-28 06:37:07 UTC",
-        "etf_id": 69
-      },
-      {
-        "id": 600,
-        "date_close_price": {
-          "1999-12-31": "182.8000"
-        },
-        "created_at": "2024-11-28 06:37:07 UTC",
-        "updated_at": "2024-11-28 06:37:07 UTC",
-        "etf_id": 69
       }
     ],
     "holdings": [
@@ -27151,1643 +28788,6 @@
         "created_at": "2024-11-28 06:37:04 UTC",
         "updated_at": "2024-11-28 06:37:04 UTC",
         "etf_id": 69
-      }
-    ]
-  },
-  {
-    "id": 70,
-    "name": "Vanguard S&P 500 ETF",
-    "ticker_symbol": "VOO",
-    "category": "Large-Cap Blend",
-    "description": "Tracks the S&P 500 Index with low expense ratios and broad U.S. market exposure.",
-    "historical_data": null,
-    "current_price": null,
-    "average_return": null,
-    "inception_date": "2010-09-07",
-    "created_at": "2024-11-28 06:37:07 UTC",
-    "updated_at": "2024-11-28 07:25:24 UTC",
-    "monthly_times": [
-      {
-        "id": 601,
-        "date_close_price": {
-          "2024-11-27": "550.5500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 602,
-        "date_close_price": {
-          "2024-10-31": "522.6700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 603,
-        "date_close_price": {
-          "2024-09-30": "527.6700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 604,
-        "date_close_price": {
-          "2024-08-30": "518.0400"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 605,
-        "date_close_price": {
-          "2024-07-31": "505.9300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 606,
-        "date_close_price": {
-          "2024-06-28": "500.1300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 607,
-        "date_close_price": {
-          "2024-05-31": "484.6200"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 608,
-        "date_close_price": {
-          "2024-04-30": "461.4300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 609,
-        "date_close_price": {
-          "2024-03-28": "480.7000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 610,
-        "date_close_price": {
-          "2024-02-29": "466.9300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 611,
-        "date_close_price": {
-          "2024-01-31": "443.8200"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 612,
-        "date_close_price": {
-          "2023-12-29": "436.8000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 613,
-        "date_close_price": {
-          "2023-11-30": "419.4000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 614,
-        "date_close_price": {
-          "2023-10-31": "384.1700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 615,
-        "date_close_price": {
-          "2023-09-29": "392.7000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 616,
-        "date_close_price": {
-          "2023-08-31": "413.8300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 617,
-        "date_close_price": {
-          "2023-07-31": "420.6800"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 618,
-        "date_close_price": {
-          "2023-06-30": "407.2800"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 619,
-        "date_close_price": {
-          "2023-05-31": "383.8900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 620,
-        "date_close_price": {
-          "2023-04-28": "382.0500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 621,
-        "date_close_price": {
-          "2023-03-31": "376.0700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 622,
-        "date_close_price": {
-          "2023-02-28": "364.1100"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 623,
-        "date_close_price": {
-          "2023-01-31": "373.4400"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 624,
-        "date_close_price": {
-          "2022-12-30": "351.3400"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 625,
-        "date_close_price": {
-          "2022-11-30": "374.4900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 626,
-        "date_close_price": {
-          "2022-10-31": "354.9500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 627,
-        "date_close_price": {
-          "2022-09-30": "328.3000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 628,
-        "date_close_price": {
-          "2022-08-31": "363.1500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 629,
-        "date_close_price": {
-          "2022-07-29": "378.7900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 630,
-        "date_close_price": {
-          "2022-06-30": "346.8800"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 631,
-        "date_close_price": {
-          "2022-05-31": "379.6800"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 632,
-        "date_close_price": {
-          "2022-04-29": "378.7000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 633,
-        "date_close_price": {
-          "2022-03-31": "415.1700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 634,
-        "date_close_price": {
-          "2022-02-28": "401.3600"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 635,
-        "date_close_price": {
-          "2022-01-31": "413.6900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 636,
-        "date_close_price": {
-          "2021-12-31": "436.5700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 637,
-        "date_close_price": {
-          "2021-11-30": "419.0600"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 638,
-        "date_close_price": {
-          "2021-10-29": "422.1600"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 639,
-        "date_close_price": {
-          "2021-09-30": "394.4000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 640,
-        "date_close_price": {
-          "2021-08-31": "415.0500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 641,
-        "date_close_price": {
-          "2021-07-30": "403.1500"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 642,
-        "date_close_price": {
-          "2021-06-30": "393.5200"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 643,
-        "date_close_price": {
-          "2021-05-28": "386.1300"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 644,
-        "date_close_price": {
-          "2021-04-30": "383.5700"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 645,
-        "date_close_price": {
-          "2021-03-31": "364.3000"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 646,
-        "date_close_price": {
-          "2021-02-26": "349.5900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 647,
-        "date_close_price": {
-          "2021-01-29": "340.1800"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 648,
-        "date_close_price": {
-          "2020-12-31": "343.6900"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 649,
-        "date_close_price": {
-          "2020-11-30": "332.6400"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 650,
-        "date_close_price": {
-          "2020-10-30": "299.8200"
-        },
-        "created_at": "2024-11-28 06:48:30 UTC",
-        "updated_at": "2024-11-28 06:48:30 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 651,
-        "date_close_price": {
-          "2020-09-30": "307.6500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 652,
-        "date_close_price": {
-          "2020-08-31": "321.0200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 653,
-        "date_close_price": {
-          "2020-07-31": "300.1000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 654,
-        "date_close_price": {
-          "2020-06-30": "283.4300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 655,
-        "date_close_price": {
-          "2020-05-29": "279.7500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 656,
-        "date_close_price": {
-          "2020-04-30": "267.1000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 657,
-        "date_close_price": {
-          "2020-03-31": "236.8200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 658,
-        "date_close_price": {
-          "2020-02-28": "271.7400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 659,
-        "date_close_price": {
-          "2020-01-31": "295.6900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 660,
-        "date_close_price": {
-          "2019-12-31": "295.8000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 661,
-        "date_close_price": {
-          "2019-11-29": "288.6500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 662,
-        "date_close_price": {
-          "2019-10-31": "278.5500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 663,
-        "date_close_price": {
-          "2019-09-30": "272.6000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 664,
-        "date_close_price": {
-          "2019-08-30": "268.6000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 665,
-        "date_close_price": {
-          "2019-07-31": "273.0800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 666,
-        "date_close_price": {
-          "2019-06-28": "269.1500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 667,
-        "date_close_price": {
-          "2019-05-31": "252.8700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 668,
-        "date_close_price": {
-          "2019-04-30": "270.0100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 669,
-        "date_close_price": {
-          "2019-03-29": "259.5400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 670,
-        "date_close_price": {
-          "2019-02-28": "256.0700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 671,
-        "date_close_price": {
-          "2019-01-31": "248.0100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 672,
-        "date_close_price": {
-          "2018-12-31": "229.8100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 673,
-        "date_close_price": {
-          "2018-11-30": "253.4800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 674,
-        "date_close_price": {
-          "2018-10-31": "248.7900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 675,
-        "date_close_price": {
-          "2018-09-28": "267.0500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 676,
-        "date_close_price": {
-          "2018-08-31": "266.7200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 677,
-        "date_close_price": {
-          "2018-07-31": "258.4000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 678,
-        "date_close_price": {
-          "2018-06-29": "249.5100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 679,
-        "date_close_price": {
-          "2018-05-31": "248.7900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 680,
-        "date_close_price": {
-          "2018-04-30": "242.9200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 681,
-        "date_close_price": {
-          "2018-03-29": "242.0800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 682,
-        "date_close_price": {
-          "2018-02-28": "249.3400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 683,
-        "date_close_price": {
-          "2018-01-31": "258.9900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 684,
-        "date_close_price": {
-          "2017-12-29": "245.2900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 685,
-        "date_close_price": {
-          "2017-11-30": "243.3500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 686,
-        "date_close_price": {
-          "2017-10-31": "236.1300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 687,
-        "date_close_price": {
-          "2017-09-29": "230.7600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 688,
-        "date_close_price": {
-          "2017-08-31": "227.3000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 689,
-        "date_close_price": {
-          "2017-07-31": "226.6400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 690,
-        "date_close_price": {
-          "2017-06-30": "222.0600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 691,
-        "date_close_price": {
-          "2017-05-31": "221.6700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 692,
-        "date_close_price": {
-          "2017-04-28": "218.6000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 693,
-        "date_close_price": {
-          "2017-03-31": "216.3500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 694,
-        "date_close_price": {
-          "2017-02-28": "217.0700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 695,
-        "date_close_price": {
-          "2017-01-31": "208.9700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 696,
-        "date_close_price": {
-          "2016-12-30": "205.3100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 697,
-        "date_close_price": {
-          "2016-11-30": "202.4000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 698,
-        "date_close_price": {
-          "2016-10-31": "195.1300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 699,
-        "date_close_price": {
-          "2016-09-30": "198.6900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 700,
-        "date_close_price": {
-          "2016-08-31": "199.5200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 701,
-        "date_close_price": {
-          "2016-07-29": "199.2800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 702,
-        "date_close_price": {
-          "2016-06-30": "192.2000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 703,
-        "date_close_price": {
-          "2016-05-31": "192.5400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 704,
-        "date_close_price": {
-          "2016-04-29": "189.2200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 705,
-        "date_close_price": {
-          "2016-03-31": "188.5600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 706,
-        "date_close_price": {
-          "2016-02-29": "177.3800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 707,
-        "date_close_price": {
-          "2016-01-29": "177.7500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 708,
-        "date_close_price": {
-          "2015-12-31": "186.9300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 709,
-        "date_close_price": {
-          "2015-11-30": "191.3700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 710,
-        "date_close_price": {
-          "2015-10-30": "190.5600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 711,
-        "date_close_price": {
-          "2015-09-30": "175.7100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 712,
-        "date_close_price": {
-          "2015-08-31": "181.1100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 713,
-        "date_close_price": {
-          "2015-07-31": "192.9500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 714,
-        "date_close_price": {
-          "2015-06-30": "188.8400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 715,
-        "date_close_price": {
-          "2015-05-29": "193.4900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 716,
-        "date_close_price": {
-          "2015-04-30": "191.1000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 717,
-        "date_close_price": {
-          "2015-03-31": "189.2000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 718,
-        "date_close_price": {
-          "2015-02-27": "193.2000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 719,
-        "date_close_price": {
-          "2015-01-30": "182.9900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 720,
-        "date_close_price": {
-          "2014-12-31": "188.4000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 721,
-        "date_close_price": {
-          "2014-11-28": "190.0300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 722,
-        "date_close_price": {
-          "2014-10-31": "184.9300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 723,
-        "date_close_price": {
-          "2014-09-30": "180.5900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 724,
-        "date_close_price": {
-          "2014-08-29": "183.9900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 725,
-        "date_close_price": {
-          "2014-07-31": "176.9600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 726,
-        "date_close_price": {
-          "2014-06-30": "179.4300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 727,
-        "date_close_price": {
-          "2014-05-30": "176.5500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 728,
-        "date_close_price": {
-          "2014-04-30": "172.5900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 729,
-        "date_close_price": {
-          "2014-03-31": "171.3500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 730,
-        "date_close_price": {
-          "2014-02-28": "170.6300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 731,
-        "date_close_price": {
-          "2014-01-31": "163.1800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 732,
-        "date_close_price": {
-          "2013-12-31": "169.1500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 733,
-        "date_close_price": {
-          "2013-11-29": "165.7000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 734,
-        "date_close_price": {
-          "2013-10-31": "160.8800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 735,
-        "date_close_price": {
-          "2013-09-30": "77.0000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 736,
-        "date_close_price": {
-          "2013-08-30": "74.8500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 737,
-        "date_close_price": {
-          "2013-07-31": "77.2300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 738,
-        "date_close_price": {
-          "2013-06-28": "73.3400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 739,
-        "date_close_price": {
-          "2013-05-31": "74.8400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 740,
-        "date_close_price": {
-          "2013-04-30": "73.1400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 741,
-        "date_close_price": {
-          "2013-03-28": "71.6400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 742,
-        "date_close_price": {
-          "2013-02-28": "69.4700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 743,
-        "date_close_price": {
-          "2013-01-31": "68.5600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 744,
-        "date_close_price": {
-          "2012-12-31": "65.1900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 745,
-        "date_close_price": {
-          "2012-11-30": "65.0000"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 746,
-        "date_close_price": {
-          "2012-10-31": "64.6300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 747,
-        "date_close_price": {
-          "2012-09-28": "65.9200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 748,
-        "date_close_price": {
-          "2012-08-31": "64.6100"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 749,
-        "date_close_price": {
-          "2012-07-31": "63.0300"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 750,
-        "date_close_price": {
-          "2012-06-29": "62.2800"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 751,
-        "date_close_price": {
-          "2012-05-31": "60.1200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 752,
-        "date_close_price": {
-          "2012-04-30": "63.9600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 753,
-        "date_close_price": {
-          "2012-03-30": "64.3700"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 754,
-        "date_close_price": {
-          "2012-02-29": "62.5900"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 755,
-        "date_close_price": {
-          "2012-01-31": "60.0200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 756,
-        "date_close_price": {
-          "2011-12-30": "57.4500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 757,
-        "date_close_price": {
-          "2011-11-30": "57.1500"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 758,
-        "date_close_price": {
-          "2011-10-31": "57.3200"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 759,
-        "date_close_price": {
-          "2011-09-30": "51.7600"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 760,
-        "date_close_price": {
-          "2011-08-31": "55.8400"
-        },
-        "created_at": "2024-11-28 06:48:31 UTC",
-        "updated_at": "2024-11-28 06:48:31 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 761,
-        "date_close_price": {
-          "2011-07-29": "59.1000"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 762,
-        "date_close_price": {
-          "2011-06-30": "60.3400"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 763,
-        "date_close_price": {
-          "2011-05-31": "61.6700"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 764,
-        "date_close_price": {
-          "2011-04-29": "62.4000"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 765,
-        "date_close_price": {
-          "2011-03-31": "60.6200"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 766,
-        "date_close_price": {
-          "2011-02-28": "60.8900"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 767,
-        "date_close_price": {
-          "2011-01-31": "58.8500"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 768,
-        "date_close_price": {
-          "2010-12-31": "57.5700"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 769,
-        "date_close_price": {
-          "2010-11-30": "54.0900"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 770,
-        "date_close_price": {
-          "2010-10-29": "54.1500"
-        },
-        "created_at": "2024-11-28 06:48:32 UTC",
-        "updated_at": "2024-11-28 06:48:32 UTC",
-        "etf_id": 70
-      }
-    ],
-    "holdings": [
-      {
-        "id": 21,
-        "symbol": "AAPL",
-        "description": "APPLE INC",
-        "weight": 0.0712,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 22,
-        "symbol": "NVDA",
-        "description": "NVIDIA CORP",
-        "weight": 0.0677,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 23,
-        "symbol": "MSFT",
-        "description": "MICROSOFT CORP",
-        "weight": 0.0626,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 24,
-        "symbol": "AMZN",
-        "description": "AMAZON.COM INC",
-        "weight": 0.0361,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 25,
-        "symbol": "META",
-        "description": "META PLATFORMS INC CLASS A",
-        "weight": 0.0257,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 26,
-        "symbol": "GOOGL",
-        "description": "ALPHABET INC CLASS A",
-        "weight": 0.0208,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 27,
-        "symbol": "GOOG",
-        "description": "ALPHABET INC CLASS C",
-        "weight": 0.0172,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 28,
-        "symbol": "BRK-B",
-        "description": "BERKSHIRE HATHAWAY INC CLASS B",
-        "weight": 0.0171,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 29,
-        "symbol": "AVGO",
-        "description": "BROADCOM INC",
-        "weight": 0.0164,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
-      },
-      {
-        "id": 30,
-        "symbol": "TSLA",
-        "description": "TESLA INC",
-        "weight": 0.0144,
-        "created_at": "2024-11-28 06:48:29 UTC",
-        "updated_at": "2024-11-28 06:48:29 UTC",
-        "etf_id": 70
       }
     ]
   }

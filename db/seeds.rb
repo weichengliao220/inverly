@@ -118,10 +118,11 @@ def create_holdings(etf)
 end
 
 etf = Etf.where(name: "SPDR S&P 500 ETF Trust", ticker_symbol: "SPY", description: "Tracks the performance of the S&P 500 Index, covering 500 of the largest U.S. companies.", category: "Large-Cap Blend").first_or_create!
-# etf.update(inception_date: "2010-09-07")
+etf.update(inception_date: "1993-01-22")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "Invesco QQQ Trust", ticker_symbol: "QQQ", description: "Tracks the Nasdaq-100 Index, focusing on 100 of the largest non-financial companies listed on the Nasdaq Stock Market.", category: "Technology/ Growth").first_or_create!
+etf.update(inception_date: "1999-03-10")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "Vanguard S&P 500 ETF", ticker_symbol: "VOO", description: "Tracks the S&P 500 Index with low expense ratios and broad U.S. market exposure.", category: "Large-Cap Blend").first_or_create!
@@ -129,40 +130,52 @@ etf.update!(inception_date: "2010-09-07")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "iShares Russell 2000 ETF", ticker_symbol: "IWM", description: "Tracks the Russell 2000 Index, which focuses on small-cap U.S. companies.", category: "Small-Cap").first_or_create!
+etf.update(inception_date: "2000-05-20")
 create_holdings(etf)
 create_monthly_times(etf)
 etf =Etf.where(name: "Vanguard Total Stock Market ETF", ticker_symbol: "VTI", description: "Covers the entire U.S. stock market, including large-, mid-, small-, and micro-cap stocks.", category: "Broad Market").first_or_create!
+etf.update(inception_date: "2001-05-24")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "iShares MSCI Emerging Markets ETF", ticker_symbol: "EEM", description: "Tracks stocks in emerging market countries, such as China, India, and Brazil.", category: "Emerging Markets").first_or_create!
+etf.update(inception_date: "2003-04-07")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "Vanguard FTSE Developed Markets ETF", ticker_symbol: "VEA", description: "Covers large- and mid-cap stocks in developed markets outside the U.S. and Canada.", category: "International").first_or_create!
+etf.update(inception_date: "2007-07-20")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "iShares Core US Aggregate Bond ETF", ticker_symbol: "AGG", description: "Tracks a broad index of U.S. investment-grade bonds, including Treasuries, corporate, and mortgage-backed securities.", category: "Fixed Income").first_or_create!
+etf.update(inception_date: "2003-09-22")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "SPDR Gold Shares", ticker_symbol: "GLD", description: "Tracks the price of gold bullion, providing a way to invest in gold without holding physical assets.", category: "Commodity").first_or_create!
+etf.update(inception_date: "2004-11-18")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "Vanguard Dividend Appreciation ETF", ticker_symbol: "VIG", description: "Focuses on U.S. companies with a history of growing dividends, emphasizing quality and stability.", category: "Dividend/Value").first_or_create!
+etf.update(inception_date: "2006-04-12")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "ProShares UltraPro QQQ", ticker_symbol: "TQQQ", description: "A leveraged ETF that seeks to provide 3x the daily performance of the Nasdaq-100 Index.", category: "Leveraged/Technology Growth").first_or_create!
+etf.update(inception_date: "2010-02-09")
 create_holdings(etf)
 create_monthly_times(etf)
 
 etf = Etf.where(name: "Shares ESG Aware MSCI USA ETF", ticker_symbol: "ESGU", description: "Tracks U.S. companies with strong environmental, social, and governance (ESG) practices.", category: "ESG").first_or_create!
+etf.update(inception_date: "2016-12-01")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "iShares 20+ Year Treasury Bond ETF", ticker_symbol: "TLT", description: "Tracks long-term U.S. Treasury bonds with maturities of 20 years or more.", category: "Fixed Income").first_or_create!
+etf.update(inception_date: "2002-07-22")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "ARK Innovation ETF", ticker_symbol: "ARKK", description: "Focuses on disruptive and innovative companies in sectors like technology, healthcare, and robotics.", category: "Thematic Growth").first_or_create!
+etf.update(inception_date: "2014-10-31")
 create_holdings(etf)
 create_monthly_times(etf)
 etf = Etf.where(name: "Vanguard Value ETF", ticker_symbol: "VTV", description: "Tracks the CRSP US Large Cap Value Index, focusing on U.S. large-cap value-oriented companies.", category: "Large-Cap Growth").first_or_create!
+etf.update(inception_date: "2004-01-26")
 create_holdings(etf)
 create_monthly_times(etf)
 # Etf.create(name: "", ticker_symbol: "", description: "", category: "")

@@ -29,11 +29,20 @@ class EtfsController < ApplicationController
     # top_holdings.each do |holding|
     #   parsed_holdings[holding] = holdings[holding]['symbol']['description']['weight']
     # end
+
+    # beginning_value = @etf.earliest_monthly_time_price
+    # ending_value = @etf.latest_monthly_time_price
+    # inception_year = @etf.inception_date&.year
+    # @average_rate_of_return = average_rate_of_return()
   end
 
   private
 
   def etf_params
     params.require(:etf).permit(:name, :ticker_symbol, :description, :current_price, :category, :average_return)
+  end
+
+  def average_rate_of_return(beginning_value, ending_value, inception_year)
+    ((ending_value.fdiv(beginning_value)) ** (1.0 / (2024 - inception_year))) - 1
   end
 end

@@ -17,6 +17,7 @@ class InvestmentsController < ApplicationController
 #         date: date,
 #         investment: @investment,
 #       )
+
     counter = current_user.investments.count
     @etf = Etf.find(params[:etf_id])
     @investment = @etf.investments.build(investment_params)
@@ -42,42 +43,46 @@ class InvestmentsController < ApplicationController
     beginning_value = @etf.earliest_monthly_time_price
     ending_value = @etf.latest_monthly_time_price
     inception_year = @etf.inception_date&.year
-    @average_rate_of_return = average_rate_of_return()
-    @conservative_rate_of_return = conservative_rate_of_return
-    @optimistic_rate_of_return = optimistic_rate_of_return
+    @average_rate_of_return = average_rate_of_return(beginning_value, ending_value, inception_year)
+    @conservative_rate_of_return = conservative_rate_of_return(@average_rate_of_return)
+    @optimistic_rate_of_return = optimistic_rate_of_return(@average_rate_of_return)
     number_of_months_for_table = [36, 60 , 84, 120, 180, 240, 360]
     @future_values_for_table = future_value(100, @average_rate_of_return, number_of_months_for_table)
     number_of_months_for_graph = [36, 72, 108, 144, 180, 216, 252, 288, 324, 360]
     @future_values_for_graph = future_value(100, @average_rate_of_return, number_of_months_for_graph)
+    @contributions = @investment.contributions
+    @contribution = Contribution.new
   end
 
-    # Adam's method for the graph display
-    @contribution = Contribution.new
-    @contribution.investment_id = @investment
-    counts = current_user.contributions.pluck(:date, :amount)
-    sum = 0
-    @cumul_count = counts.map do | date, count|
-     sum = sum + count
-     [date, sum]
-    end
-    @contributions = Contribution.all.where(investment: @investment)
-  end
+  # Adam's method for the graph display
+  #
+  # @contribution.investment_id = @investment
+  # counts = current_user.contributions.pluck(:date, :amount)
+  # sum = 0
+  # @cumul_count = counts.map do | date, count|
+  #   sum = sum + count
+  #   [date, sum]
+  # end
 
   private
 
   def investment_params
     params.require(:investment).permit(:name, :description, :risk_level, :etf_id)
   end
-  
-  def average_rate_of_return(beginning_value = rand((100.0)..(150.0)), ending_value = rand((450.0)..(500.0)), inception_year = rand(2000..2010))
-    ((ending_value.fdiv(beginning_value)) ** (1.0 / (2024 - inception_year))) - 1
+
+  # def average_rate_of_return(beginning_value = rand((100.0)..(150.0)), ending_value = rand((450.0)..(500.0)), inception_year = rand(2000..2010))
+  #   ((ending_value.fdiv(beginning_value)) ** (1.0 / (2024 - inception_year))) - 1
+  # end
+
+  def average_rate_of_return(beginning_value, ending_value, inception_year)
+    ((((ending_value.fdiv(beginning_value)) ** (1.0 / (2024 - inception_year))) - 1.0) * 100).round(3)
   end
 
-  def conservative_rate_of_return
+  def conservative_rate_of_return(average_rate_of_return)
     average_rate_of_return * 0.8
   end
 
-  def optimistic_rate_of_return
+  def optimistic_rate_of_return(average_rate_of_return)
     average_rate_of_return * 1.2
   end
 
@@ -88,4 +93,5 @@ class InvestmentsController < ApplicationController
     end
     future_values
   end
+
 end
