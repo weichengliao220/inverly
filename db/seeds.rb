@@ -37,16 +37,41 @@ puts "10 users created"
 
 puts "Creating 10 etfs"
 
-10.times do
-  Etf.create(
-    name: Faker::Company.name,
-    ticker_symbol: "MMS",
-    description: Faker::Company.catch_phrase,
-    current_price: 10,
-    category: "international",
-    average_return: 0.055
-  )
-end
+Etf.create(
+  name: "SPDR S&P 500 ETF Trust",
+  ticker_symbol: "SPY",
+  description: "Tracks the performance of the S&P 500 Index, covering 500 of the largest U.S. companies.",
+  current_price: 598,
+  category: "Large-Cap Blend",
+  average_return: "0.1043"
+)
+
+Etf.create(
+  name: "Invesco QQQ Trust",
+  ticker_symbol: "QQQ",
+  description: "Tracks the Nasdaq-100 Index, focusing on 100 of the largest non-financial companies listed on the Nasdaq Stock Market.",
+  current_price: 179,
+  category: "Technology/ Growth",
+  average_return: "0.1454"
+)
+
+Etf.create(
+  name: "iShares Russell 2000 ETF",
+  ticker_symbol: "IWM",
+  description: "Tracks the Russell 2000 Index, which focuses on small-cap U.S. companies.",
+  current_price: 240,
+  category: "Small-Cap",
+  average_return: "0.0797"
+)
+
+Etf.create(
+  name: "Vanguard Total Stock Market ETF",
+  ticker_symbol: "VTI",
+  description: "Covers the entire U.S. stock market, including large-, mid-, small-, and micro-cap stocks.",
+  current_price: 298,
+  category: "Broad Market",
+  average_return: "0.1452"
+)
 
 puts "10 etfs created"
 

@@ -44,11 +44,7 @@ class ContributionsController < ApplicationController
       contribution.save
     end
 
-    @investment.description = "Total = $#{@total.round(2)}"
-    @investment.save
-
-
-    if @investment.save
+    if @total > 0
       redirect_to investment_path(@investment), notice: 'Contribution created successfully.'
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"
