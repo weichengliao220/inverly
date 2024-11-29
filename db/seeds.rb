@@ -44,7 +44,7 @@ puts "Creating 10 etfs"
     description: Faker::Company.catch_phrase,
     current_price: 10,
     category: "international",
-    average_return: 1.055
+    average_return: 0.055
   )
 end
 

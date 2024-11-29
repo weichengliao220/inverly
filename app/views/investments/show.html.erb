@@ -27,8 +27,10 @@
   </div>
   <div class="container d-flex justify-content-center">
   <table class="table table-striped">
-  <%= @contributions.first.amount %> <br>
+  <%= @contributions.first&.amount %> <br>
   <%= @investment.description %>
+  <%= @contributions.first&.total %>
+  <%= @contributions.last&.total %>
   </table>
   </div>
 

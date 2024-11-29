@@ -18,35 +18,42 @@ class ContributionsController < ApplicationController
     @investment = Investment.find(params[:investment_id])
     @contribution.investment_id = @investment.id
     @contribution.date = Date.today
+    @contribution.total = @contribution.amount
+    @contribution.save
 
     @old_contributions = Contribution.where.not(investment_id: @contribution.id)
     @old_contributions.destroy_all if @old_contributions
 
     @total = 0
+    start_date = Date.today - 1.month
 
-    @contribution_1_year = Contribution.new(contribution_params)
-    @contribution_1_year.investment_id = @investment.id
-    @contribution_1_year.date = Date.today + 1.year
-    @contribution_1_year.amount = @contribution.amount * 12
+    monthly_rate = @investment.etf.average_return / 12
 
-    @contribution_3_year = Contribution.new(contribution_params)
-    @contribution_3_year.investment_id = @investment.id
-    @contribution_3_year.date = Date.today + 3.year
-    @contribution_3_year.amount = @contribution_1_year.amount * 3
+    # Iterate for 9 years (108 months)
+    (1..(12 * 9)).each do |month|
+      # Create a contribution for each month
+      contribution = Contribution.new(contribution_params)
+      contribution.investment_id = @investment.id
+      contribution.date = start_date + month.months
+      contribution.amount = @contribution.amount # Monthly contribution amount
+      contribution.save
 
-    @contribution_9_year = Contribution.new(contribution_params)
-    @contribution_9_year.investment_id = @investment.id
-    @contribution_9_year.date = Date.today + 9.year
-    @contribution_9_year.amount = @contribution_3_year.amount * 3
+      # Add the contribution to the total
+      @total += contribution.amount
 
-    @total += @contribution_9_year.amount
-    @total = @total * @investment.etf.average_return
+      # Apply the monthly growth (average_return assumed annual)
+      @total *= (1 + monthly_rate)
 
+      contribution.total = @total.round(2)
+      contribution.save
+    end
 
-    @investment.description = "Total = #{@total}"
+    # Update investment description with the total
+    @investment.description = "Total = $#{@total.round(2)}"
     @investment.save
 
-    if @contribution.save && @contribution_1_year.save && @contribution_3_year.save
+
+    if @investment.save
       redirect_to investment_path(@investment), notice: 'Contribution created successfully.'
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"
