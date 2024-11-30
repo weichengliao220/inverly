@@ -17,9 +17,34 @@ class ContributionsController < ApplicationController
     @contribution = Contribution.new(contribution_params)
     @investment = Investment.find(params[:investment_id])
     @contribution.investment_id = @investment.id
-    @old_contribution = Contribution.where(investment_id: @investment.id).first
-    @old_contribution.destroy if @old_contribution
-    if @contribution.save
+    @contribution.date = Date.today
+    @contribution.total = @contribution.amount
+    @contribution.save
+
+    @old_contributions = Contribution.where.not(investment_id: @contribution.id)
+    @old_contributions.destroy_all if @old_contributions
+
+    @total = 0
+    start_date = Date.today - 1.month
+
+    monthly_rate = @investment.etf.average_return / 12
+
+    (1..(12 * 9)).each do |month|
+      contribution = Contribution.new(contribution_params)
+      contribution.investment_id = @investment.id
+      contribution.date = start_date + month.months
+      contribution.amount = @contribution.amount
+      contribution.save
+
+      @total += contribution.amount
+
+      @total *= (1 + monthly_rate)
+
+      contribution.total = @total.round(2)
+      contribution.save
+    end
+
+    if @total > 0
       redirect_to investment_path(@investment), notice: 'Contribution created successfully.'
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"

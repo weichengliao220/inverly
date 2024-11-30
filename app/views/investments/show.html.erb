@@ -1,4 +1,4 @@
-  <h1 class="text-center my-4"><%= @investment.name %></h1>
+  <h1 class="text-center my-4"><%= "#{@investment.name} / #{@investment.etf.name}" %></h1>
   <div class="container row d-flex justify-content-center">
     <div class="card col-3 d-flex justify-content-center">
       <div class="card-body">
@@ -7,7 +7,7 @@
           <strong>Symbol:</strong> <%= @investment.etf.ticker_symbol %>
         </div>
         <div class="mb-3">
-          <strong>Average Return:</strong> <%= @average_rate_of_return %>%
+          <strong>Average Return:</strong> <%= (@investment.etf.average_return * 100).round(2) %>%
         </div>
         <div class="mb-3">
           <strong>Risk Level:</strong>
@@ -15,7 +15,7 @@
         </div>
         <div class="mb-3">
           <strong>Effective Return:</strong>
-          <p class="btn btn-primary"><%= @investment.etf.average_return %></p>
+          <p class="btn btn-primary"><%= (@investment.etf.average_return * 100).round(2) %></p>
         </div>
         <div class="mb-3">
           <strong>Previous Closing Price:</strong> $<%= %>
@@ -25,12 +25,36 @@
     </div>
     <div class="card col-7 justify-content-center"><%= line_chart @cumul_count%> </div>
   </div>
-  <div class="container d-flex justify-content-center">
-  <table class="table table-striped">
-  <% @contributions.each do |c| %>
-  <%= c.amount %>
-  <% end %>
-  </table>
+  <div class="container mt-4">
+    <h2 class="text-center">Investment Summary (over 9 years)</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Total Contributions</h5>
+            <p class="card-text">
+          <%= @contributions.present? ? @contributions.last.amount * @contributions.count : "No contributions found" %>
+           </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Total Interest</h5>
+            <p class="card-text"><%= @contributions.last.total - (@contributions.last.amount *  @contributions.count) %></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">Total Result</h5>
+            <p class="card-text"><%= @contributions.last.total %></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 <%= render 'form_create_contribution' %>

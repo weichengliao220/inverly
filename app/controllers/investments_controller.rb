@@ -41,6 +41,19 @@ class InvestmentsController < ApplicationController
     @future_values_for_graph = future_value(100, @average_return, number_of_months_for_graph)
     @contributions = @investment.contributions
     @contribution = Contribution.new
+    @contribution.investment_id = @investment
+    counts = @investment.contributions.pluck(:date, :total)
+    counter = 5
+
+    @cumul_count = counts.each_with_object([]) do |(date, count), result|
+      counter += 1
+      # Only process every 6th contribution
+      next unless counter % 6 == 0
+
+      result << [date, count]
+    end
+
+    @contributions = Contribution.all.where(investment: @investment)
   end
 
   private

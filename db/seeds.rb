@@ -118,19 +118,6 @@ end
 
 puts "10 investments created"
 
-puts "Creating 10 contributions"
-
-10.times do
-  Contribution.create(
-    amount: rand(1..100),
-    date: Date.today,
-    paid: [true, false].sample,
-    investment_id: Investment.all.sample.id
-  )
-end
-
-puts "10 contributions created"
-
 puts "creating 10 favorites"
 
 10.times do
