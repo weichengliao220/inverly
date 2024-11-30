@@ -108,11 +108,7 @@
     ]
   },
   {
-<<<<<<< HEAD
     "id": 77,
-=======
-    "id": 73,
->>>>>>> master
     "name": "iShares MSCI Emerging Markets ETF",
     "ticker_symbol": "EEM",
     "category": "Emerging Markets",
