@@ -30,10 +30,10 @@
           <p><%= @etf.description %></p>
         </div>
         <div class="mb-3">
-          <strong>Previous Close Price:</strong> $<%= @etf.latest_monthly_time_price %>
+          <strong>Previous Close Price:</strong> $<%= %>
         </div>
         <div class="mb-3">
-          <strong>All-time Average Rate of Return:</strong> <%= @etf.average_rate_of_return %>%
+          <strong>All-time Average Rate of Return:</strong> <%= @etf.average_return %>%
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
   </div>
 
   <div class="container" style="width: 50%;">
-    <h3 class="">Composition</h3>
+    <h3>Composition</h3>
     <p>Top 10 Holdings:</p>
     <table class="table table-success table-striped">
       <thead>
@@ -59,7 +59,7 @@
           <tr>
             <td><%= holding.symbol %></td>
             <td><%= holding.description %></td>
-            <td><%= holding.weight %></td>
+            <td><%= (holding.weight * 100).round(3) %>%</td>
           </tr>
         <% end %>
       </tbody>
