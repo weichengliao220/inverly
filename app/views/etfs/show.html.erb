@@ -41,11 +41,6 @@
         <%= image_tag "etf_graph_example.jpg", alt: "etf graph example", style: "max-width: 100%; height: auto;" %>
       </div>
     </div>
-<<<<<<< HEAD
-
-    <div class="etf-graph-example">
-      <%= image_tag "etf_graph_example.jpg", alt: "etf graph example", style: "max-width: 100%; height: auto;" %>
-    </div>
   </div>
 
   <div class="container" style="width: 50%;">
@@ -65,31 +60,12 @@
             <td><%= holding.symbol %></td>
             <td><%= holding.description %></td>
             <td><%= (holding.weight * 100).round(3) %>%</td>
-=======
-    <div class="container-fluid mt-4">
-      <h3 class="">Composition</h3>
-      <p>Top 10 Holdings:</p>
-      <table class="table table-success table-striped">
-        <thead>
-          <tr>
-            <th>Symbol</th>
-            <th>Name</th>
-            <th>% Assets</th>
->>>>>>> master
           </tr>
-        </thead>
-        <tbody>
-          <% 10.times do |row| %>
-            <tr>
-              <td><%= @etf.ticker_symbol %></td>
-              <td><%= @etf.name %></td>
-              <td><%= @etf.average_return %></td>
-            </tr>
-          <% end %>
-        </tbody>
-      </table>
-    </div>
+        <% end %>
+      </tbody>
+    </table>
   </div>
+
   <div style="text-align: center">
       <%= render 'button_create_investment' %>
   </div>

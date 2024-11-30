@@ -26,6 +26,4 @@ class EtfsController < ApplicationController
   def etf_params
     params.require(:etf).permit(:name, :ticker_symbol, :description, :current_price, :category, :average_return)
   end
-
-
 end
