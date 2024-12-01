@@ -17,9 +17,4 @@ class FetchEtfData
     response = URI.parse(url).read
     JSON.parse(response)
   end
-
-  private
-
-  def url
-  end
 end
