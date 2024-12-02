@@ -1,6 +1,10 @@
 class EtfsController < ApplicationController
   def index
-    @etfs = Etf.all
+    if params[:query].present?
+      @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
+    else
+      @etfs = Etf.all
+    end
   end
 
   def create
