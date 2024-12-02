@@ -1,12 +1,24 @@
 <div class="container mt-4" style="background-color: #2596be; border-radius: 10px;">
-  <h2 class="text-center text-white mb-4">Investment Summary (over 9 years)</h2>
+  <h2 class="text-center text-white mb-4">Returns estimate</h2>
   <div class="row">
     <div class="col-md-4">
       <div class="card text-center border-radius: 10px;">
         <div class="card-body">
-          <h5 class="card-title ">Total Contributions</h5>
+          <h5 class="card-title ">3 years</h5>
           <p class="card-text">
-            <%= @contributions.present? ? "$#{@contributions.last.amount * @contributions.count}" : "No contributions found" %>
+            <% if @contributions.last != nil %>
+              <% three_years = (@contributions.first(@contributions.count / 3)) %>
+              <%= "$#{(three_years.last.total).round(2)}" %>
+            <% else %>
+              <%= "No contributions found" %>
+            <% end %>
+          </p>
+          <p class="card-text">
+            <% if @contributions.last != nil %>
+              <%= "Invested: $#{three_years.last.total_amount.round(2)}" %>
+            <% else %>
+              <%= "" %>
+            <% end %>
           </p>
         </div>
       </div>
@@ -14,10 +26,11 @@
     <div class="col-md-4">
       <div class="card text-center">
         <div class="card-body">
-          <h5 class="card-title">Total Interest</h5>
+          <h5 class="card-title">6 years</h5>
           <p class="card-text">
             <% if @contributions.last != nil %>
-              <%= "$#{((@contributions.last.total - (@contributions.last.amount * @contributions.count)).round(2))}" %>
+              <% year_six = @contributions.first((@contributions.count * 2 / 3.0).to_i) %>
+              <%= "$#{(year_six.last.total).round(2)}" %>
             <% else %>
               <%= "No contributions found" %>
             <% end %>
@@ -28,10 +41,14 @@
     <div class="col-md-4">
       <div class="card text-center">
         <div class="card-body">
-          <h5 class="card-title">Total Result</h5>
-          <% if @contributions.last != nil %>
-            <p class="card-text">$<%= @contributions.last.total %></p>
-          <% end %>
+          <h5 class="card-title">9 years</h5>
+          <p class="card-text">
+            <% if @contributions.last != nil %>
+              <%= "$#{(@contributions.last.total).round(2)}" %>
+            <% else %>
+              <%= "No contributions found" %>
+            <% end %>
+          </p>
         </div>
       </div>
     </div>
