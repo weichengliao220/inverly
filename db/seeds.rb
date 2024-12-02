@@ -27,15 +27,28 @@ puts "Creating 10 users"
   )
 end
 
+power_user = User.create(
+    name: "power_user",
+    email: "poweruser@me.com",
+    password: "password",
+    password_confirmation: "password"
+  )
+
+puts "power user created"
+
+
 brian = User.create(
     name: "brian",
     email: "brian@me.com",
     password: "password",
     password_confirmation: "password"
   )
-puts "10 users created"
 
-puts "Creating 10 etfs"
+puts "brian created"
+
+puts "#{User.count} created"
+
+puts "Creating etfs"
 
 Etf.create(
   name: "SPDR S&P 500 ETF Trust",
@@ -73,9 +86,9 @@ Etf.create(
   average_return: "0.1452"
 )
 
-puts "10 etfs created"
+puts "#{Etf.count} etfs created"
 
-puts "Creating 10 investments"
+puts "Creating investments"
 
 10.times do
   Investment.create(
@@ -101,13 +114,14 @@ number_of_months.times do |month_index|
   Contribution.create(
     amount: 30000, # JPY
     date: date,
+    total: 100,
     investment: invest,
   )
 end
 
-puts "10 investments created"
+puts "#{Investment.count} investments created"
 
-puts "creating 10 favorites"
+puts "creating favorites"
 
 10.times do
   Favorite.create(
@@ -116,6 +130,18 @@ puts "creating 10 favorites"
   )
 end
 
-puts "10 favorites created"
+puts "#{Favorite.count} favorites created"
+
+puts "generating power_user contributions & investments"
+
+
+Etf.all.each do |etf|
+  invest = Investment.create(
+    user: power_user,
+    etf_id: etf.id,
+    name: "power_user_investment",
+  )
+end
+
 
 puts "seeded successfully"
