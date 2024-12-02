@@ -43,19 +43,12 @@ brian = User.create(
     password: "password",
     password_confirmation: "password"
   )
-<<<<<<< HEAD
-
-puts "10 users created"
-
-puts "Creating 15 etfs"
-=======
 
 puts "brian created"
 
 puts "#{User.count} created"
 
 puts "Creating etfs"
->>>>>>> master
 
 file_path = Rails.root.join("db", "etf_data.json") # finds the etf_data.json file in the db folder
 etf_data = JSON.parse(File.read(file_path)) # reads the file and parses it into Ruby object (array of hashes)
