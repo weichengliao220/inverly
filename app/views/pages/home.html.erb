@@ -5,14 +5,14 @@
     <p>"INVERLY: Empowering Your Tomorrow, Starting Today."
       <div>
         <% if user_signed_in? %>
-          <%= link_to "Dashboard", investments_path, class: "btn btn-lg btn-primary" %>
+          <%= link_to "Your Investments", investments_path, class: "btn btn-lg btn-primary" %>
         <% else %>
           <%= link_to "Sign Up", new_user_session_path, class: "btn btn-lg btn-primary" %>
         <% end %>
       </div>
     </div>
   </div>
-  <div class="container text-center">
+  <div class="container text-center" style="border-radius: 20px;">
     <div class="row">
       <div class="col-sm">
         <h1 class="column-text">What is Inverly?</h1>
@@ -24,20 +24,6 @@
       </div>
       <div class="col-sm">
         <h1 class="column-text">What is an ETF?</h1>
-        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        <h1 class="column-text">Why should you invest early?</h1>
-        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
-      </div>
-      <div class="col-sm">
-        <h1 class="column-text">Invest now before it`s too late!</h1>
-        <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
-      </div>
-      <div class="col-sm">
-        <h1 class="column-text">Why are you still reading this! Use Inverly now!</h1>
         <p>Remember, investing is not about short-term gains, but about making informed decisions that align with long-term objectives. The earlier you start, the more time your investments have to compound, helping you achieve financial freedom in the future.</p>
       </div>
     </div>
