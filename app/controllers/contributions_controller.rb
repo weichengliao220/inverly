@@ -25,6 +25,7 @@ class ContributionsController < ApplicationController
     @old_contributions.destroy_all if @old_contributions
 
     @total = 0
+    @total_amount = 0
     start_date = Date.today - 1.month
 
     monthly_rate = @investment.etf.average_return / 12
@@ -34,6 +35,11 @@ class ContributionsController < ApplicationController
       contribution.investment_id = @investment.id
       contribution.date = start_date + month.months
       contribution.amount = @contribution.amount
+
+      @total_amount += contribution.amount
+
+      contribution.total_amount = @total_amount
+      contribution.total_amount += @contribution.amount
       contribution.save
 
       @total += contribution.amount
