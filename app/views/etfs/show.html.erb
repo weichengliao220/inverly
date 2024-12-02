@@ -2,11 +2,11 @@
   <div class="simulate-button-container text-center">
     <%= render 'button_create_investment' %>
     <% if current_user.favorite_etfs.include?(@etf) %>
-      <%= button_to etf_favorite_path(@etf), method: :delete, class: 'btn btn-danger' do %>
+      <%= button_to etf_favorite_path(@etf), method: :delete, class: 'favorites-remove-button' do %>
         <i class="fa-solid fa-heart"></i>
       <% end %>
     <% else %>
-      <%= button_to etf_favorite_path(@etf), method: :post, class: 'btn btn-primary' do %>
+      <%= button_to etf_favorite_path(@etf), method: :post, class: 'simulate-now-button' do %>
         <i class="far fa-heart"></i>
       <% end %>
     <% end %>
@@ -33,7 +33,7 @@
             <strong>Current Price:</strong> $<%= @etf.current_price %>
           </div>
           <div class="mb-3">
-            <strong>Average Return:</strong> <%= @etf.average_return %>%
+            <strong>Average Return:</strong> <%= (@etf.average_return * 100).round(3) %>%
           </div>
         </div>
       </div>
@@ -43,8 +43,30 @@
     </div>
   </div>
 
+  <div class="container" style="width: 50%;">
+    <h3>Composition</h3>
+    <p>Top 10 Holdings:</p>
+    <table class="table table-success table-striped">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Name</th>
+          <th>% Assets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @top_holdings.each do |holding| %>
+          <tr>
+            <td><%= holding.symbol %></td>
+            <td><%= holding.description %></td>
+            <td><%= (holding.weight * 100).round(3) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
 
-  <div style="text-align: center">
+  <div class="d-flex justify-content-center" style="text-align: center">
     <%= render 'button_create_investment' %>
   </div>
 </div>
