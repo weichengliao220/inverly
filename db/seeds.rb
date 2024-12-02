@@ -33,47 +33,58 @@ brian = User.create(
     password: "password",
     password_confirmation: "password"
   )
+
 puts "10 users created"
 
-puts "Creating 10 etfs"
+puts "Creating 15 etfs"
 
-Etf.create(
-  name: "SPDR S&P 500 ETF Trust",
-  ticker_symbol: "SPY",
-  description: "Tracks the performance of the S&P 500 Index, covering 500 of the largest U.S. companies.",
-  current_price: 598,
-  category: "Large-Cap Blend",
-  average_return: "0.1043"
-)
+file_path = Rails.root.join("db", "etf_data.json") # finds the etf_data.json file in the db folder
+etf_data = JSON.parse(File.read(file_path)) # reads the file and parses it into Ruby object (array of hashes)
 
-Etf.create(
-  name: "Invesco QQQ Trust",
-  ticker_symbol: "QQQ",
-  description: "Tracks the Nasdaq-100 Index, focusing on 100 of the largest non-financial companies listed on the Nasdaq Stock Market.",
-  current_price: 179,
-  category: "Technology/ Growth",
-  average_return: "0.1454"
-)
+etf_data.each do |etf_hash| # iterates over the array of hashes
+  etf = Etf.where(
+    name: etf_hash["name"],
+    ticker_symbol: etf_hash["ticker_symbol"],
+    category: etf_hash["category"],
+    description: etf_hash["description"],
+    historical_data: etf_hash["historical_data"],
+    current_price: etf_hash["current_price"],
+    average_return: etf_hash["average_return"],
+    inception_date: etf_hash["inception_date"],
+    created_at: etf_hash["created_at"],
+    updated_at: etf_hash["updated_at"]
+  ).first_or_create! # checks if the Etf exists in the database, if not, creates it
 
-Etf.create(
-  name: "iShares Russell 2000 ETF",
-  ticker_symbol: "IWM",
-  description: "Tracks the Russell 2000 Index, which focuses on small-cap U.S. companies.",
-  current_price: 240,
-  category: "Small-Cap",
-  average_return: "0.0797"
-)
+  etf_hash["holdings"].each do |holding_hash| # a nested array in etf_hash containing the ETF's holdings data
+    etf.holdings.where(
+      symbol: holding_hash["symbol"],
+      description: holding_hash["description"],
+      weight: holding_hash["weight"],
+      etf_id: holding_hash["etf_id"]
+    ).first_or_create! # checks if the Holding exists in the database, if not, creates it
+  end
+end
 
-Etf.create(
-  name: "Vanguard Total Stock Market ETF",
-  ticker_symbol: "VTI",
-  description: "Covers the entire U.S. stock market, including large-, mid-, small-, and micro-cap stocks.",
-  current_price: 298,
-  category: "Broad Market",
-  average_return: "0.1452"
-)
+# ensures the ETFs exist in the database and creating them if needed
+etf = Etf.where(name: "SPDR S&P 500 ETF Trust", ticker_symbol: "SPY", description: "Tracks the performance of the S&P 500 Index, covering 500 of the largest U.S. companies.", category: "Large-Cap Blend").first_or_create!
+etf = Etf.where(name: "Invesco QQQ Trust", ticker_symbol: "QQQ", description: "Tracks the Nasdaq-100 Index, focusing on 100 of the largest non-financial companies listed on the Nasdaq Stock Market.", category: "Technology/ Growth").first_or_create!
+etf = Etf.where(name: "Vanguard S&P 500 ETF", ticker_symbol: "VOO", description: "Tracks the S&P 500 Index with low expense ratios and broad U.S. market exposure.", category: "Large-Cap Blend").first_or_create!
+etf = Etf.where(name: "iShares Russell 2000 ETF", ticker_symbol: "IWM", description: "Tracks the Russell 2000 Index, which focuses on small-cap U.S. companies.", category: "Small-Cap").first_or_create!
+etf = Etf.where(name: "Vanguard Total Stock Market ETF", ticker_symbol: "VTI", description: "Covers the entire U.S. stock market, including large-, mid-, small-, and micro-cap stocks.", category: "Broad Market").first_or_create!
+etf = Etf.where(name: "iShares MSCI Emerging Markets ETF", ticker_symbol: "EEM", description: "Tracks stocks in emerging market countries, such as China, India, and Brazil.", category: "Emerging Markets").first_or_create!
+etf = Etf.where(name: "Vanguard FTSE Developed Markets ETF", ticker_symbol: "VEA", description: "Covers large- and mid-cap stocks in developed markets outside the U.S. and Canada.", category: "International").first_or_create!
+etf = Etf.where(name: "iShares Core US Aggregate Bond ETF", ticker_symbol: "AGG", description: "Tracks a broad index of U.S. investment-grade bonds, including Treasuries, corporate, and mortgage-backed securities.", category: "Fixed Income").first_or_create!
+etf = Etf.where(name: "SPDR Gold Shares", ticker_symbol: "GLD", description: "Tracks the price of gold bullion, providing a way to invest in gold without holding physical assets.", category: "Commodity").first_or_create!
+etf = Etf.where(name: "Vanguard Dividend Appreciation ETF", ticker_symbol: "VIG", description: "Focuses on U.S. companies with a history of growing dividends, emphasizing quality and stability.", category: "Dividend/Value").first_or_create!
+etf = Etf.where(name: "ProShares UltraPro QQQ", ticker_symbol: "TQQQ", description: "A leveraged ETF that seeks to provide 3x the daily performance of the Nasdaq-100 Index.", category: "Leveraged/Technology Growth").first_or_create!
+etf = Etf.where(name: "Shares ESG Aware MSCI USA ETF", ticker_symbol: "ESGU", description: "Tracks U.S. companies with strong environmental, social, and governance (ESG) practices.", category: "ESG").first_or_create!
+etf = Etf.where(name: "iShares 20+ Year Treasury Bond ETF", ticker_symbol: "TLT", description: "Tracks long-term U.S. Treasury bonds with maturities of 20 years or more.", category: "Fixed Income").first_or_create!
+etf = Etf.where(name: "ARK Innovation ETF", ticker_symbol: "ARKK", description: "Focuses on disruptive and innovative companies in sectors like technology, healthcare, and robotics.", category: "Thematic Growth").first_or_create!
+etf = Etf.where(name: "Vanguard Value ETF", ticker_symbol: "VTV", description: "Tracks the CRSP US Large Cap Value Index, focusing on U.S. large-cap value-oriented companies.", category: "Large-Cap Growth").first_or_create!
 
-puts "10 etfs created"
+EtfExportJob.perform_now # executes the job defined in the EtfExportJob class (etf_export_job.rb)
+
+puts "#{Etf.count} etfs created"
 
 puts "Creating 10 investments"
 
@@ -90,8 +101,8 @@ end
 invest = Investment.create(
   user: brian,
   etf_id: Etf.all.sample.id,
-  name: "apple",
-  description: Faker::Company.catch_phrase,
+  name: "Apple, Inc.",
+  description: "Apple Inc. is an American multinational technology company that revolutionized the technology sector through its innovation of computer software, personal computers, mobile tablets, smartphones, and computer peripherals.",
   risk_level: ["low", "medium", "high"].sample
 )
 
