@@ -1,2 +1,6 @@
-<div class="card col-7 justify-content-center"><%= line_chart @cumul_count%> </div>
-<div class="card col-7 justify-content-center"><%= line_chart @cumul_amounts%> </div>
+<div class="card col-7 justify-content-center">
+  <%= line_chart [
+        { name: 'Investment and returns', data: @cumul_count, color: 'blue' },
+        { name: 'Amount invested', data: @cumul_amounts, color: 'red' }
+      ], height: '400px' %>
+</div>

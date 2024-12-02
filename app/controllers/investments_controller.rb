@@ -42,6 +42,7 @@ class InvestmentsController < ApplicationController
     @contributions = @investment.contributions
     @contribution = Contribution.new
     @contribution.investment_id = @investment
+
     counts = @investment.contributions.pluck(:date, :total)
     counter = 5
 
@@ -53,17 +54,16 @@ class InvestmentsController < ApplicationController
       result << [date, count]
     end
 
-    amounts = @contributions.pluck(:date, :amount)
+    amounts = @contributions.pluck(:date, :total_amount)
 
     amounts_counter = 5
-    count_amounts = 0
-    @cumul_amounts = amounts.each_with_object([]) do |(date, amount), result_amount|
+
+    @cumul_amounts = amounts.each_with_object([]) do |(date, total_amount), result|
       amounts_counter += 1
-      count_amounts += 1
-      amount = count_amounts * amount
+
       next unless amounts_counter % 6 == 0
 
-      result_amount << [date, amount]
+      result << [date, total_amount]
     end
 
     @contributions = Contribution.all.where(investment: @investment)
