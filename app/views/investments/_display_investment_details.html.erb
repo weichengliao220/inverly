@@ -16,8 +16,10 @@
           <div class="card-body">
             <h5 class="card-title">Total Interest</h5>
             <p class="card-text">
-              <% if @contributions != nil %>
-              <%= @contributions.present? ? (@contributions.last.total - (@contributions.last.amount *  @contributions.count)).round(2) : "No contributions found" %>
+              <% if @contributions.last != nil %>
+              <%= (@contributions.last.total - (@contributions.last.amount *  @contributions.count)).round(2) %>
+              <% else %>
+              <%= "No contributions found" %>
               <% end %>
               </p>
           </div>
@@ -27,7 +29,7 @@
         <div class="card text-center">
           <div class="card-body">
             <h5 class="card-title">Total Result</h5>
-            <% unless @contributions != nil %>
+            <% if @contributions.last != nil %>
             <p class="card-text"><%= @contributions.last.total %></p>
             <% end %>
           </div>
