@@ -16,6 +16,9 @@ class EtfsController < ApplicationController
     @investment.etf_id = @etf
     @investment.user_id = current_user
     @etfs = Etf.all.where(etf_id: @etf.id)
+
+    @monthly_series = @etf.monthly_times
+    @top_holdings = @etf.holdings
   end
 
   private
