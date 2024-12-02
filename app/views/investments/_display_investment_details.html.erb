@@ -16,7 +16,7 @@
           <div class="card-body">
             <h5 class="card-title">Total Interest</h5>
             <p class="card-text">
-              <%= @contributions.present? ?@contributions.last.total - (@contributions.last.amount *  @contributions.count) : "No contributions found" %>
+              <%= @contributions.present? ? (@contributions.last.total - (@contributions.last.amount *  @contributions.count)).round(2) : "No contributions found" %>
               </p>
           </div>
         </div>
