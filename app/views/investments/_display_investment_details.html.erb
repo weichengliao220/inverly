@@ -1,12 +1,12 @@
-<div class="container mt-4">
-  <h2 class="text-center mb-4">Investment Summary (over 9 years)</h2>
+<div class="container mt-4" style="background-color: #2596be; border-radius: 10px;">
+  <h2 class="text-center text-white mb-4">Investment Summary (over 9 years)</h2>
   <div class="row">
     <div class="col-md-4">
-      <div class="card text-center">
+      <div class="card text-center border-radius: 10px;">
         <div class="card-body">
-          <h5 class="card-title">Total Contributions</h5>
+          <h5 class="card-title ">Total Contributions</h5>
           <p class="card-text">
-            <%= @contributions.present? ? @contributions.last.amount * @contributions.count : "No contributions found" %>
+            <%= @contributions.present? ? "$#{@contributions.last.amount * @contributions.count}" : "No contributions found" %>
           </p>
         </div>
       </div>
@@ -17,7 +17,7 @@
           <h5 class="card-title">Total Interest</h5>
           <p class="card-text">
             <% if @contributions.last != nil %>
-              <%= (@contributions.last.total - (@contributions.last.amount *  @contributions.count)).round(2) %>
+              <%= "$#{((@contributions.last.total - (@contributions.last.amount * @contributions.count)).round(2))}" %>
             <% else %>
               <%= "No contributions found" %>
             <% end %>
@@ -30,7 +30,7 @@
         <div class="card-body">
           <h5 class="card-title">Total Result</h5>
           <% if @contributions.last != nil %>
-            <p class="card-text"><%= @contributions.last.total %></p>
+            <p class="card-text">$<%= @contributions.last.total %></p>
           <% end %>
         </div>
       </div>
