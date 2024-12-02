@@ -33,7 +33,7 @@
             <strong>Current Price:</strong> $<%= @etf.current_price %>
           </div>
           <div class="mb-3">
-            <strong>Average Return:</strong> <%= @etf.average_return %>%
+            <strong>Average Return:</strong> <%= (@etf.average_return * 100).round(3) %>%
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@
           <tr>
             <td><%= holding.symbol %></td>
             <td><%= holding.description %></td>
-            <td><%= (holding.weight * 100).round(3) %>%</td>
+            <td><%= (holding.weight * 100).round(3) %></td>
           </tr>
         <% end %>
       </tbody>
@@ -70,7 +70,3 @@
     <%= render 'button_create_investment' %>
   </div>
 </div>
-
-<% if @etf.average_return %>
-  <%= render 'investment_graph' %>
-<% end %>
