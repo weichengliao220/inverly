@@ -30,6 +30,20 @@ class EtfsController < ApplicationController
       result << [date, count]
     end
 
+    amounts = @contributions.pluck(:date, :amount)
+
+    amounts_counter = 5
+    count_amounts = 0
+    @cumul_amounts = amounts.each_with_object([]) do |(date, amount), result_amount|
+      amounts_counter += 1
+      count_amounts += 1
+      amount = count_amounts * amount
+      next unless amounts_counter % 6 == 0
+
+      result_amount << [date, amount]
+    end
+
+
     @monthly_series = @etf.monthly_times
     @top_holdings = @etf.holdings
   end
