@@ -18,7 +18,7 @@
           <p class="btn btn-primary"><%= (@investment.etf.average_return * 100).round(2) %></p>
         </div>
         <div class="mb-3">
-          <strong>Previous Closing Price:</strong> $<%= %>
+          <strong>Previous Closing Price:</strong> $<%= @investment.etf.current_price %>
         </div>
         <%= link_to 'Back to Investments', investments_path, class: 'btn btn-secondary' %>
       </div>
