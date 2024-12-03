@@ -5,7 +5,6 @@ class EtfsController < ApplicationController
     else
       @etfs = Etf.all
       @etfs = @etfs.where(category: params[:category]) if params[:category].present?
-
     end
   end
 
