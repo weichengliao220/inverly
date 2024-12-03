@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_02_044036) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_03_052823) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -23,6 +23,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_02_044036) do
     t.datetime "updated_at", null: false
     t.float "total"
     t.decimal "total_amount"
+    t.string "contribution_type"
     t.index ["investment_id"], name: "index_contributions_on_investment_id"
   end
 

@@ -41,11 +41,15 @@ class InvestmentsController < ApplicationController
     @future_values_for_table = future_value(100, @average_return, number_of_months_for_table)
     number_of_months_for_graph = [36, 72, 108, 144, 180, 216, 252, 288, 324, 360]
     @future_values_for_graph = future_value(100, @average_return, number_of_months_for_graph)
-    @contributions = @investment.contributions
-    @contribution = Contribution.new
-    @contribution.investment_id = @investment
 
-    counts = @investment.contributions.pluck(:date, :total)
+    @contributions = @investment.contributions.where(contribution_type: 'expected')
+    @optimistic_contributions = @investment.contributions.where(contribution_type: 'optimistic')
+    @pessimistic_contributions = @investment.contributions.where(contribution_type: 'pessimistic')
+
+    @contribution = Contribution.new
+    @contribution.investment_id = @investment.id
+
+    counts = @contributions.pluck(:date, :total)
     counter = 5
 
     @cumul_count = counts.each_with_object([]) do |(date, count), result|
@@ -68,7 +72,7 @@ class InvestmentsController < ApplicationController
       result << [date, total_amount]
     end
 
-    @contributions = Contribution.all.where(investment: @investment)
+    @all_contributions = Contribution.all.where(investment: @investment)
   end
 
   def destroy

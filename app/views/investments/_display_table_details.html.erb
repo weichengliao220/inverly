@@ -1,56 +1,130 @@
-<div class="container mt-4" style="background-color: #2596be; border-radius: 10px;">
-  <h2 class="text-center text-white mb-4">Returns estimate</h2>
+<div class="container mt-4" style="background-color: #2596be; border-radius: 10px; padding: 20px;">
+  <h2 class="text-center text-white mb-4">Returns Estimate</h2>
   <div class="row">
     <div class="col-md-4">
-      <div class="card text-center border-radius: 10px;">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title ">3 years</h5>
+          <h5 class="card-title">3 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
-              <% three_years = (@contributions.first(@contributions.count / 3)) %>
-              <%= "$#{(three_years.last.total).round(2)}" %>
+            <% if @contributions.any? %>
+              <% three_years = @contributions.first(@contributions.count / 3) %>
+              <strong><%= "$#{(three_years.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
-            <% end %>
-          </p>
-          <p class="card-text">
-            <% if @contributions.last != nil %>
-              <%= "Invested: $#{three_years.last.total_amount.round(2)}" %>
-            <% else %>
-              <%= "" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card text-center">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title">6 years</h5>
+          <h5 class="card-title">6 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
+            <% if @contributions.any? %>
               <% year_six = @contributions.first((@contributions.count * 2 / 3.0).to_i) %>
-              <%= "$#{(year_six.last.total).round(2)}" %>
+              <strong><%= "$#{(year_six.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card text-center">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title">9 years</h5>
+          <h5 class="card-title">9 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
-              <%= "$#{(@contributions.last.total).round(2)}" %>
+            <% if @contributions.any? %>
+              <strong><%= "$#{(@contributions.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
         </div>
       </div>
     </div>
   </div>
+
+  <table class="table table-bordered table-hover mt-4">
+    <thead class="thead-light">
+      <tr>
+        <th></th>
+        <th>3 Years</th>
+        <th>6 Years</th>
+        <th>9 Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Optimistic - 120% of expected returns</td>
+        <% if @optimistic_contributions.any? %>
+          <% optimistic_three_years = @optimistic_contributions.first(@optimistic_contributions.count / 3) %>
+          <% optimistic_year_six = @optimistic_contributions.first((@optimistic_contributions.count * 2 / 3.0).to_i) %>
+          <td><%= "$#{(optimistic_three_years.last.total).round(2)}" %></td>
+          <td><%= "$#{(optimistic_year_six.last.total).round(2)}" %></td>
+          <td><%= "$#{(@optimistic_contributions.last.total).round(2)}" %></td>
+        <% else %>
+          <td colspan="3" class="text-danger">No optimistic contributions found</td>
+        <% end %>
+      </tr>
+      <tr>
+        <td>Expected</td>
+        <% if @contributions.any? %>
+          <td><%= "$#{(three_years.last.total).round(2)}" %></td>
+          <td><%= "$#{(year_six.last.total).round(2)}" %></td>
+          <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <% else %>
+          <td colspan="3" class="text-danger">No expected contributions found</td>
+        <% end %>
+      </tr>
+      <tr>
+        <td>Pessimistic - 80% of expected returns</td>
+        <% if @pessimistic_contributions.any? %>
+          <% pessimistic_three_years = @pessimistic_contributions.first(@pessimistic_contributions.count / 3) %>
+          <% pessimistic_year_six = @pessimistic_contributions.first((@pessimistic_contributions.count * 2 / 3.0).to_i) %>
+          <td><%= "$#{(pessimistic_three_years.last.total).round(2)}" %></td>
+          <td><%= "$#{(pessimistic_year_six.last.total).round(2)}" %></td>
+          <td><%= "$#{(@pessimistic_contributions.last.total).round(2)}" %></td>
+        <% else %>
+          <td colspan="3" class="text-danger">No pessimistic contributions found</td>
+        <% end %>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+<style>
+  .forecast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .forecast-table th,
+  .forecast-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .forecast-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  .forecast-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .forecast-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .forecast-table td:first-child {
+    text-align: left; /* Align row headers to the left */
+    font-weight: bold;
+  }
+</style>
