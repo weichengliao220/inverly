@@ -1,23 +1,26 @@
 <div class="d-flex justify-content-end">
+
+
   <div class="filter">
     <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex") do |f| %>
-      <%= f.select :category, options_for_select(Etf.category, params[:category]), { include_blank: 'Select a Category' }, class: "form-select" %>
-      <div class="row">
-        <div class="col-4">
-          <%= f.submit "Filter", class: "search-button", style: "width: 74.7px" %>
-        </div>
-      </div>
+      <%= f.select :category,
+                  options_for_select(Etf.category, params[:category]),
+                  { include_blank: 'Select a Category' },
+                  class: "form-select",
+                  onchange: "this.form.submit();" %>
     <% end %>
   </div>
 
   <div class="search-bar">
     <%= form_with url: etfs_path, method: :get, local: true do |form| %>
       <div class="d-flex justify-content-end px-3">
-        <%= form.text_field :query, value: params[:query], placeholder: "Enter an ETF..." %>
+        <%= form.text_field :query, value: params[:query], placeholder: "Enter an ETF name..." %>
         <%= form.submit "Search", class: "search-button" %>
       </div>
     <% end %>
   </div>
+
+  <%= link_to "Reset", etfs_path, class: "reset-button" %>
 </div>
 
 <h1 class="text-center my-4">Welcome to your ETF Index</h1>
