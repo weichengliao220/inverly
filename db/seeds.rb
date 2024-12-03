@@ -153,5 +153,9 @@ Etf.all.each do |etf|
   )
 end
 
+Investment.all.each do |etf|
+  etf.risk_level = ["low", "medium", "high"].sample
+  etf.save
+end
 
 puts "seeded successfully"
