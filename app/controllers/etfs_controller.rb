@@ -4,6 +4,8 @@ class EtfsController < ApplicationController
       @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
     else
       @etfs = Etf.all
+      @etfs = @etfs.where(category: params[:category]) if params[:category].present?
+
     end
   end
 

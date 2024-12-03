@@ -17,6 +17,8 @@ class InvestmentsController < ApplicationController
       @investment.name = "investment n°#{counter + 1}"
     end
 
+    @investment.risk_level = ["low", "medium", "high"].sample
+
     if @investment.save
       redirect_to investment_path(@investment), notice: 'Investment created successfully.'
     else

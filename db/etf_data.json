@@ -1,6 +1,6 @@
 [
   {
-    "id": 69,
+    "id": 466,
     "name": "Vanguard FTSE Developed Markets ETF",
     "ticker_symbol": "VEA",
     "category": "International",
@@ -16,99 +16,99 @@
     ],
     "holdings": [
       {
-        "id": 241,
+        "id": 2882,
         "symbol": "RY",
         "description": "ROYAL BANK OF CANADA",
         "weight": 0.0074,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 242,
+        "id": 2883,
         "symbol": "TD",
         "description": "THE TORONTO-DOMINION BANK",
         "weight": 0.0043,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 243,
+        "id": 2884,
         "symbol": "SHOP",
         "description": "n/a",
         "weight": 0.0041,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 244,
+        "id": 2885,
         "symbol": "ENB",
         "description": "ENBRIDGE INC",
         "weight": 0.0037,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 245,
+        "id": 2886,
         "symbol": "BN",
         "description": "n/a",
         "weight": 0.0034,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 246,
+        "id": 2887,
         "symbol": "CP",
         "description": "CANADIAN PACIFIC KANSAS CITY LTD",
         "weight": 0.0031,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 247,
+        "id": 2888,
         "symbol": "CNQ",
         "description": "CANADIAN NATURAL RESOURCES LTD",
         "weight": 0.0031,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 248,
+        "id": 2889,
         "symbol": "BMO",
         "description": "BANK OF MONTREAL",
         "weight": 0.0029,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 249,
+        "id": 2890,
         "symbol": "CRH",
         "description": "CRH PLC",
         "weight": 0.0029,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       },
       {
-        "id": 250,
+        "id": 2891,
         "symbol": "BNS",
         "description": "BANK OF NOVA SCOTIA",
         "weight": 0.0027,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 69
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 466
       }
     ]
   },
   {
-    "id": 70,
+    "id": 467,
     "name": "iShares Core US Aggregate Bond ETF",
     "ticker_symbol": "AGG",
     "category": "Fixed Income",
@@ -127,7 +127,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 468,
     "name": "SPDR Gold Shares",
     "ticker_symbol": "GLD",
     "category": "Commodity",
@@ -146,7 +146,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": 469,
     "name": "Vanguard Dividend Appreciation ETF",
     "ticker_symbol": "VIG",
     "category": "Dividend/Value",
@@ -162,99 +162,99 @@
     ],
     "holdings": [
       {
-        "id": 251,
+        "id": 2892,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0475,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 252,
+        "id": 2893,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0425,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 253,
+        "id": 2894,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0363,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 254,
+        "id": 2895,
         "symbol": "JPM",
         "description": "JPMORGAN CHASE & CO",
         "weight": 0.034,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 255,
+        "id": 2896,
         "symbol": "XOM",
         "description": "EXXON MOBIL CORP",
         "weight": 0.0282,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 256,
+        "id": 2897,
         "symbol": "UNH",
         "description": "UNITEDHEALTH GROUP INC",
         "weight": 0.0281,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 257,
+        "id": 2898,
         "symbol": "V",
         "description": "VISA INC CLASS A",
         "weight": 0.025,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 258,
+        "id": 2899,
         "symbol": "MA",
         "description": "MASTERCARD INC CLASS A",
         "weight": 0.0223,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 259,
+        "id": 2900,
         "symbol": "HD",
         "description": "THE HOME DEPOT INC",
         "weight": 0.0211,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       },
       {
-        "id": 260,
+        "id": 2901,
         "symbol": "PG",
         "description": "PROCTER & GAMBLE CO",
         "weight": 0.021,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 72
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 469
       }
     ]
   },
   {
-    "id": 73,
+    "id": 470,
     "name": "ProShares UltraPro QQQ",
     "ticker_symbol": "TQQQ",
     "category": "Leveraged/Technology Growth",
@@ -270,99 +270,99 @@
     ],
     "holdings": [
       {
-        "id": 261,
+        "id": 2902,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0314,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 262,
+        "id": 2903,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0295,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 263,
+        "id": 2904,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.028,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 264,
+        "id": 2905,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.0192,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 265,
+        "id": 2906,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0175,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 266,
+        "id": 2907,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0173,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 267,
+        "id": 2908,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.0144,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 268,
+        "id": 2909,
         "symbol": "COST",
         "description": "COSTCO WHOLESALE CORP",
         "weight": 0.0098,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 269,
+        "id": 2910,
         "symbol": "GOOGL",
         "description": "ALPHABET INC CLASS A",
         "weight": 0.0087,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       },
       {
-        "id": 270,
+        "id": 2911,
         "symbol": "NFLX",
         "description": "NETFLIX INC",
         "weight": 0.0085,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 73
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 470
       }
     ]
   },
   {
-    "id": 74,
+    "id": 471,
     "name": "Shares ESG Aware MSCI USA ETF",
     "ticker_symbol": "ESGU",
     "category": "ESG",
@@ -378,99 +378,99 @@
     ],
     "holdings": [
       {
-        "id": 271,
+        "id": 2912,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0656,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 272,
+        "id": 2913,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0642,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 273,
+        "id": 2914,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0574,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 274,
+        "id": 2915,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.0362,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 275,
+        "id": 2916,
         "symbol": "GOOG",
         "description": "ALPHABET INC CLASS C",
         "weight": 0.0282,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 276,
+        "id": 2917,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0218,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 277,
+        "id": 2918,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.018,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 278,
+        "id": 2919,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0135,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 279,
+        "id": 2920,
         "symbol": "JPM",
         "description": "JPMORGAN CHASE & CO",
         "weight": 0.0126,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       },
       {
-        "id": 280,
+        "id": 2921,
         "symbol": "LLY",
         "description": "ELI LILLY AND CO",
         "weight": 0.0123,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 74
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 471
       }
     ]
   },
   {
-    "id": 75,
+    "id": 472,
     "name": "iShares 20+ Year Treasury Bond ETF",
     "ticker_symbol": "TLT",
     "category": "Fixed Income",
@@ -489,7 +489,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 473,
     "name": "ARK Innovation ETF",
     "ticker_symbol": "ARKK",
     "category": "Thematic Growth",
@@ -505,99 +505,99 @@
     ],
     "holdings": [
       {
-        "id": 281,
+        "id": 2922,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.1448,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 282,
+        "id": 2923,
         "symbol": "COIN",
         "description": "COINBASE GLOBAL INC ORDINARY SHARES CLASS A",
         "weight": 0.0956,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 283,
+        "id": 2924,
         "symbol": "ROKU",
         "description": "ROKU INC CLASS A",
         "weight": 0.0817,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 284,
+        "id": 2925,
         "symbol": "RBLX",
         "description": "ROBLOX CORP ORDINARY SHARES CLASS A",
         "weight": 0.057,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 285,
+        "id": 2926,
         "symbol": "PLTR",
         "description": "PALANTIR TECHNOLOGIES INC ORDINARY SHARES CLASS A",
         "weight": 0.0544,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 286,
+        "id": 2927,
         "symbol": "HOOD",
         "description": "ROBINHOOD MARKETS INC CLASS A",
         "weight": 0.0513,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 287,
+        "id": 2928,
         "symbol": "CRSP",
         "description": "CRISPR THERAPEUTICS AG",
         "weight": 0.0489,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 288,
+        "id": 2929,
         "symbol": "SQ",
         "description": "BLOCK INC CLASS A",
         "weight": 0.0437,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 289,
+        "id": 2930,
         "symbol": "PATH",
         "description": "UIPATH INC CLASS A",
         "weight": 0.0279,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       },
       {
-        "id": 290,
+        "id": 2931,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0238,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 76
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 473
       }
     ]
   },
   {
-    "id": 77,
+    "id": 474,
     "name": "Vanguard Value ETF",
     "ticker_symbol": "VTV",
     "category": "Large-Cap Growth",
@@ -613,99 +613,99 @@
     ],
     "holdings": [
       {
-        "id": 291,
+        "id": 2932,
         "symbol": "BRK-B",
         "description": "BERKSHIRE HATHAWAY INC CLASS B",
         "weight": 0.0315,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 292,
+        "id": 2933,
         "symbol": "JPM",
         "description": "JPMORGAN CHASE & CO",
         "weight": 0.0292,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 293,
+        "id": 2934,
         "symbol": "UNH",
         "description": "UNITEDHEALTH GROUP INC",
         "weight": 0.0241,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 294,
+        "id": 2935,
         "symbol": "XOM",
         "description": "EXXON MOBIL CORP",
         "weight": 0.024,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 295,
+        "id": 2936,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0183,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 296,
+        "id": 2937,
         "symbol": "HD",
         "description": "THE HOME DEPOT INC",
         "weight": 0.0181,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 297,
+        "id": 2938,
         "symbol": "PG",
         "description": "PROCTER & GAMBLE CO",
         "weight": 0.018,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 298,
+        "id": 2939,
         "symbol": "JNJ",
         "description": "JOHNSON & JOHNSON",
         "weight": 0.0178,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 299,
+        "id": 2940,
         "symbol": "WMT",
         "description": "WALMART INC",
         "weight": 0.0168,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       },
       {
-        "id": 300,
+        "id": 2941,
         "symbol": "ABBV",
         "description": "ABBVIE INC",
         "weight": 0.0166,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 77
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 474
       }
     ]
   },
   {
-    "id": 78,
+    "id": 475,
     "name": "SPDR S&P 500 ETF Trust",
     "ticker_symbol": "SPY",
     "category": "Large-Cap Blend",
@@ -721,99 +721,99 @@
     ],
     "holdings": [
       {
-        "id": 301,
+        "id": 2942,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0703,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 302,
+        "id": 2943,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0655,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 303,
+        "id": 2944,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0619,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 304,
+        "id": 2945,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.0378,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 305,
+        "id": 2946,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0245,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 306,
+        "id": 2947,
         "symbol": "GOOGL",
         "description": "ALPHABET INC CLASS A",
         "weight": 0.0195,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 307,
+        "id": 2948,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.0182,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 308,
+        "id": 2949,
         "symbol": "BRK-B",
         "description": "BERKSHIRE HATHAWAY INC CLASS B",
         "weight": 0.0174,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 309,
+        "id": 2950,
         "symbol": "GOOG",
         "description": "ALPHABET INC CLASS C",
         "weight": 0.0161,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       },
       {
-        "id": 310,
+        "id": 2951,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0146,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 78
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 475
       }
     ]
   },
   {
-    "id": 79,
+    "id": 476,
     "name": "Invesco QQQ Trust",
     "ticker_symbol": "QQQ",
     "category": "Technology/ Growth",
@@ -829,99 +829,99 @@
     ],
     "holdings": [
       {
-        "id": 311,
+        "id": 2952,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0868,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 476
       },
       {
-        "id": 312,
+        "id": 2953,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0816,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 476
       },
       {
-        "id": 313,
+        "id": 2954,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0773,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 476
       },
       {
-        "id": 314,
+        "id": 2955,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.053,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:16 UTC",
+        "updated_at": "2024-12-03 03:25:16 UTC",
+        "etf_id": 476
       },
       {
-        "id": 315,
+        "id": 2956,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0484,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       },
       {
-        "id": 316,
+        "id": 2957,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0479,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       },
       {
-        "id": 317,
+        "id": 2958,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.0397,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       },
       {
-        "id": 318,
+        "id": 2959,
         "symbol": "COST",
         "description": "COSTCO WHOLESALE CORP",
         "weight": 0.027,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       },
       {
-        "id": 319,
+        "id": 2960,
         "symbol": "GOOGL",
         "description": "ALPHABET INC CLASS A",
         "weight": 0.0241,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       },
       {
-        "id": 320,
+        "id": 2961,
         "symbol": "NFLX",
         "description": "NETFLIX INC",
         "weight": 0.0235,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 79
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 476
       }
     ]
   },
   {
-    "id": 80,
+    "id": 477,
     "name": "Vanguard S&P 500 ETF",
     "ticker_symbol": "VOO",
     "category": "Large-Cap Blend",
@@ -937,99 +937,99 @@
     ],
     "holdings": [
       {
-        "id": 321,
+        "id": 2962,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0712,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 322,
+        "id": 2963,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0677,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 323,
+        "id": 2964,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0626,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 324,
+        "id": 2965,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.0361,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 325,
+        "id": 2966,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0257,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 326,
+        "id": 2967,
         "symbol": "GOOGL",
         "description": "ALPHABET INC CLASS A",
         "weight": 0.0208,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 327,
+        "id": 2968,
         "symbol": "GOOG",
         "description": "ALPHABET INC CLASS C",
         "weight": 0.0172,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 328,
+        "id": 2969,
         "symbol": "BRK-B",
         "description": "BERKSHIRE HATHAWAY INC CLASS B",
         "weight": 0.0171,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 329,
+        "id": 2970,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0164,
-        "created_at": "2024-12-02 03:53:12 UTC",
-        "updated_at": "2024-12-02 03:53:12 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       },
       {
-        "id": 330,
+        "id": 2971,
         "symbol": "TSLA",
         "description": "TESLA INC",
         "weight": 0.0144,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 80
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 477
       }
     ]
   },
   {
-    "id": 81,
+    "id": 478,
     "name": "iShares Russell 2000 ETF",
     "ticker_symbol": "IWM",
     "category": "Small-Cap",
@@ -1045,99 +1045,99 @@
     ],
     "holdings": [
       {
-        "id": 331,
+        "id": 2972,
         "symbol": "FTAI",
         "description": "FTAI AVIATION LTD",
         "weight": 0.0061,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 332,
+        "id": 2973,
         "symbol": "SFM",
         "description": "SPROUTS FARMERS MARKET INC",
         "weight": 0.0053,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 333,
+        "id": 2974,
         "symbol": "INSM",
         "description": "INSMED INC",
         "weight": 0.0041,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 334,
+        "id": 2975,
         "symbol": "PCVX",
         "description": "VAXCYTE INC ORDINARY SHARES",
         "weight": 0.0038,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 335,
+        "id": 2976,
         "symbol": "AIT",
         "description": "APPLIED INDUSTRIAL TECHNOLOGIES INC",
         "weight": 0.0037,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 336,
+        "id": 2977,
         "symbol": "FLR",
         "description": "FLUOR CORP",
         "weight": 0.0033,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 337,
+        "id": 2978,
         "symbol": "CRS",
         "description": "CARPENTER TECHNOLOGY CORP",
         "weight": 0.0032,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 338,
+        "id": 2979,
         "symbol": "MLI",
         "description": "MUELLER INDUSTRIES INC",
         "weight": 0.0031,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 339,
+        "id": 2980,
         "symbol": "RKLB",
         "description": "ROCKET LAB USA INC",
         "weight": 0.0031,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       },
       {
-        "id": 340,
+        "id": 2981,
         "symbol": "RVMD",
         "description": "REVOLUTION MEDICINES INC ORDINARY SHARES",
         "weight": 0.0031,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 81
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 478
       }
     ]
   },
   {
-    "id": 82,
+    "id": 479,
     "name": "Vanguard Total Stock Market ETF",
     "ticker_symbol": "VTI",
     "category": "Broad Market",
@@ -1153,99 +1153,99 @@
     ],
     "holdings": [
       {
-        "id": 341,
+        "id": 2982,
         "symbol": "AAPL",
         "description": "APPLE INC",
         "weight": 0.0595,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 342,
+        "id": 2983,
         "symbol": "NVDA",
         "description": "NVIDIA CORP",
         "weight": 0.0566,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 343,
+        "id": 2984,
         "symbol": "MSFT",
         "description": "MICROSOFT CORP",
         "weight": 0.0551,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 344,
+        "id": 2985,
         "symbol": "AMZN",
         "description": "AMAZON.COM INC",
         "weight": 0.0321,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 345,
+        "id": 2986,
         "symbol": "META",
         "description": "META PLATFORMS INC CLASS A",
         "weight": 0.0226,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 346,
+        "id": 2987,
         "symbol": "GOOGL",
         "description": "ALPHABET INC CLASS A",
         "weight": 0.0183,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 347,
+        "id": 2988,
         "symbol": "GOOG",
         "description": "ALPHABET INC CLASS C",
         "weight": 0.015,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 348,
+        "id": 2989,
         "symbol": "BRK-B",
         "description": "BERKSHIRE HATHAWAY INC CLASS B",
         "weight": 0.0145,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 349,
+        "id": 2990,
         "symbol": "AVGO",
         "description": "BROADCOM INC",
         "weight": 0.0144,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       },
       {
-        "id": 350,
+        "id": 2991,
         "symbol": "LLY",
         "description": "ELI LILLY AND CO",
         "weight": 0.0129,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 82
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 479
       }
     ]
   },
   {
-    "id": 83,
+    "id": 480,
     "name": "iShares MSCI Emerging Markets ETF",
     "ticker_symbol": "EEM",
     "category": "Emerging Markets",
@@ -1261,94 +1261,94 @@
     ],
     "holdings": [
       {
-        "id": 351,
+        "id": 2992,
         "symbol": "PDD",
         "description": "PDD HOLDINGS INC ADR",
         "weight": 0.009,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 352,
+        "id": 2993,
         "symbol": "NU",
         "description": "NU HOLDINGS LTD ORDINARY SHARES CLASS A",
         "weight": 0.0054,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 353,
+        "id": 2994,
         "symbol": "YUMC",
         "description": "YUM CHINA HOLDINGS INC",
         "weight": 0.0023,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 354,
+        "id": 2995,
         "symbol": "AU",
         "description": "ANGLOGOLD ASHANTI PLC",
         "weight": 0.0016,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 355,
+        "id": 2996,
         "symbol": "BAP",
         "description": "CREDICORP LTD",
         "weight": 0.0016,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 356,
+        "id": 2997,
         "symbol": "NBIS",
         "description": "NEBIUS GROUP NV SHS CLASS-A-",
         "weight": 0.0015,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 357,
+        "id": 2998,
         "symbol": "BEKE",
         "description": "KE HOLDINGS INC ADR",
         "weight": 0.0015,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 358,
+        "id": 2999,
         "symbol": "SCCO",
         "description": "SOUTHERN COPPER CORP",
         "weight": 0.0011,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 359,
+        "id": 3000,
         "symbol": "TME",
         "description": "TENCENT MUSIC ENTERTAINMENT GROUP ADR",
         "weight": 0.0011,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       },
       {
-        "id": 360,
+        "id": 3001,
         "symbol": "XP",
         "description": "XP INC CLASS A",
         "weight": 0.0008,
-        "created_at": "2024-12-02 03:53:13 UTC",
-        "updated_at": "2024-12-02 03:53:13 UTC",
-        "etf_id": 83
+        "created_at": "2024-12-03 03:25:17 UTC",
+        "updated_at": "2024-12-03 03:25:17 UTC",
+        "etf_id": 480
       }
     ]
   }
