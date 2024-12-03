@@ -58,7 +58,7 @@
     </thead>
     <tbody>
       <tr>
-        <td>Optimistic</td>
+        <td>Optimistic - 120% of expected returns</td>
         <% if @optimistic_contributions.any? %>
           <% optimistic_three_years = @optimistic_contributions.first(@optimistic_contributions.count / 3) %>
           <% optimistic_year_six = @optimistic_contributions.first((@optimistic_contributions.count * 2 / 3.0).to_i) %>
@@ -80,7 +80,7 @@
         <% end %>
       </tr>
       <tr>
-        <td>Pessimistic</td>
+        <td>Pessimistic - 80% of expected returns</td>
         <% if @pessimistic_contributions.any? %>
           <% pessimistic_three_years = @pessimistic_contributions.first(@pessimistic_contributions.count / 3) %>
           <% pessimistic_year_six = @pessimistic_contributions.first((@pessimistic_contributions.count * 2 / 3.0).to_i) %>
