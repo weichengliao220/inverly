@@ -1,51 +1,12 @@
-<div class="container mt-4" style="background-color: #2596be; border-radius: 10px; padding: 20px;">
-  <h2 class="text-center text-white mb-4">Returns Estimate</h2>
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card text-center border-0">
-        <div class="card-body">
-          <h5 class="card-title">3 Years</h5>
-          <p class="card-text">
-            <% if @contributions.any? %>
-              <% three_years = @contributions.first(@contributions.count / 3) %>
-              <strong><%= "$#{(three_years.last.total).round(2)}" %></strong>
-            <% else %>
-              <span class="text-danger">No contributions found</span>
-            <% end %>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center border-0">
-        <div class="card-body">
-          <h5 class="card-title">6 Years</h5>
-          <p class="card-text">
-            <% if @contributions.any? %>
-              <% year_six = @contributions.first((@contributions.count * 2 / 3.0).to_i) %>
-              <strong><%= "$#{(year_six.last.total).round(2)}" %></strong>
-            <% else %>
-              <span class="text-danger">No contributions found</span>
-            <% end %>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card text-center border-0">
-        <div class="card-body">
-          <h5 class="card-title">9 Years</h5>
-          <p class="card-text">
-            <% if @contributions.any? %>
-              <strong><%= "$#{(@contributions.last.total).round(2)}" %></strong>
-            <% else %>
-              <span class="text-danger">No contributions found</span>
-            <% end %>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<h2 class="text-center text-white mb-4">Returns Estimate</h2>
+
+<% if @contributions.any? %>
+  <% three_years = @contributions.first(@contributions.count / 3) %>
+<% end %>
+<% if @contributions.any? %>
+  <% year_six = @contributions.first((@contributions.count * 2 / 3.0).to_i) %>
+<% end %>
+
 
   <table class="table table-bordered table-hover mt-4">
     <thead class="thead-light">

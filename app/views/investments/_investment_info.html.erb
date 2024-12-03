@@ -17,7 +17,7 @@
             <strong>Prev Closing Price:</strong> $<%= @investment.etf.current_price %>
           </div>
           <div class="mb-3">
-            <strong>Contribution:</strong> $<%= @investment.contributions.last.amount %>
+            <strong>Monthly Contribution:</strong> $<%= @investment.contributions.last.amount %>
           </div>
           <%= link_to 'Back to Investments', investments_path, class: 'btn btn-secondary' %>
         </div>
