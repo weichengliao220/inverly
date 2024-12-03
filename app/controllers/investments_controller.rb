@@ -71,6 +71,12 @@ class InvestmentsController < ApplicationController
     @contributions = Contribution.all.where(investment: @investment)
   end
 
+  def destroy
+    @investment = Investment.find(params[:id])
+    @investment.destroy
+    redirect_to investments_path, status: :see_other
+  end
+
   private
 
   def investment_params
