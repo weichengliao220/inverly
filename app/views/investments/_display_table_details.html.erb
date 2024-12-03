@@ -1,56 +1,119 @@
-<div class="container mt-4" style="background-color: #2596be; border-radius: 10px;">
-  <h2 class="text-center text-white mb-4">Returns estimate</h2>
+<div class="container mt-4" style="background-color: #2596be; border-radius: 10px; padding: 20px;">
+  <h2 class="text-center text-white mb-4">Returns Estimate</h2>
   <div class="row">
     <div class="col-md-4">
-      <div class="card text-center border-radius: 10px;">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title ">3 years</h5>
+          <h5 class="card-title">3 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
-              <% three_years = (@contributions.first(@contributions.count / 3)) %>
-              <%= "$#{(three_years.last.total).round(2)}" %>
+            <% if @contributions.any? %>
+              <% three_years = @contributions.first(@contributions.count / 3) %>
+              <strong><%= "$#{(three_years.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
           <p class="card-text">
-            <% if @contributions.last != nil %>
-              <%= "Invested: $#{three_years.last.total_amount.round(2)}" %>
-            <% else %>
-              <%= "" %>
+            <% if @contributions.any? %>
+              <strong>Invested: $<%= three_years.last.amount.round(2) %></strong>
             <% end %>
           </p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card text-center">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title">6 years</h5>
+          <h5 class="card-title">6 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
+            <% if @contributions.any? %>
               <% year_six = @contributions.first((@contributions.count * 2 / 3.0).to_i) %>
-              <%= "$#{(year_six.last.total).round(2)}" %>
+              <strong><%= "$#{(year_six.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
         </div>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="card text-center">
+      <div class="card text-center border-0">
         <div class="card-body">
-          <h5 class="card-title">9 years</h5>
+          <h5 class="card-title">9 Years</h5>
           <p class="card-text">
-            <% if @contributions.last != nil %>
-              <%= "$#{(@contributions.last.total).round(2)}" %>
+            <% if @contributions.any? %>
+              <strong><%= "$#{(@contributions.last.total).round(2)}" %></strong>
             <% else %>
-              <%= "No contributions found" %>
+              <span class="text-danger">No contributions found</span>
             <% end %>
           </p>
         </div>
       </div>
     </div>
   </div>
+
+  <table class="table table-bordered table-hover mt-4">
+    <thead class="thead-light">
+      <tr>
+        <th></th> <!-- Empty cell for column headers -->
+        <th>3 Years</th>
+        <th>6 Years</th>
+        <th>9 Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Optimistic</td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+      </tr>
+      <tr>
+        <td>Expected</td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+      </tr>
+      <tr>
+        <td>Pessimistic</td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+        <td><%= "$#{(@contributions.last.total).round(2)}" %></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+<style>
+  .forecast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .forecast-table th,
+  .forecast-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .forecast-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  .forecast-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .forecast-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  .forecast-table td:first-child {
+    text-align: left; /* Align row headers to the left */
+    font-weight: bold;
+  }
+</style>
