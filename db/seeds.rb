@@ -46,7 +46,6 @@ brian = User.create(
 
 puts "brian created"
 
-puts "#{User.count} created"
 
 puts "Creating etfs"
 
@@ -96,8 +95,6 @@ etf = Etf.where(name: "Vanguard Value ETF", ticker_symbol: "VTV", description: "
 
 EtfExportJob.perform_now # executes the job defined in the EtfExportJob class (etf_export_job.rb)
 
-puts "#{Etf.count} etfs created"
-
 puts "Creating investments"
 
 10.times do
@@ -132,20 +129,19 @@ end
 puts "#{Investment.count} investments created"
 
 puts "creating favorites"
-
-10.times do
-  Favorite.create(
-    user_id: User.all.sample.id,
-    etf_id: Etf.all.sample.id
-  )
-end
-
-puts "#{Favorite.count} favorites created"
-
 puts "generating power_user contributions & investments"
 
 
 Etf.all.each do |etf|
+  if etf.holdings.last == nil
+    Investment.where(etf_id: etf.id).each do |investment|
+      investment.contributions.each do |contribution|
+        contribution.delete
+      end
+      investment.delete
+    end
+    etf.delete
+  end
   invest = Investment.create(
     user: power_user,
     etf_id: etf.id,
@@ -157,5 +153,9 @@ Investment.all.each do |etf|
   etf.risk_level = ["low", "medium", "high"].sample
   etf.save
 end
+
+puts "#{User.count} created"
+puts "#{Investment.count} created"
+puts "#{Etf.count} etfs created"
 
 puts "seeded successfully"

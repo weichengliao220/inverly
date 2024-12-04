@@ -12,7 +12,7 @@ class Holding < ApplicationRecord
       # Update AI resume and last fetched time only if successful
       update(
         ai_resume: response.body["ai_resume"], # Assuming API returns "ai_resume" field
-        last_fetched_at: Time.current
+        last_fetched_at: Date.today
       )
     else
       Rails.logger.error("API Request failed for #{description}: #{response.error_message}")
