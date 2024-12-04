@@ -1,3 +1,8 @@
 Chartkick.options = {
-  library: {animation: {duration: 1000, easing: 'easeOutQuart'}},
+  library: {
+    animation: {
+      duration: 1000,
+      easing: 'easeOutQuart',
+      }
+    },
 }

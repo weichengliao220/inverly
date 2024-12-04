@@ -3,23 +3,6 @@
     <%= line_chart [
           { name: 'Investment and returns', data: @cumul_count, color: 'blue' },
           { name: 'Amount invested', data: @cumul_amounts, color: 'red' }
-        ],
-        height: '400px',
-        library: {
-          tension: 0.1,
-          animations_blue: {
-            duration: 5000,
-            easing: 'linear',
-            target: 'blue',
-            delay: 500,
-          },
-          animations_red: {
-            duration: 15000,
-            easing: 'linear',
-            target: 'red',
-            delay: 2000,
-          },
-        }
-    %>
+        ], height: '400px' %>
   </div>
 </div>
