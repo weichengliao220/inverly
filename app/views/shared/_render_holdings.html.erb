@@ -1,0 +1,22 @@
+  <div class="container" style="width: 50%;">
+    <h3>Composition</h3>
+    <p>Top 10 Holdings:</p>
+    <table class="table table-success table-striped">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Name</th>
+          <th>% Assets</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @top_holdings.each do |holding| %>
+          <tr>
+            <td><%= holding.symbol %></td>
+            <td><%= holding.description %></td>
+            <td><%= (holding.weight * 100).round(3) %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>

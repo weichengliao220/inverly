@@ -73,6 +73,8 @@ class InvestmentsController < ApplicationController
     end
 
     @all_contributions = Contribution.all.where(investment: @investment)
+    @monthly_series = @etf.monthly_times
+    @top_holdings = @etf.holdings
   end
 
   def destroy
