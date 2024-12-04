@@ -1,4 +1,8 @@
 {
+  "engines": {
+  "node": ">=20.17.0"
+  },
+
   "name": "inverly",
   "version": "1.0.0",
   "description": "Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.",
