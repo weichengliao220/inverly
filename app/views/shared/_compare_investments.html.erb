@@ -98,10 +98,13 @@
     }
   }
 </style>
+  <% investments = @investments.where(compared: true) %>
 
-  <div style="text-align: center; padding: 20px;">
-    <span class="title">Compare up to 4 investments</span>
-  </div>
+  <% if investments.count >= 2 %>
+    <div style="text-align: center; padding: 20px;">
+      <span class="title">Compare up to 4 investments</span>
+    </div>
+  <% end %>
 
   <% investments = @investments.where(compared: true) %>
 
