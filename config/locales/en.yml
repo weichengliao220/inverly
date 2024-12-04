@@ -27,5 +27,9 @@
 #       "yes": yup
 #       enabled: "ON"
 
+
 en:
-  hello: "Hello world"
+  number:
+    format:
+      delimiter: ","
+      separator: "."
