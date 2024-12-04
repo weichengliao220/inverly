@@ -1,9 +1,20 @@
 class InvestmentsController < ApplicationController
+  before_action :fetch_data_for_holdings, only: :show
+  before_action :set_investment, only: [:toggle_compared]
+
   def new
     @etf = Etf.find(params[:etf_id])
     @investment = @etf.investments.build
   end
 
+  def set_investment
+    @investment = Investment.find(params[:id])
+  end
+
+  def toggle_compared
+    @investment.update(compared: !@investment.compared) # Toggle the compared field
+    redirect_to investments_path, notice: "Investment compared status updated."
+  end
 
   def create
     @investment = Investment.new(investment_params)
@@ -73,12 +84,20 @@ class InvestmentsController < ApplicationController
     end
 
     @all_contributions = Contribution.all.where(investment: @investment)
+    @monthly_series = @etf.monthly_times
+    @top_holdings = @etf.holdings
   end
 
   def destroy
     @investment = Investment.find(params[:id])
     @investment.destroy
     redirect_to investments_path, status: :see_other
+  end
+
+  def fetch_data_for_holdings
+    @investment = Investment.find(params[:id])
+    @etf = @investment.etf
+    @etf.holdings.find_each(&:fetch_data_if_needed) # Ensure holdings data is up to date
   end
 
   private

@@ -27,7 +27,7 @@ class ContributionsController < ApplicationController
       # Calculate contributions
       calculate_future_contributions(@investment, @contribution)
 
-      redirect_to investment_path(@investment), notice: "Contribution created"
+      redirect_to investment_path(@investment)
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"
     end
@@ -71,7 +71,7 @@ class ContributionsController < ApplicationController
         total += contribution.amount
         total *= (1 + monthly_rate_adjusted)
 
-        contribution.total = total.round(2)
+        contribution.total = total.to_i
         contribution.save
       end
     end

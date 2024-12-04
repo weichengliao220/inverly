@@ -1,16 +1,17 @@
 <div class="etf-card card">
+ <div class="card-body d-flex flex column">
   <div class="card-body">
     <div class="footer-title-container">
       <h5 class="card-title"><%= link_to etf.name, etf_path(etf), style: "text-decoration: none;" %></h5>
       <span class="line"></span>
     </div>
     <div class="icon">
-      <strong> Current Price $<%= etf.current_price %> </strong><br>
+      <strong> $<%= etf.current_price %> USD |</strong>
       <strong> Avg Return <%= (etf.average_return * 100).round(3) %>% </strong>
       <small style="background: linear-gradient(to right, #808080, #d3d3d3); -webkit-background-clip: text; color: transparent;"></small>
     </div>
     <h6 class="card-subtitle mb-2 text-muted"><%= etf.ticker_symbol %></h6>
-    <p class="card-text"><%= etf.description %></p>
+    <p class="card-text "><%= etf.description %></p>
   </div>
   <div class="card-footer d-flex justify-content-between align-items-center">
     <%= link_to 'View Details', etf_path(etf), class: 'btn text-white' %>
@@ -23,5 +24,6 @@
         <i class="fa-solid fa-heart text-light"></i>
       <% end %>
     <% end %>
+  </div>
   </div>
 </div>
