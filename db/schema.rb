@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_12_03_052823) do
+ActiveRecord::Schema[7.1].define(version: 2024_12_04_031701) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -56,6 +56,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_03_052823) do
     t.bigint "etf_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ai_resume"
+    t.datetime "last_fetched_at"
     t.index ["etf_id"], name: "index_holdings_on_etf_id"
   end
 
@@ -67,6 +69,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_12_03_052823) do
     t.string "risk_level"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "compared"
     t.index ["etf_id"], name: "index_investments_on_etf_id"
     t.index ["user_id"], name: "index_investments_on_user_id"
   end

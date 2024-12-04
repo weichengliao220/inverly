@@ -1,8 +1,25 @@
 .etf-card {
   border-radius: 12px;
+  width: 380px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  // font-size: 1em;
+  position: relative;
+
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    // font-size: 1em;
+
+  }
 
   .card-footer {
     background-color:#3795bd;
     border-radius: 12px;
+    position: absolute;
+    bottom: 10px; left: 90px
+
   }
 }

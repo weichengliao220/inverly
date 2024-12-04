@@ -1,4 +1,5 @@
 class EtfsController < ApplicationController
+  before_action :fetch_data_for_holdings, only: :show
   def index
     @holdings_filter = ['APPLE INC', 'NVIDIA CORP', 'MICROSOFT CORP', 'AMAZON.COM INC', 'META PLATFORMS INC CLASS A', 'TESLA INC', 'ALPHABET INC CLASS A', 'NETFLIX INC', 'COSTCO WHOLESALE CORP', 'BERKSHIRE HATHAWAY INC CLASS B']
     if params[:query].present?
@@ -16,6 +17,8 @@ class EtfsController < ApplicationController
       @etfs = Etf.all
       @etfs = @etfs.where(category: params[:category]) if params[:category].present?
     end
+
+    @pick_of_the_day = Etf.where(average_return: Etf.maximum(:average_return)).first
   end
 
   def create
@@ -62,6 +65,10 @@ class EtfsController < ApplicationController
     @top_holdings = @etf.holdings
   end
 
+  def fetch_data_for_holdings
+    @etf = Etf.find(params[:id])
+    @etf.holdings.find_each(&:fetch_data_if_needed) # Ensure holdings data is up to date
+  end
 
   private
 

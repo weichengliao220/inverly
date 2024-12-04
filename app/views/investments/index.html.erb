@@ -10,7 +10,9 @@
       <%= link_to investment.name, investment_path(investment), class: "text-decoration-none" %>
       <div class="input-group d-flex justify-content-end">
         <div class="edit-button">
-          <%= link_to 'Edit', investment_path(investment), method: :patch, class: 'simulate-now-button btn-sm mx-1' %>
+          <%= form_with url: toggle_compared_investment_path(investment), method: :patch, local: true do |form| %>
+            <%= form.submit investment.compared ? 'Remove comparison' : 'Add comparison', class: 'simulate-now-button btn-sm mx-1' %>
+          <% end %>
         </div>
         <div class="delete-button">
           <%= link_to 'Delete', investment_path(investment), data: { turbo_method: :delete, turbo_confirm: "Are you sure you want to delete this investment?"}, class: 'simulate-now-button btn-sm text-white', style: 'background-color: red;' %>
@@ -20,3 +22,4 @@
   <% end %>
   <br>
 </ul>
+<%= render 'shared/compare_investments' %>
