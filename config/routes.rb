@@ -15,8 +15,11 @@ Rails.application.routes.draw do
     resources :investments, only: [:new, :create]
   end
 
-  resources :investments, only: [:index, :show, :update, :destroy] do
+  resources :investments do
     resources :contributions, only: [:create, :destroy]
+    member do
+      patch 'toggle_compared'
+    end
   end
 
   resources :favorites, only: [:index]

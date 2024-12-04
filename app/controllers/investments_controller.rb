@@ -1,10 +1,20 @@
 class InvestmentsController < ApplicationController
   before_action :fetch_data_for_holdings, only: :show
+  before_action :set_investment, only: [:toggle_compared]
+
   def new
     @etf = Etf.find(params[:etf_id])
     @investment = @etf.investments.build
   end
 
+  def set_investment
+    @investment = Investment.find(params[:id])
+  end
+
+  def toggle_compared
+    @investment.update(compared: !@investment.compared) # Toggle the compared field
+    redirect_to investments_path, notice: "Investment compared status updated."
+  end
 
   def create
     @investment = Investment.new(investment_params)
