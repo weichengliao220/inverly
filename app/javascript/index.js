@@ -6,7 +6,7 @@ const apiKey = process.env.GOOGLE_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const args = process.argv.slice(2);
-const name = args[0];  // The argument passed from Ruby
+const name = args.join(' ');  // Join the arguments into a single string to handle spaces
 
 const prompt = `Generate an AI summary of the following company: ${name}`; // Customize the prompt as needed
 
