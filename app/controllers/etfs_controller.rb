@@ -1,4 +1,5 @@
 class EtfsController < ApplicationController
+  before_action :fetch_data_for_holdings, only: :show
   def index
     if params[:query].present?
       @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
@@ -52,6 +53,10 @@ class EtfsController < ApplicationController
     @top_holdings = @etf.holdings
   end
 
+  def fetch_data_for_holdings
+    @etf = Etf.find(params[:id])
+    @etf.holdings.find_each(&:fetch_data_if_needed) # Ensure holdings data is up to date
+  end
 
   private
 

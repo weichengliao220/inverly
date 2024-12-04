@@ -1,4 +1,5 @@
 class InvestmentsController < ApplicationController
+  before_action :fetch_data_for_holdings, only: :show
   def new
     @etf = Etf.find(params[:etf_id])
     @investment = @etf.investments.build
@@ -81,6 +82,12 @@ class InvestmentsController < ApplicationController
     @investment = Investment.find(params[:id])
     @investment.destroy
     redirect_to investments_path, status: :see_other
+  end
+
+  def fetch_data_for_holdings
+    @investment = Investment.find(params[:id])
+    @etf = @investment.etf
+    @etf.holdings.find_each(&:fetch_data_if_needed) # Ensure holdings data is up to date
   end
 
   private
