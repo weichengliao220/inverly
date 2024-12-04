@@ -1,6 +1,11 @@
 class EtfsController < ApplicationController
   def index
-    @etfs = Etf.all
+    if params[:query].present?
+      @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
+    else
+      @etfs = Etf.all
+      @etfs = @etfs.where(category: params[:category]) if params[:category].present?
+    end
   end
 
   def create
@@ -14,7 +19,6 @@ class EtfsController < ApplicationController
     @etf = Etf.find(params[:id])
     @power_user_investment = Investment.find_or_create_by(name: "power_user_investment", etf_id: @etf.id) do |investment|
       investment.user_id = current_user.id
-      investment.amount = 0
     end
 
     create_contribution # Ensure contribution creation
