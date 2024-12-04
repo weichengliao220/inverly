@@ -8,7 +8,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const args = process.argv.slice(2);
 const name = args[0];  // The argument passed from Ruby
 
-const prompt = `Generate AI summary for the following: ${name}`; // Customize the prompt as needed
+const prompt = `Generate an AI summary of the following company: ${name}`; // Customize the prompt as needed
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
