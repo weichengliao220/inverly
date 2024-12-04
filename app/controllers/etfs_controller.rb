@@ -4,10 +4,11 @@ class EtfsController < ApplicationController
     if params[:query].present?
       @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
     elsif params[:holdings].present?
-      @filter = params[:holdings].split(',')
-      @etfs = @filter.map do |holding|
-        Etf.joins(:holdings).where(holdings: {description: holding})
-      end.flatten.uniq
+      @filter = params[:holdings].split(',') if params[:holdings].present?
+      @etfs = Etf.joins(:holdings)
+      .where(holdings: { description: @filter })
+      .group('etfs.id')
+      .having('COUNT(DISTINCT holdings.id) = ?', @filter.size)
       respond_to do |format|
         format.json { render partial: "etfs/etf_list", formats: :html, locals: {etfs: @etfs} }
       end

@@ -8,8 +8,4 @@ class Etf < ApplicationRecord
   def self.category
     Etf.all.map(&:category) # Etf.category
   end
-
-  # def self.holdings.description
-  #   Etf.all.map(&:holdings.description) # Etf.holdings
-  # end
 end
