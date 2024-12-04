@@ -71,7 +71,7 @@ class ContributionsController < ApplicationController
         total += contribution.amount
         total *= (1 + monthly_rate_adjusted)
 
-        contribution.total = total.round(2)
+        contribution.total = total.to_i
         contribution.save
       end
     end

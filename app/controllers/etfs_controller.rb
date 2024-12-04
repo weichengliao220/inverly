@@ -90,7 +90,7 @@ class EtfsController < ApplicationController
       )
       @total += contribution.amount
       @total *= (1 + monthly_rate)
-      contribution.total = @total.round(2)
+      contribution.total = @total.to_i
       contribution.save
     end
   end
