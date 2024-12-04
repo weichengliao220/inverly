@@ -7,6 +7,8 @@ class EtfsController < ApplicationController
       @etfs = Etf.all
       @etfs = @etfs.where(category: params[:category]) if params[:category].present?
     end
+
+    @pick_of_the_day = Etf.where(average_return: Etf.maximum(:average_return)).first
   end
 
   def create

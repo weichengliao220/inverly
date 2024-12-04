@@ -31,3 +31,93 @@
     <% end %>
   </div>
 </div>
+
+<%# app/views/etfs/index.html.erb %>
+
+<%# This will show the pick of the day ETF in a pop-up %>
+<div id="pick-of-the-day-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <div class="etf-card card">
+  <div class="card-body">
+    <div class="footer-title-container">
+      <h5 class="card-title"><%= link_to @pick_of_the_day.name, etf_path(@pick_of_the_day), style: "text-decoration: none;" %></h5>
+      <span class="line"></span>
+    </div>
+    <div class="icon">
+      <strong> Current Price $<%= @pick_of_the_day.current_price %> </strong><br>
+      <strong> Avg Return <%= (@pick_of_the_day.average_return * 100).round(3) %>% </strong>
+      <small style="background: linear-gradient(to right, #808080, #d3d3d3); -webkit-background-clip: text; color: transparent;"></small>
+    </div>
+    <h6 class="card-subtitle mb-2 text-muted"><%= @pick_of_the_day.ticker_symbol %></h6>
+    <p class="card-text"><%= @pick_of_the_day.description %></p>
+  </div>
+  <div class="card-footer d-flex justify-content-between align-items-center">
+    <%= link_to 'View Details', etf_path(@pick_of_the_day), class: 'btn text-white' %>
+    <% if current_user.favorite_etfs.include?(@pick_of_the_day) %>
+      <%= button_to etf_favorite_path(@pick_of_the_day), method: :delete, class: 'btn' do %>
+        <i class="fa-solid fa-heart text-danger"></i>
+      <% end %>
+    <% else %>
+      <%= button_to etf_favorite_path(@pick_of_the_day), method: :post, class: 'btn' do %>
+        <i class="fa-solid fa-heart text-light"></i>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+  </div>
+</div>
+
+<%# Add JavaScript to control the pop-up visibility %>
+<script>
+  // Function to check if the pop-up has been shown today
+function checkPopupVisibility() {
+  // Always show the popup when the page reloads
+  document.getElementById('pick-of-the-day-popup').style.display = 'block';
+}
+
+
+  // Function to close the pop-up
+  function closePopup() {
+    document.getElementById('pick-of-the-day-popup').style.display = 'none';
+  }
+
+  // Call the function on page load
+  window.onload = checkPopupVisibility;
+</script>
+
+<%# Add CSS for the pop-up styling %>
+<style>
+  .popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .popup-content h2 {
+    margin-bottom: 20px;
+  }
+  .popup-content p {
+    font-size: 16px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+</style>
