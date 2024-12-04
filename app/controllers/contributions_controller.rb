@@ -27,7 +27,7 @@ class ContributionsController < ApplicationController
       # Calculate contributions
       calculate_future_contributions(@investment, @contribution)
 
-      redirect_to investment_path(@investment), notice: "Contribution created"
+      redirect_to investment_path(@investment)
     else
       redirect_to investment_path(@investment), alert: "Contribution not created. errors : #{@contribution.errors.full_messages}"
     end
