@@ -1,5 +1,26 @@
+<div data-controller="company-filter">
 <div class="d-flex justify-content-end">
   <div class="filter">
+    <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex", data: {company_filter_target: "form"}) do |f| %>
+      <div class="dropdown me-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Select Companies
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+          <% @holdings_filter.each_with_index do |company, index| %>
+            <li>
+              <input type="checkbox" name="holdings[]" value="<%= company %>" id="<%= company %>-<%= index%>" data-action="change->company-filter#submit" data-company-filter-target="holding">
+              <label for="<%= company %>-<%= index%>"><%= company %></label>
+              <%# <%= check_box_tag "holding_descriptions[]", holding.description, params[:holding_descriptions]&.include?(holding.description.to_s), onchange: "this.form.submit();" %>
+              <%# <%= label_tag holding.description %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="category-filter">
     <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex") do |f| %>
       <%= f.select :category,
                   options_for_select(Etf.category, params[:category]),
@@ -23,11 +44,8 @@
 
 <h1 class="text-center my-4">Welcome to your ETF Index</h1>
 <div class="container">
-  <div class="row">
-    <% @etfs.each do |etf| %>
-      <div class="col-md-4 mb-4">
-        <%= render etf %>
-      </div>
-    <% end %>
+  <div class="row" data-company-filter-target="etfs">
+    <%= render "etf_list", etfs: @etfs %>
   </div>
+</div>
 </div>
