@@ -1,8 +1,18 @@
 class EtfsController < ApplicationController
   before_action :fetch_data_for_holdings, only: :show
   def index
+    @holdings_filter = ['APPLE INC', 'NVIDIA CORP', 'MICROSOFT CORP', 'AMAZON.COM INC', 'META PLATFORMS INC CLASS A', 'TESLA INC', 'ALPHABET INC CLASS A', 'NETFLIX INC', 'COSTCO WHOLESALE CORP', 'BERKSHIRE HATHAWAY INC CLASS B']
     if params[:query].present?
       @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
+    elsif params[:holdings].present?
+      @filter = params[:holdings].split(',') if params[:holdings].present?
+      @etfs = Etf.joins(:holdings)
+      .where(holdings: { description: @filter })
+      .group('etfs.id')
+      .having('COUNT(DISTINCT holdings.id) = ?', @filter.size)
+      respond_to do |format|
+        format.json { render partial: "etfs/etf_list", formats: :html, locals: {etfs: @etfs} }
+      end
     else
       @etfs = Etf.all
       @etfs = @etfs.where(category: params[:category]) if params[:category].present?
