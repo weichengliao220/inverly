@@ -11,39 +11,23 @@
       <% end %>
     <% end %>
   </div>
-  <div class="name">
-    <h1 class="text-center my-4"><%= @etf.name %></h1>
-  </div>
-  <div class="container px-5">
-    <div class="row">
-      <div class="card col-4">
+  <div class="container">
+      <div class="col">
         <div class="card-body">
-          <h4 class="card-title">Basic Information:</h4>
-          <div class="mb-3">
-            <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
-          </div>
-          <div class="mb-3">
-            <strong>Category:</strong> <%= @etf.category %>
-          </div>
-          <div class="mb-3">
-            <strong>Description:</strong>
-            <p><%= @etf.description %></p>
-          </div>
-          <div class="mb-3">
-            <strong>Current Price:</strong> $<%= @etf.current_price %>
-          </div>
-          <div class="mb-3">
-            <strong>Average Return:</strong> <%= (@etf.average_return * 100).round(3) %>%
-          </div>
+          <%# <h4 class="card-title">Basic Information:</h4> %>
+          <div class="col"> <%= render 'shared/basic_info' %></div>
         </div>
       </div>
-      <div class="etf-graph-example col-8">
-        <%= render 'shared/investment_graph' %>
+    <div class="row">
+      <div class="col">
+        <div class="etf-graph-example">
+          <%= render 'shared/investment_graph' %>
+        </div>
       </div>
+      <div class="col"><%= render 'shared/render_holdings' %></div>
     </div>
   </div>
 
-<%= render 'shared/render_holdings' %>
 
   <div class="d-flex justify-content-center" style="text-align: center">
     <%= render 'button_create_investment' %>

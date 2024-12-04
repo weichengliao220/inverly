@@ -1,4 +1,4 @@
-  <div class="container" style="width: 50%;">
+  <div  >
     <h3>Composition</h3>
     <p>Top 10 Holdings:</p>
     <table class="table table-success table-striped">
@@ -7,7 +7,7 @@
           <th>Symbol</th>
           <th>Name</th>
           <th>% Assets</th>
-          <th>Resume</th>
+          <th>Summary</th>
         </tr>
       </thead>
       <tbody>
@@ -18,7 +18,7 @@
     <td><%= (holding.weight * 100).round(3) %></td>
     <td>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aiResumeModal-<%= holding.id %>">
-        View AI Resume
+        View Summary
       </button>
 
       <!-- Modal -->

@@ -1,0 +1,19 @@
+<div class="font-size-base: 1rem">
+  <h3 class=""><%= @etf.name %></h3>
+  <div class="mb-3">
+    <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+  </div>
+  <div class="mb-3">
+    <strong>Category:</strong> <%= @etf.category %>
+  </div>
+  <div class="mb-3">
+  <strong>Description:</strong>
+    <p><%= @etf.description %></p>
+  </div>
+  <div class="mb-3">
+    <strong>Current Price:</strong> $<%= @etf.current_price %>
+  </div>
+  <div class="mb-3">
+    <strong>Average Return:</strong> <%= (@etf.average_return * 100).round(3) %>%
+  </div>
+</div>
