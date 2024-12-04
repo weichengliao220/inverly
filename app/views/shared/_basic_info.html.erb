@@ -1,19 +1,23 @@
 <div class="font-size-base: 1rem">
-  <h3 class=""><%= @etf.name %></h3>
-  <div class="mb-3">
-    <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+  <div class="d-flex justify-content-evenly row align-center">
+    <h4 class="col-6"><%= @etf.name %></h4>
+    <div class="mb-1 col">
+      <p>Current Price: $<%= @etf.current_price %></p>
+    </div>
+    <div class="mb-1 col">
+      <p>Average Return: <%= (@etf.average_return * 100).round(3) %>%</p>
+    </div>
   </div>
-  <div class="mb-3">
-    <strong>Category:</strong> <%= @etf.category %>
+  <div class="d-flex justify-content-sm-start align-center row">
+    <div class="mb-1 col-2">
+      <strong>Symbol:</strong> <%= @etf.ticker_symbol %>
+    </div>
+    <div class="mb-1 col-4">
+      <strong>Category:</strong> <%= @etf.category %>
+    </div>
   </div>
   <div class="mb-3">
   <strong>Description:</strong>
     <p><%= @etf.description %></p>
-  </div>
-  <div class="mb-3">
-    <strong>Current Price:</strong> $<%= @etf.current_price %>
-  </div>
-  <div class="mb-3">
-    <strong>Average Return:</strong> <%= (@etf.average_return * 100).round(3) %>%
   </div>
 </div>
