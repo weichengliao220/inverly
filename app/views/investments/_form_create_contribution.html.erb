@@ -1,4 +1,4 @@
-<div class="container mt-4" style="background-color: #2596be; border-radius: 10px;">
+<div class="container mt-4 d-flex align-items-center" style="background-color: #2596be; border-radius: 10px; width: 30%;">
   <div class="row justify-content-center">
     <div class="d-flex-container">
       <h2 class="text-left text-white mb-3">How much would you like to contribute per month?</h2>
@@ -9,8 +9,6 @@
             <span class="input-group-text" style="border-radius: 10px 0 0 10px;">$</span>
             <input type="text" name="contribution[amount]" class="form-control" placeholder="Enter an amount" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button class="btn btn-primary btn-sm" type="submit" id="button-addon2" style="border-radius: 0 10px 10px 0;">Contribute</button>
-            <%#= f.input :amount, class: "form-control", label: false, placeholder: "Enter your amount" %>
-            <%#= f.button :submit, class: 'btn btn-primary btn-sm' %>
           </div>
           <%= f.hidden_field :investment_id, value: @investment.id %>
         </div>
