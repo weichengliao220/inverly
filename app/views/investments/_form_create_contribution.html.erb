@@ -3,12 +3,12 @@
     <div class="d-flex-container">
       <h2 class="text-left text-white mb-3">
         <% if @investment.contributions.last.nil? %>
-        How much would you like to contribute per month?
+        How much would you like to contribute per month?</h2>
+        <p class="text-white text center">Enter a monthly contribution below:</p>
         <% else %>
-        Change your contribution here
-        </h2>
+        Change your contribution here</h2>
+        <p class="text-white text center">Enter a new monthly contribution below:</p>
         <% end %>
-      <p class="text-white text center">Please enter a monthly contribution below:</p>
         <%= simple_form_for [@investment, @contribution] do |f| %>
           <div class="mb-3">
             <div class="input-group justify-content-between" style="border-radius: 10px;">
