@@ -3,9 +3,11 @@ class EtfsController < ApplicationController
   def index
     @holdings_filter = ['APPLE INC', 'NVIDIA CORP', 'MICROSOFT CORP', 'AMAZON.COM INC', 'META PLATFORMS INC CLASS A', 'TESLA INC', 'ALPHABET INC CLASS A', 'NETFLIX INC', 'COSTCO WHOLESALE CORP', 'BERKSHIRE HATHAWAY INC CLASS B']
     @holdings_tag = ['APPLE INC', 'NVIDIA CORP', 'MICROSOFT CORP', 'AMAZON.COM INC', 'TESLA INC']
+    @etfs = Etf.all
+    @etfs = @etfs.where(category: params[:category]) if params[:category].present?
     if params[:query].present?
       @etfs = Etf.where("name ILIKE ?", "%#{params[:query]}%")
-    elsif params[:holdings].present?
+    elsif params[:holdings].present? && params[:holdings].length > 1
       @filter = params[:holdings].split(',') if params[:holdings].present?
       @etfs = Etf.joins(:holdings)
       .where(holdings: { description: @filter })
@@ -14,20 +16,16 @@ class EtfsController < ApplicationController
       respond_to do |format|
         format.json { render partial: "etfs/etf_list", formats: :html, locals: {etfs: @etfs} }
       end
-    # elsif params[:tags].present?
-    #   @filter = params[:holdings].split(',') if params[:holdings].present?
-    #   @etfs = Etf.joins(:holdings)
-    #   .where(holdings: { description: @filter })
-    #   .group('etfs.id')
-    #   .having('COUNT(DISTINCT holdings.id) = ?', @filter.size)
-    #   respond_to do |format|
-    #     format.json { render partial: "etfs/etf_list", formats: :html, locals: {etfs: @etfs} }
-    #   end
-    else
-      @etfs = Etf.all
-      @etfs = @etfs.where(category: params[:category]) if params[:category].present?
+    elsif params[:tags].present? && params[:tags].length > 1
+      @filter = params[:tags].split(',') if params[:tags].present?
+      @etfs = Etf.joins(:holdings)
+      .where(holdings: { description: @filter })
+      .group('etfs.id')
+      .having('COUNT(DISTINCT holdings.id) = ?', @filter.size)
+      respond_to do |format|
+        format.json { render partial: "etfs/etf_list", formats: :html, locals: {etfs: @etfs} }
+      end
     end
-
     @pick_of_the_day = Etf.where(average_return: Etf.maximum(:average_return)).first
   end
 
