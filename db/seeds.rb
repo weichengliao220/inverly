@@ -45,7 +45,7 @@ roman = User.create(
 puts "brian & roman created"
 
 
-puts "Creating etfs"
+puts "Creati  ng etfs"
 
 file_path = Rails.root.join("db", "etf_data.json") # finds the etf_data.json file in the db folder
 etf_data = JSON.parse(File.read(file_path)) # reads the file and parses it into Ruby object (array of hashes)
@@ -158,7 +158,7 @@ puts "#{Etf.count} etfs created"
 
 puts "calling fetch_data_seed"
 
-# Holding.last.fetch_data_seed
+Holding.last.fetch_data_seed
 
 puts "holding summary updated for: #{Holding.count} holding instances"
 
