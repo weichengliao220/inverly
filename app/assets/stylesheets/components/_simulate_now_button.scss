@@ -6,4 +6,8 @@
   margin: 0 0 0 7px;
   color: white;
   text-decoration: none;
+  &:hover {
+    background-color: #2b6e8b !important;
+    color: white !important;
+  }
 }

@@ -2,12 +2,12 @@
 <div class="banner">
   <div class="banner-content text-center">
     <h1>INVERLY: Invest Early</h1>
-    <p>"INVERLY: Empowering Your Tomorrow, Starting Today."
+    <h5 style="color: white;">"INVERLY: Empowering Your Tomorrow, Starting Today."</h5>
       <div>
         <% if user_signed_in? %>
-          <%= link_to "Your Investments", investments_path, class: "btn btn-lg btn-primary" %>
+          <%= link_to "Your Investments", investments_path, class: "btn btn-lg simulate-now-button" %>
         <% else %>
-          <%= link_to "Sign Up", new_user_session_path, class: "btn btn-lg btn-primary" %>
+          <%= link_to "Sign Up Now!", new_user_session_path, class: "btn btn-lg simulate-now-button" %>
         <% end %>
       </div>
     </div>
