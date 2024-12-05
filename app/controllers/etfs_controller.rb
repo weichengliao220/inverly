@@ -1,5 +1,5 @@
 class EtfsController < ApplicationController
-  before_action :fetch_data_for_holdings, only: :show
+  #before_action :fetch_data_for_holdings, only: :show
   def index
     @holdings_filter = ['APPLE INC', 'NVIDIA CORP', 'MICROSOFT CORP', 'AMAZON.COM INC', 'META PLATFORMS INC CLASS A', 'TESLA INC', 'ALPHABET INC CLASS A', 'NETFLIX INC', 'COSTCO WHOLESALE CORP', 'BERKSHIRE HATHAWAY INC CLASS B']
     if params[:query].present?
@@ -33,6 +33,8 @@ class EtfsController < ApplicationController
     @power_user_investment = Investment.find_or_create_by(name: "power_user_investment", etf_id: @etf.id) do |investment|
       investment.user_id = current_user.id
     end
+
+    @trigger_display_investment_button = "false"
 
     create_contribution # Ensure contribution creation
 

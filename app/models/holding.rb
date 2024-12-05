@@ -3,7 +3,7 @@ class Holding < ApplicationRecord
 
   def fetch_data_if_needed
     Rails.logger.info("Fetching data for #{description}")
-    return if last_fetched_at&.to_date == Date.today # Skip if already fetched today
+    return if last_fetched_at&.to_date == Date.today.month # Skip if already fetched today
 
     # Call the Node.js script to fetch the AI-generated resume
     response = GeminiApiService.fetch_data(description)
@@ -12,10 +12,35 @@ class Holding < ApplicationRecord
       # Update AI resume and last fetched time only if successful
       update(
         ai_resume: response.body["ai_resume"], # Assuming API returns "ai_resume" field
-        last_fetched_at: Date.today
+        last_fetched_at: Date.today.month
       )
     else
       Rails.logger.error("API Request failed for #{description}: #{response.error_message}")
+    end
+  end
+
+  def fetch_data_seed
+    Rails.logger.info("Fetching data for #{description}")
+
+    nameless_holdings = Holding.where(name: "n/a")
+
+    nameless_holdings.each do |holding|
+      holding.delete
+    end
+
+    Holding.all.each do
+      # Call the Node.js script to fetch the AI-generated resume
+      response = GeminiApiService.fetch_data(description)
+
+      if response.success?
+        # Update AI resume and last fetched time only if successful
+        update(
+          ai_resume: response.body["ai_resume"], # Assuming API returns "ai_resume" field
+          last_fetched_at: Date.today.month
+        )
+      else
+        Rails.logger.error("API Request failed for #{description}: #{response.error_message}")
+      end
     end
   end
 end
