@@ -43,6 +43,11 @@
 
         <%= link_to "Reset Filter", etfs_path, class: "reset-button" %>
       </div>
+      <div class="tag-filter mb-2 d-flex justify-content-center">
+        <% @holdings_tag.each do |company| %>
+          <%= link_to company, etfs_path(tag: company), class: "btn btn-outline-primary me-2" %>
+        <% end %>
+      </div>
     <div class="row" data-company-filter-target="etfs">
       <%= render "etf_list", etfs: @etfs %>
     </div>
