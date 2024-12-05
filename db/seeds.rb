@@ -158,4 +158,10 @@ puts "#{User.count} created"
 puts "#{Investment.count} created"
 puts "#{Etf.count} etfs created"
 
+puts "calling fetch_data_seed"
+
+Holding.last.fetch_data_seed
+
+puts "holding summary updated for: #{Holding.count} holding instances"
+
 puts "seeded successfully"

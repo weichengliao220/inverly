@@ -22,7 +22,7 @@
     <td><%= (holding.weight * 100).round(3) %></td>
     <td>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aiResumeModal-<%= holding.id %>">
-        View AI Resume
+        View
       </button>
 
       <!-- Modal -->
@@ -30,7 +30,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="aiResumeModalLabel-<%= holding.id %>">AI Resume for <%= holding.symbol %></h5>
+              <h5 class="modal-title" id="aiResumeModalLabel-<%= holding.id %>">Gemini's opinion on <%= holding.symbol %></h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -48,17 +48,23 @@
       </tbody>
     </table>
   </div>
-<div class="d-flex justify-content-center">
-  <div class="simulate-button-container text-center">
-          <%= render 'button_create_investment' %>
-          <% if current_user.favorite_etfs.include?(@etf) %>
-            <%= button_to etf_favorite_path(@etf), method: :delete, class: 'favorites-remove-button' do %>
-              <i class="fa-solid fa-heart"></i>
+<% if @trigger_display_investment_button == "false" %>
+  <div class="d-flex justify-content-center">
+    <div class="simulate-button-container text-center">
+            <%= render 'button_create_investment' %>
+            <% if current_user.favorite_etfs.include?(@etf) %>
+              <%= button_to etf_favorite_path(@etf), method: :delete, class: 'favorites-remove-button' do %>
+                <i class="fa-solid fa-heart"></i>
+              <% end %>
+            <% else %>
+              <%= button_to etf_favorite_path(@etf), method: :post, class: 'simulate-now-button' do %>
+                <i class="far fa-heart"></i>
+              <% end %>
             <% end %>
-          <% else %>
-            <%= button_to etf_favorite_path(@etf), method: :post, class: 'simulate-now-button' do %>
-              <i class="far fa-heart"></i>
-            <% end %>
-          <% end %>
+    </div>
   </div>
-</div>
+  <% else %>
+    <div class="edit-button">
+    <%= link_to 'Interactive Brokers', "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiawfbCjouKAxUO1hYFHXowH2IYABAAGgJ0bA&co=1&ase=2&gclid=CjwKCAiA0rW6BhAcEiwAQH28IsOrG89UOaLypdXWZSVwA2y1WF0v_qtEY300Ej4xxrCAFW_2euo5OBoCVXIQAvD_BwE&ohost=www.google.com&cid=CAESVOD2ws4U3JPj4_ENJLx9AyGefJEY3n4ZdJ3dKX2fm7xt8rvI3rcABlqTCKdFlSRHtldfo5hrcSpPpDWqL90aOp1hLbzbHr5VwbA-tLgjZdtRjn1ebw&sig=AOD64_1uDU-OFzxjMTMYwaiZiqDz1Qi1Kg&q&nis=4&adurl&ved=2ahUKEwjshfHCjouKAxX31jQHHeyLJYcQ0Qx6BAgNEAE", class: "simulate-now-button interactive-brokers-link", target: "_blank" %>
+    </div>
+<% end %>

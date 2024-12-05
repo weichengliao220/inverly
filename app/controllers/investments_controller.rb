@@ -1,5 +1,5 @@
 class InvestmentsController < ApplicationController
-  before_action :fetch_data_for_holdings, only: :show
+  #before_action :fetch_data_for_holdings, only: :show
   before_action :set_investment, only: [:toggle_compared]
 
   def new
@@ -44,6 +44,8 @@ class InvestmentsController < ApplicationController
   def show
     @investment = Investment.find(params[:id])
     @etf = @investment.etf
+
+    @trigger_display_investment_button = "true"
 
     @average_return = @etf.average_return
     @conservative_return = conservative_return(@etf.average_return)
