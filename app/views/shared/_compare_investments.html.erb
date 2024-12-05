@@ -123,13 +123,12 @@
       <tbody>
         <tr>
           <% sorted_investments.each do |investment| %>
+            <% investment_contributions = investment.contributions.where(investment_id: investment.id) %>
             <td>
               <ul>
                 <li><strong>Price:</strong> <%= investment.etf.category %></li>
                 <li><strong>Annual Yield:</strong> <%= "#{((investment.etf.average_return) * 100).round(2)}%" %></li>
                 <li><strong>Risk Level:</strong> <%= investment.risk_level %></li>
-                <li><strong>Results for 9 years</strong> <%= investment.contributions.last.present? ? investment.contributions.last.total : 'N/A' %></li>
-                <!-- Add more specifications as needed -->
               </ul>
             </td>
           <% end %>
