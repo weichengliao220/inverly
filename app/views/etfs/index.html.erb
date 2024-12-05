@@ -2,42 +2,52 @@
   <h1 class="text-center my-4">Welcome to your ETF Index</h1>
   <div class="container">
     <div class="d-flex justify-content-center mb-5">
-      <div class="company-filter">
-        <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex", data: {company_filter_target: "form"}) do |f| %>
-          <div class="dropdown me-2">
-            <button class="search-button dropdown-toggle" type="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-              Select Companies
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="companyDropdown">
-              <% @holdings_filter.each_with_index do |company, index| %>
-                <li>
-                  <input type="checkbox" name="holdings[]" value="<%= company %>" id="<%= company %>-<%= index%>" data-action="change->company-filter#submit" data-company-filter-target="holding">
-                  <label for="<%= company %>-<%= index%>"><%= company %></label>
-                </li>
-              <% end %>
-            </ul>
-          </div>
-        <% end %>
-      </div>
-      <div class="category-filter">
-        <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex") do |f| %>
-          <%= f.select :category,
+        <div class="company-filter">
+          <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex", data: {company_filter_target: "form"}) do |f| %>
+            <div class="dropdown me-2">
+              <button class="search-button dropdown-toggle" type="button" id="companyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Companies
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="companyDropdown">
+                <% @holdings_filter.each_with_index do |company, index| %>
+                  <li>
+                    <input type="checkbox" name="holdings[]" value="<%= company %>" id="<%= company %>-<%= index%>" data-action="change->company-filter#submit" data-company-filter-target="holding">
+                    <label for="<%= company %>-<%= index%>"><%= company %></label>
+                  </li>
+                <% end %>
+              </ul>
+            </div>
+          <% end %>
+        </div>
+        <div class="category-filter">
+          <%= form_with(url: etfs_path, method: :get, local: true, class: "d-flex") do |f| %>
+            <%= f.select :category,
                         options_for_select(Etf.category, params[:category]),
                         { include_blank: 'Select a Category' },
                         class: "form-select search-button",
                         onchange: "this.form.submit();" %>
+          <% end %>
+        </div>
+        <div class="search-bar">
+          <%= form_with url: etfs_path, method: :get, local: true do |form| %>
+            <div class="d-flex justify-content-end px-3">
+              <%= form.text_field :query, value: params[:query], placeholder: "Enter an ETF name..." %>
+              <%= form.submit "Search", class: "search-button" %>
+            </div>
+          <% end %>
+        </div>
+        <%= link_to "Reset Filter", etfs_path, class: "reset-button" %>
+      </div>
+      <div class="tag-filter mb-2 d-flex justify-content-center">
+        <%= form_with(url: etfs_path, method: :get, local: true, data: {company_filter_target: "tagForm"}) do |f| %>
+          <% @holdings_tag.each_with_index do |company,index| %>
+            <label for="<%= company %>-tag-<%= index%>" class="btn btn-outline-secondary me-2">
+              <input type="checkbox" name="tags[]" value="<%= company %>" id="<%= company %>-tag-<%= index %>" data-company-filter-target="tags" class="d-none" data-action="change->company-filter#submitTags">
+              <%= company %>
+            </label>
+          <% end %>
         <% end %>
       </div>
-      <div class="search-bar">
-        <%= form_with url: etfs_path, method: :get, local: true do |form| %>
-          <div class="d-flex justify-content-end px-3">
-            <%= form.text_field :query, value: params[:query], placeholder: "Enter an ETF name..." %>
-            <%= form.submit "Search", class: "search-button" %>
-          </div>
-        <% end %>
-      </div>
-      <%= link_to "Reset Filter", etfs_path, class: "reset-button" %>
-    </div>
     <div class="row" data-company-filter-target="etfs">
       <%= render "etf_list", etfs: @etfs %>
     </div>
