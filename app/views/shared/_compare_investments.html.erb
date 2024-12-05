@@ -142,7 +142,7 @@
               <ul>
                 <li><strong>Name:</strong> <%= investment.name %></li>
                 <li><strong>Price:</strong> <%= investment.etf.category %></li>
-                <li><strong>Annual Yield:</strong> <%= "#{(investment.etf.average_return) * 100}%" %></li>
+                <li><strong>Annual Yield:</strong> <%= "#{((investment.etf.average_return) * 100).round(2)}%" %></li>
                 <li><strong>Risk Level:</strong> <%= investment.risk_level %></li>
                 <!-- Add more specifications as needed -->
               </ul>
