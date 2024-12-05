@@ -1,7 +1,13 @@
 <div class="container mt-4 d-flex align-items-center" style="background-color: #2596be; border-radius: 10px; width: 30%;">
   <div class="row justify-content-center">
     <div class="d-flex-container">
-      <h2 class="text-left text-white mb-3">How much would you like to contribute per month?</h2>
+      <h2 class="text-left text-white mb-3">
+        <% if @investment.contributions.last.nil? %>
+        How much would you like to contribute per month?
+        <% else %>
+        Change your contribution here
+        </h2>
+        <% end %>
       <p class="text-white text center">Please enter a monthly contribution below:</p>
         <%= simple_form_for [@investment, @contribution] do |f| %>
           <div class="mb-3">
