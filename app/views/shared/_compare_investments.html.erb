@@ -130,7 +130,7 @@
       <thead>
         <tr>
           <% sorted_investments.each_with_index do |investment, index| %>
-            <th class="spec-header">Investment <%= index + 1 %></th>
+            <th class="spec-header"><h3><%= investment.name %></h3></th>
           <% end %>
         </tr>
       </thead>
@@ -138,9 +138,7 @@
         <tr>
           <% sorted_investments.each do |investment| %>
             <td>
-              <h3><%= investment.name %></h3>
               <ul>
-                <li><strong>Name:</strong> <%= investment.name %></li>
                 <li><strong>Price:</strong> <%= investment.etf.category %></li>
                 <li><strong>Annual Yield:</strong> <%= "#{((investment.etf.average_return) * 100).round(2)}%" %></li>
                 <li><strong>Risk Level:</strong> <%= investment.risk_level %></li>
