@@ -1,10 +1,12 @@
 <div class="navbar sticky-top navbar-expand-sm navbar-light navbar-lewagon"
   style="background: linear-gradient(to left, #add8e6,  #3795BD);">
   <div class="container-fluid">
-    <%= link_to root_path, class: "navbar-brand" do %>
-      <%= image_tag "https://res.cloudinary.com/dxkjh8nhh/image/upload/v1733370330/inverly_logo_2_copy_rnyhhi.jpg", style:  "width: 65px; height: 65px; border-radius: 50%;" %>
-      INVERLY
-    <% end %>
+    <div>
+      <%= link_to root_path, class: "navbar-brand" do %>
+        <%= image_tag "https://res.cloudinary.com/dxkjh8nhh/image/upload/v1733370330/inverly_logo_2_copy_rnyhhi.jpg", style:  "width: 65px; height: 65px; border-radius: 50%;" %>
+      <% end %>
+      <span class="display-7 text-white">INVERLY</span>
+    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
