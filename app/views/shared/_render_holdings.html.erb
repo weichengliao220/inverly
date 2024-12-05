@@ -1,5 +1,6 @@
-  <div  >
-    <p>Top 10 Holdings:</p>
+  <div class="container" style="width: 50%;">
+
+    <p>Top Holdings:</p>
     <table class="table table-success table-striped">
       <thead>
         <tr>
@@ -10,14 +11,18 @@
         </tr>
       </thead>
       <tbody>
-<% @top_holdings.each do |holding| %>
+
+        <% @filtered_holdings = @top_holdings.select { |holding| holding.description != "n/a" && !holding.ai_resume.nil? } %>
+        <% @sorted_filtered_holdings = @filtered_holdings.sort_by { |holding| holding.weight } %>
+
+<% @sorted_filtered_holdings.first(3).each do |holding| %>
   <tr>
     <td><%= holding.symbol %></td>
     <td><%= holding.description %></td>
     <td><%= (holding.weight * 100).round(3) %></td>
     <td>
       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aiResumeModal-<%= holding.id %>">
-        View Summary
+        View AI Resume
       </button>
 
       <!-- Modal -->

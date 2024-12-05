@@ -1,0 +1,8 @@
+@keyframes chart-animation {
+  0%  { stroke-dasharray: 100 0; }
+  100% { stroke-dasharray: 0 100; }
+}
+ .line-graph {
+  animation: chart-animation 3s ease-in-out;
+  stroke-dasharray: 0 100;
+}
