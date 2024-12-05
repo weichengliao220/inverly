@@ -12,6 +12,16 @@
     display: flex;
     flex-direction: column;
     // font-size: 1em;
+    position: relative;
+    .heart-btn{
+      position:absolute;
+      top: 12px;
+      right: 12px;
+
+      i {
+        color: grey;
+      }
+    }
 
   }
 
