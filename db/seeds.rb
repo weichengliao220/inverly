@@ -158,12 +158,13 @@ puts "#{User.count} created"
 puts "#{Investment.count} created"
 puts "#{Etf.count} etfs created"
 
-puts "updating holding summary"
+puts "updating holding summary for #{Holding.count} holdings"
 
-Holding.all.each do |holding|
-  holding.fetch_data_seed
-end
+Holding.last.fetch_data_seed
+
 
 puts "holding summary updated"
+
+puts "creating #{Holding.count}"
 
 puts "seeded successfully"

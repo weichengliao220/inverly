@@ -8,7 +8,7 @@ const genAI = new GoogleGenerativeAI(apiKey);
 const args = process.argv.slice(2);
 const name = args.join(' ');  // Join the arguments into a single string to handle spaces
 
-const prompt = `Tell me the pros and cons of investing in an etf tracks this company among others: ${name}. Return a format of 3 pros and 3 cons.`; // Customize the prompt as needed
+const prompt = `Generate a 2 sentences resume about investing in an ETF that holds ${name}. Your answer will be displayed directly on the front end of my website. Make sure to explain in part what the company does and the benefits of inlcuding it in the etf`; // Customize the prompt as needed
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
