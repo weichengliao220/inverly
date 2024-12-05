@@ -50,8 +50,9 @@ class Holding < ApplicationRecord
     Holding.all.each do |holding|
       Rails.logger.info("Fetching data for holding: #{holding.description}")
 
-      puts "starting gemini call number #{api_counter}"
+      puts "starting gemini call number #{api_counter}, waiting 15 seconds"
       api_counter += 1
+      sleep 15
       # Fetch data using the holding's description
       response = GeminiApiService.fetch_data(holding.description)
 
