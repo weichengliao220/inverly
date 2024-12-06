@@ -1,18 +1,18 @@
 <br>
 
+<div class="row d-flex justify-content-center" style="border-radius: 10px;margin-right: 0px;margin-left: 0px;">
+</div>
 <div>
   <% if @investment.contributions.last.nil? %>
-      <%= render 'form_create_contribution' %>
+    <%= render 'form_create_contribution' %>
   <% else %>
-    <%= render 'investment_info' %>
-    <div class="d-flex justify-content-between">
-      <%= render 'form_create_contribution' %>
-      <%= render 'display_investment_details' %>
+    <div>
+      <%= render 'shared/chart_invest_info_contribution' %>
     </div>
+    <%= render 'display_investment_details' %>
     <%= render 'shared/render_holdings' %>
   <% end %>
 </div>
-
 <style>
   .edit-button .btn {
     display: inline-block;
