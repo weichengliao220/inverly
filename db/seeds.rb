@@ -16,16 +16,7 @@ Investment.destroy_all
 Etf.destroy_all
 User.destroy_all
 
-puts "Creating 10 users"
-
-10.times do
-  User.create(
-    name: Faker::Name.first_name,
-    email: Faker::Internet.email,
-    password: "password",
-    password_confirmation: "password"
-  )
-end
+puts "Creating users"
 
 power_user = User.create(
     name: "power_user",
@@ -44,10 +35,17 @@ brian = User.create(
     password_confirmation: "password"
   )
 
-puts "brian created"
+roman = User.create(
+    name: "roman",
+    email: "roman@me.com",
+    password: "password",
+    password_confirmation: "password"
+  )
+
+puts "brian & roman created"
 
 
-puts "Creating etfs"
+puts "Creati  ng etfs"
 
 file_path = Rails.root.join("db", "etf_data.json") # finds the etf_data.json file in the db folder
 etf_data = JSON.parse(File.read(file_path)) # reads the file and parses it into Ruby object (array of hashes)

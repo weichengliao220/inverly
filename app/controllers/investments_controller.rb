@@ -39,6 +39,7 @@ class InvestmentsController < ApplicationController
 
   def index
     @investments = Investment.all.where(user: current_user)
+
   end
 
   def show

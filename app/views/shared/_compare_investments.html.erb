@@ -102,27 +102,13 @@
 
   <% if investments.count >= 2 %>
     <div style="text-align: center; padding: 20px;">
-      <span class="title">Compare up to 4 investments</span>
+      <span class="title">Compare your investments</span>
     </div>
   <% end %>
 
   <% investments = @investments.where(compared: true) %>
 
-<% if investments.count >= 2 %>
-  <% @investment_1 = investments[0] %>
-  <% @investment_2 = investments[1] %>
-<% end %>
-
-<% if investments.count >= 3 %>
-  <% @investment_3 = investments[2] %>
-<% end %>
-
-<% if investments.count >= 4 %>
-  <% @investment_4 = investments[3] %>
-<% end %>
-
 <% sorted_investments = investments.sort_by { |investment| investment.etf.average_return }.reverse %>
-
 
 <% if sorted_investments.count >= 2 %>
   <div class="container">
@@ -130,21 +116,19 @@
       <thead>
         <tr>
           <% sorted_investments.each_with_index do |investment, index| %>
-            <th class="spec-header">Investment <%= index + 1 %></th>
+            <th class="spec-header"><h3><%= investment.name %></h3></th>
           <% end %>
         </tr>
       </thead>
       <tbody>
         <tr>
           <% sorted_investments.each do |investment| %>
+            <% investment_contributions = investment.contributions.where(investment_id: investment.id) %>
             <td>
-              <h3><%= investment.name %></h3>
               <ul>
-                <li><strong>Name:</strong> <%= investment.name %></li>
                 <li><strong>Price:</strong> <%= investment.etf.category %></li>
                 <li><strong>Annual Yield:</strong> <%= "#{((investment.etf.average_return) * 100).round(2)}%" %></li>
                 <li><strong>Risk Level:</strong> <%= investment.risk_level %></li>
-                <!-- Add more specifications as needed -->
               </ul>
             </td>
           <% end %>
