@@ -10,7 +10,7 @@ Inverly is currently hosted on Heroku and available at: https://www.inverly.biz
 
 For a quick demonstration purpose, you can log in to the app using the following credentials or sign up for a new account:
 
-📧Email: user@example.com
+📧Email: user@example.com<br>
 🔑Password: password
 
 Thank you!
