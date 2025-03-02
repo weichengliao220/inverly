@@ -6,11 +6,11 @@ Inverly is an ETF simulation app that enables users to forecast the future perfo
 
 This [pitch](https://www.canva.com/design/DAGVVFMkoGo/XiKzKPERQbEndmqZeBik2Q/edit?utm_content=DAGVVFMkoGo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) was originally proposed by me and was one of the six selected for the final project. Together with 3 other students (Roman Gautrand, Esteban Lopez and Adam Brunson), we dedicated 2 weeks to building it and presented it on [Demo Day](https://www.youtube.com/watch?v=MOaKm9em24c&t=1770s).
 
-Inverly is currently hosted on Heroku and available at: https://www.inverly.biz
+Inverly is currently hosted on Heroku and available at: https://inverly-859ae028bfa9.herokuapp.com
 
 For a quick demonstration purpose, you can log in to the app using the following credentials or sign up for a new account:
 
-📧Email: user@example.com
+📧Email: user@example.com<br>
 🔑Password: password
 
 Thank you!
